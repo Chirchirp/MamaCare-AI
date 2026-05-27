@@ -1,0 +1,1001 @@
+query_id,session_id,timestamp,trimester,query_text,topic_category,guardrail_triggered,guardrail_type,response_quality,language,country_region
+q-0000-2026,6f75b40da5ee1baa,2026-03-08T23:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-MSA
+q-0001-2026,ebb553fb38f29459,2026-05-08T10:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0002-2026,c5bf8e58e3d139cd,2025-12-12T11:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-NRB
+q-0003-2026,dcf3713575384587,2026-04-06T16:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0004-2026,0ab197a9a5fcf2cf,2025-11-29T01:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0005-2026,e370bb063c86d24c,2025-12-18T09:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-MSA
+q-0006-2026,430286a9c3801e6e,2025-12-31T04:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-MSA
+q-0007-2026,197430daf837494e,2026-02-01T01:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0008-2026,72e1f720ae81f45e,2025-12-15T04:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0009-2026,3c1b652664c0f119,2025-12-05T23:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0010-2026,b0c1abe9098a878e,2026-01-13T23:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0011-2026,bcdf3c47eb6a6efb,2026-02-10T23:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0012-2026,6523a250d5f4a366,2026-01-05T11:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-MSA
+q-0013-2026,4f0a25bcf489a334,2026-05-03T18:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0014-2026,a05bf0c6ffbb2396,2026-05-04T22:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-MSA
+q-0015-2026,d07de7e9600a7349,2026-05-27T12:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0016-2026,9302fd756929e2f4,2026-02-24T08:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0017-2026,6a3c52c58d3785a7,2026-04-15T10:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0018-2026,ab42803003ac9475,2026-02-28T12:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0019-2026,229ae70c76b91bd2,2026-02-06T15:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0020-2026,980c20e7f4ff185f,2025-12-30T17:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0021-2026,2feae7cd97c0d6d4,2025-12-29T22:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0022-2026,ef6502f1f5984d34,2026-02-23T01:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,UG-C
+q-0023-2026,5709ac8458d4da61,2025-12-18T06:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0024-2026,9110fe4cdf062d5e,2026-04-13T06:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,UG-C
+q-0025-2026,4392afb6869c2dad,2026-04-12T16:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0026-2026,0f2c6ceb81e6c22e,2026-05-08T12:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0027-2026,59ab582033ed000f,2026-05-01T15:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0028-2026,8fc3dbdf9d9af264,2026-03-28T06:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0029-2026,8d9450d5dcd71747,2026-01-01T02:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0030-2026,a8d20cac2bad5168,2026-05-19T07:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0031-2026,5c6be70133812db3,2026-02-20T13:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0032-2026,25f2864d790fc324,2026-05-09T09:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0033-2026,d15c8915fac75103,2026-04-19T05:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0034-2026,fbd04fe10a27cb67,2026-01-13T13:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0035-2026,95c7e99dc37bb27b,2025-12-10T01:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0036-2026,e380c7b3659d4e55,2026-05-23T20:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0037-2026,ca409adb036bed0d,2025-12-16T19:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0038-2026,fa11e3aa413353f6,2026-05-09T00:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0039-2026,2e9dd431b508e05f,2026-04-01T04:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0040-2026,303d359e3c9739f8,2026-03-18T04:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0041-2026,0f9739cba03848d5,2026-03-23T00:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0042-2026,a6b11a23ca69ac61,2025-12-21T16:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0043-2026,299ae14eae8cc4f7,2025-12-15T23:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0044-2026,b442a25d6548a75e,2026-01-09T10:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0045-2026,31b29ef2bb3a20bc,2026-03-23T14:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0046-2026,88ef52a404bd717a,2026-01-06T22:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0047-2026,aa3ef01a1ca2e9cc,2026-01-18T21:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0048-2026,a385483e89770b18,2025-12-04T11:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0049-2026,a46421a812619f2d,2026-04-27T05:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0050-2026,5c00365af30069c7,2026-03-05T01:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0051-2026,8b2d5b3e9f9582a6,2025-12-25T02:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0052-2026,90d2554d0368b68d,2025-12-02T05:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0053-2026,8ba4dcfed8a3edf9,2026-02-15T04:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0054-2026,ccc2f335afc5cf29,2025-12-05T07:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0055-2026,89a6d2f695633280,2025-12-26T18:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0056-2026,e991e2a18e931411,2026-05-21T16:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0057-2026,2958dc52df34b04d,2026-02-11T20:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0058-2026,63e1f3975f259906,2026-05-13T08:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0059-2026,c4dcfce6df49bbb6,2026-03-08T03:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0060-2026,78010da6b7b67866,2026-05-12T19:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0061-2026,262e3bd083b9e683,2026-01-01T22:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0062-2026,59fbc0cb90abf181,2026-01-23T08:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0063-2026,8e16309f30f583bf,2026-01-12T21:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0064-2026,cb81579477e044c1,2026-01-25T09:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0065-2026,10fa7260b04fb00b,2026-02-03T04:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0066-2026,cef96b0bfe621d32,2026-03-21T03:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0067-2026,2a704cc7a78058d5,2026-01-15T19:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0068-2026,a4e230fde594e3bb,2025-12-05T18:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0069-2026,4ee6a1bed8fa4462,2026-02-23T03:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0070-2026,35e583aaa701c44f,2026-03-04T15:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0071-2026,9cbba7e9b5c7a920,2026-03-14T17:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0072-2026,94ef7d4dd1403b0e,2026-01-27T16:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-MSA
+q-0073-2026,1c5d4f482a81abc0,2026-01-06T02:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0074-2026,6eacbe56c8a8c20b,2026-04-17T19:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0075-2026,2be84390ee0995d8,2026-02-25T07:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0076-2026,36016e561055c95d,2026-01-10T11:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0077-2026,f0a7fbd0e7d257a4,2026-05-20T02:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0078-2026,52fd071c6e842a07,2026-03-19T23:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0079-2026,9453b21658f41202,2025-12-28T19:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0080-2026,44b230e5b7eb910e,2025-12-24T09:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0081-2026,dfd30eb2788bc1c0,2025-12-22T12:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0082-2026,f33826af7a7165ad,2026-01-27T06:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-NRB
+q-0083-2026,c5e0f0577600b2c6,2026-05-22T09:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0084-2026,7671862ff85e45d5,2025-12-15T08:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0085-2026,9ed985757d5e32f4,2026-01-19T21:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0086-2026,78e9aee678b47324,2025-12-28T03:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0087-2026,6a43a6f7ccd479cc,2026-03-25T09:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0088-2026,936f67887d49a08c,2026-02-04T17:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0089-2026,3b42872536333790,2026-01-25T22:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,KE-MSA
+q-0090-2026,4dda32b965c221e3,2026-04-15T15:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,UG-C
+q-0091-2026,18fbe8f52d255f38,2025-12-29T02:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0092-2026,aa4aafd734bb34a3,2026-01-04T10:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0093-2026,55471696ca254fe0,2026-03-17T06:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0094-2026,6759158e6333f846,2026-02-22T18:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0095-2026,bac3996650d10d3e,2025-12-19T08:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0096-2026,f4958243d2edbb75,2026-05-26T01:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0097-2026,a4ddcb9bb4f2acb3,2026-04-19T07:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0098-2026,fb78e794612914f0,2025-12-23T15:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0099-2026,b2212c551ab587ba,2026-01-04T16:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0100-2026,bf74f5c83359b21c,2026-03-20T08:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0101-2026,f25b5f87d8ddf49f,2025-12-26T15:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0102-2026,506158a8d8c9a04b,2026-02-23T16:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0103-2026,eabab41e09055913,2025-11-29T10:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0104-2026,a3955245ea16e56a,2026-02-06T22:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0105-2026,bfeb4027b5dc2e7c,2026-02-14T00:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-MSA
+q-0106-2026,f700bfeb76186e4d,2026-05-12T05:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0107-2026,8985f1a5e8f3c737,2026-04-06T03:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0108-2026,c20d7f22904e8549,2026-04-20T15:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0109-2026,50f90fab633d5aa6,2025-11-28T23:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0110-2026,cb072699de67b267,2026-03-05T00:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0111-2026,34533c5e2907a119,2025-12-23T00:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0112-2026,88b5367734ac0cd7,2026-02-15T04:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0113-2026,3fc719c7f9e3b066,2026-03-25T02:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0114-2026,ec155fbaa69fdcbd,2026-03-09T13:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0115-2026,a75207015755528a,2026-03-16T12:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0116-2026,35e05403748c1234,2025-12-20T00:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0117-2026,58f92c0fc7635d9c,2025-12-09T05:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0118-2026,46467d0a5ab0c826,2025-12-19T15:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0119-2026,a9d79cc4d1b468de,2026-02-06T12:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0120-2026,a75e5d692f84b22a,2026-05-26T10:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0121-2026,0aaebd60f5edf29b,2025-12-12T03:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0122-2026,4570aaec9b8d6283,2025-11-29T05:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0123-2026,8cab512695f02e4a,2026-05-10T07:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-MSA
+q-0124-2026,48aa4fbbf6006ea2,2026-03-31T12:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,UG-C
+q-0125-2026,d6c5f0f44d287e6a,2026-02-21T04:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0126-2026,67c7d302b6c2da29,2026-05-25T23:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0127-2026,d139c7a20be73443,2026-04-17T19:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0128-2026,0151c57e5cf32a99,2026-05-04T04:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-MSA
+q-0129-2026,ce6bf06e68f48251,2026-02-15T19:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0130-2026,b7c067bdf698eab8,2026-05-19T12:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0131-2026,3aea72f6a698567e,2026-01-24T18:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0132-2026,c136cfd16dff9377,2026-01-26T16:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0133-2026,d6b2b6d997d86c5c,2026-01-31T06:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0134-2026,9cd4c355876b90f4,2026-01-21T13:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0135-2026,6b3dec260cc2673a,2026-02-15T08:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0136-2026,b67b5268b7424e04,2026-03-25T04:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0137-2026,ea78726182a01514,2025-12-05T16:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0138-2026,8a3e3a6659236337,2026-04-30T05:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0139-2026,24471b035932878d,2025-12-10T08:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0140-2026,ad318a76604c3e07,2026-01-16T03:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0141-2026,d67c29b22eb62247,2026-05-23T10:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0142-2026,e2501318f1063ec3,2026-04-08T06:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0143-2026,1db0c623a7cb33d7,2026-04-29T22:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0144-2026,0e7bda3678ae8a6e,2026-01-15T23:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0145-2026,c1a2bac58067f2e9,2026-05-10T03:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0146-2026,e06f9d809143cc78,2026-04-22T20:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0147-2026,7258bbb3de7a3fbb,2026-03-22T04:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0148-2026,9d31be102af6917b,2026-05-14T14:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,UG-C
+q-0149-2026,be5ffe028858e25a,2026-04-13T12:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0150-2026,069c90eed4da36fc,2026-05-07T23:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,UG-C
+q-0151-2026,13b36ae85819b393,2026-02-26T15:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0152-2026,fe507ad5792675f0,2025-12-17T03:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0153-2026,608f19eea1eb27fd,2026-03-28T16:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0154-2026,2abf9b8214e79c97,2026-05-17T16:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0155-2026,b9aae0524d4ce88e,2026-03-31T00:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0156-2026,5e9c0828d6b78964,2026-05-03T05:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0157-2026,f8c5f3e018d452ab,2026-03-24T10:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0158-2026,505dacb0a6681ae8,2025-12-31T07:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0159-2026,b87d54d4796cfa0f,2026-03-17T04:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0160-2026,8cde80eb6709f64f,2026-05-24T13:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0161-2026,b1cf2a886d0c5fdc,2025-12-08T19:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0162-2026,dc219812a392c253,2026-03-27T13:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0163-2026,10ce83cea222a9e7,2026-03-23T03:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0164-2026,44267d466b0a7327,2026-05-19T05:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0165-2026,291e611ccf39d2d8,2026-05-07T21:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0166-2026,f10ab1db8f3b3147,2026-04-23T23:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0167-2026,e2a4c11540d5c64b,2026-02-23T21:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0168-2026,0dd3c22c5c0c0272,2026-05-09T00:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-NRB
+q-0169-2026,f249b867b4302b81,2025-12-09T23:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0170-2026,137267dea5e67e06,2026-01-23T23:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0171-2026,a46ae1f725b37025,2026-05-03T02:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-MSA
+q-0172-2026,6587be2bc834738e,2026-03-25T23:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0173-2026,5240f1ec477e433d,2025-12-14T17:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0174-2026,ad2a8235803b41e5,2026-03-16T04:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0175-2026,bab84c5099bd245b,2026-04-23T08:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0176-2026,61a359a865cfa4cd,2026-01-31T14:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0177-2026,4956a314097ce7d3,2026-04-30T21:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0178-2026,59172b64b4cbccc0,2026-03-09T13:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0179-2026,0ce8705a44583c50,2025-12-29T12:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0180-2026,a378cdb3bdbee6af,2025-12-08T09:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0181-2026,2e78a5333ec5465f,2026-03-09T14:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0182-2026,0b2cbbb9e7b23f31,2026-01-13T10:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0183-2026,4b683a4f5a7b6959,2026-02-12T02:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0184-2026,7e1d890441ce5c1e,2026-02-03T20:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0185-2026,52909d9289ab3a26,2026-02-10T23:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,UG-C
+q-0186-2026,9b97816db156e323,2026-04-23T22:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0187-2026,b3430d5f401e8e95,2025-12-17T10:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0188-2026,e8ad2160ff0ee84d,2026-01-23T18:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0189-2026,c89b1c73b9e58ad3,2026-02-19T11:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0190-2026,eea1e95d2c6c955d,2026-01-25T17:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0191-2026,e5bf83aadeace653,2025-12-13T03:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0192-2026,2dc7c6b9779875a0,2026-02-12T21:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0193-2026,f890d97cb84446cd,2026-05-06T10:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0194-2026,cbfcdde766311cc8,2026-05-17T18:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0195-2026,dbdebdc19ec29a68,2026-05-27T22:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0196-2026,d482bab962fdfd60,2026-04-17T21:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,TZ-DAR
+q-0197-2026,ef56e597c09dd2f0,2025-11-28T21:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0198-2026,4a33c50fb83e177d,2026-04-28T14:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0199-2026,47e8e615b1418b0d,2026-04-11T20:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0200-2026,2ef8396cca176184,2026-02-06T14:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0201-2026,479f263bc55f8ff3,2026-04-03T08:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0202-2026,42eba674f81c9345,2026-04-05T21:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0203-2026,f2d396d3e87f5949,2026-03-23T00:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0204-2026,aa8c24486aac9152,2026-02-11T02:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0205-2026,6da9d9c488db90d2,2026-02-11T19:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0206-2026,497c3671a2cfa57d,2026-05-04T14:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0207-2026,59281e18c2e38349,2026-02-08T16:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0208-2026,cf85af01f290505f,2026-04-07T12:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0209-2026,97c803baf0e908ba,2026-02-02T23:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0210-2026,0db4c482ba5b1d43,2026-01-04T02:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0211-2026,bf46bc18b9e47298,2026-03-31T20:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0212-2026,90df32b83504c896,2025-12-05T02:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-NRB
+q-0213-2026,ae8ef71fb537fcff,2025-11-30T20:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0214-2026,9a7c9d4ede7b814e,2026-02-15T05:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0215-2026,3bbe4cec496ef548,2025-12-30T01:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0216-2026,a68619eba333ce03,2026-05-23T01:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0217-2026,167800d8787f93da,2026-02-25T21:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0218-2026,c3eb42d290d55f53,2026-01-29T23:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0219-2026,3cd4d82f1118a3d5,2025-12-11T11:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0220-2026,d80d1dccbd921143,2026-02-23T05:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,en,UG-C
+q-0221-2026,59d19806ab1a544b,2026-01-08T12:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0222-2026,2c24c970e36c82e3,2026-03-12T16:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0223-2026,e1ae814d3e8e4c53,2026-02-18T19:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0224-2026,e84f3c4f5270ed7a,2026-05-15T21:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-MSA
+q-0225-2026,5fdcf3b0b38e8850,2026-04-25T12:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0226-2026,71e5403b622b766d,2026-05-11T07:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0227-2026,2840c3b7bfca3868,2026-01-24T02:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0228-2026,25cb47997948a336,2025-12-18T20:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0229-2026,e1bff665fec1a01e,2026-02-05T21:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-MSA
+q-0230-2026,d360616688cbf575,2026-02-22T11:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0231-2026,00c4d03d0fe54a11,2026-04-08T00:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0232-2026,169eef5cb80edd91,2026-04-21T17:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0233-2026,7eecee8c3b0fde51,2026-04-08T11:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-MSA
+q-0234-2026,52afc181d3c0bf55,2025-12-08T09:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0235-2026,edc60b8d2db6ed67,2026-05-19T14:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0236-2026,af34010c24f68542,2026-01-07T11:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0237-2026,9cf6bc7a93cc37c8,2026-03-09T11:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0238-2026,6038c95426c08593,2026-01-12T00:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0239-2026,e35ef9242a3c3cc1,2026-03-22T08:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0240-2026,6c3189a342f396ff,2026-01-07T13:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0241-2026,897fd0d26b1bbf5d,2026-03-26T07:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0242-2026,1adb4eeabc187d19,2026-01-01T13:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0243-2026,6b17fdce45349e08,2026-02-06T05:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0244-2026,3c326d6b4bb84207,2026-04-02T15:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0245-2026,c22cfd2458c4d5fb,2026-05-15T10:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0246-2026,8f1b0d17bc5860a8,2026-05-27T08:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0247-2026,55e429cc7729da57,2025-12-14T18:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0248-2026,3b39281ba94917ea,2026-01-23T14:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0249-2026,a624926d0eec08db,2026-03-07T18:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0250-2026,942dfa8eb6526783,2026-03-29T12:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0251-2026,07aa995f38ac3cbd,2026-02-27T16:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0252-2026,97d4139ba837af01,2026-03-26T03:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0253-2026,d207f3e25213c4d3,2026-03-26T18:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0254-2026,11c687a9ca6dafb7,2026-01-25T15:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0255-2026,0bf713185d43ee0f,2026-04-01T16:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0256-2026,03109969d5ddfe44,2026-05-09T19:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0257-2026,2c01c50883a2b905,2025-12-27T21:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0258-2026,2b9e8ee78c42d274,2026-03-06T18:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0259-2026,cda36a945711aa93,2026-03-30T12:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0260-2026,f9a82e4de998dad4,2026-01-02T02:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0261-2026,b5333c59e323e4d9,2026-04-25T21:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-MSA
+q-0262-2026,c45e4b9d2868e3a0,2026-03-25T01:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0263-2026,13b114816e77d0cb,2026-02-22T19:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0264-2026,93e902350f791b45,2026-04-10T23:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0265-2026,65e895d0b68fd87d,2026-01-04T15:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0266-2026,d09b77ae200f0897,2026-01-28T13:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0267-2026,8255c95c467aa95f,2025-12-14T16:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,TZ-DAR
+q-0268-2026,b640d7a559c5453c,2026-01-20T21:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0269-2026,5bfbf13d383c5dd5,2025-12-03T20:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0270-2026,b4f55d60443828a0,2026-04-22T19:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0271-2026,0e08ade66e01da02,2025-12-22T07:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0272-2026,1d42febb3b4f3e43,2026-02-02T16:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0273-2026,b866d91872465e15,2026-03-03T19:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0274-2026,f7273e3cab4b24be,2026-04-27T02:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0275-2026,f7de165c1a88a488,2026-02-03T05:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0276-2026,eaaa1f2b40b6c522,2026-01-30T21:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0277-2026,0b795a9c6a4a7337,2026-03-08T06:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0278-2026,b85dde00eb84e00a,2025-12-18T15:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0279-2026,61cf3babd41d05ae,2025-11-30T00:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0280-2026,5d40353bfb422e2c,2026-02-10T14:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0281-2026,b483bdaa4563a8df,2026-01-07T07:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0282-2026,86311de6574546e6,2026-03-31T14:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0283-2026,a784d3eed7c6589c,2026-03-31T15:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0284-2026,521fee40c535fa9f,2026-04-08T18:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0285-2026,7546e76ff0de69e3,2026-01-04T08:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0286-2026,b63eac957da7cfa4,2026-04-07T17:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0287-2026,d21fa4d8164398ea,2026-01-26T15:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0288-2026,181507ff2e40f910,2026-03-05T09:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0289-2026,3d1490319d10d9a8,2026-04-24T11:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0290-2026,c03a5b432854fb1c,2026-01-11T20:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0291-2026,522013b45e97de2b,2026-04-19T06:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0292-2026,1c864cbcc552defa,2026-04-19T01:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0293-2026,993d0e7cae27ee85,2026-05-06T11:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0294-2026,4cdb88f28ec3db89,2026-02-19T00:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0295-2026,2fdb2414b64a2fc4,2026-02-23T20:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0296-2026,c2e5488cc5aa2601,2025-11-28T08:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0297-2026,c2d763c977880f16,2026-03-09T10:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0298-2026,faf1b33ea675f16c,2026-02-13T18:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,UG-C
+q-0299-2026,c57fc360fc75708f,2025-12-19T07:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0300-2026,d9571a300e8e43e0,2026-02-16T06:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,TZ-DAR
+q-0301-2026,fbb59bcd68121505,2026-03-11T11:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0302-2026,eacbfbca8863b9fe,2026-04-01T07:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0303-2026,1a460861bf84b63c,2025-12-13T20:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0304-2026,430bf0db47c12fca,2026-05-19T08:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0305-2026,041d7975c0c2050f,2026-02-10T15:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0306-2026,16cd54e162fa4fb5,2025-12-31T12:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0307-2026,a8edcbe1902de6e7,2026-01-19T14:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0308-2026,ca6b5b01658c71dc,2026-04-28T12:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-MSA
+q-0309-2026,14ff47b8c7ae9b32,2025-12-18T17:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-MSA
+q-0310-2026,893d65636118b61f,2026-02-23T01:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0311-2026,ba9d9aad3c7a94a0,2026-02-18T04:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0312-2026,6f3e56910f660c51,2026-04-01T13:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0313-2026,71fed6325ee69203,2026-02-01T12:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0314-2026,9d84268dd6ad05ab,2026-01-22T08:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0315-2026,2b382433bed48f97,2026-03-29T20:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0316-2026,31ba4527e5a02fe3,2026-05-18T08:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0317-2026,0481a2ddae970097,2026-05-05T13:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0318-2026,304edfdc8347d626,2026-04-10T13:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0319-2026,00ebd91c85d89b08,2025-12-26T09:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0320-2026,6c63b44874d2a610,2026-01-29T17:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,TZ-DAR
+q-0321-2026,1ea00f7df1b2514a,2025-12-24T06:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0322-2026,cafde974d38325b5,2026-04-15T09:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0323-2026,73c5be12ef360846,2025-12-10T21:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0324-2026,0864c6ca8e39ab67,2026-04-14T13:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0325-2026,78dadc07bd897118,2026-03-05T11:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0326-2026,ddd507ec68d86b6d,2026-04-18T02:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0327-2026,d12eda02e84566cd,2026-05-09T00:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0328-2026,d8729139c8da4889,2026-03-02T00:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0329-2026,8ff3455c16d0c932,2025-11-30T00:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0330-2026,2782d971b3aeeae8,2026-04-09T06:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0331-2026,3124c59746a032a9,2026-05-01T23:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0332-2026,4f203fc9f949a968,2026-03-25T07:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0333-2026,53f9327bf9f74254,2026-02-07T14:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0334-2026,5496a9a4a5af3c1d,2026-03-14T12:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0335-2026,786ddaa8029a7eda,2026-04-19T18:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0336-2026,3324835a8f667244,2026-01-22T11:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0337-2026,8f8b599bff29a841,2025-12-24T00:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0338-2026,59e3a77fbec3aba0,2026-01-19T06:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0339-2026,015159848994f363,2026-04-05T03:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0340-2026,20536dce392d2f82,2026-05-17T06:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-NRB
+q-0341-2026,af6ec624df42bcd6,2026-05-03T16:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0342-2026,b55175caeeab54cf,2026-05-25T05:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0343-2026,e9a0bd9f1e64ae0d,2026-04-01T16:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0344-2026,9cf031b0d690bc00,2025-12-07T07:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0345-2026,6beb6ae427582b0e,2026-03-22T02:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0346-2026,e1e0efe377c9dc0c,2026-05-24T16:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0347-2026,f5f0abdbd1aecd21,2026-03-14T12:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0348-2026,05160ed9dfe789e2,2026-01-21T17:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0349-2026,7c188f0d0c5eaaf1,2026-04-20T13:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0350-2026,9820a7ddfd64be6b,2026-05-11T01:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0351-2026,4d1f737252451b5f,2025-12-30T15:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0352-2026,9831f9b839ff97b7,2025-12-22T15:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0353-2026,105b65dd3c098721,2026-05-15T17:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0354-2026,1efb0295da68ff4b,2026-04-16T03:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0355-2026,b89eedc0282ccd49,2026-05-14T16:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0356-2026,58ee954a4aff32cd,2026-04-08T19:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0357-2026,d789aec0bbc4f4a3,2025-12-08T12:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0358-2026,2d83c117f9f0a85c,2026-04-12T20:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0359-2026,c6c2c53e83d75ff2,2026-01-14T22:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0360-2026,22597d907fc757ef,2026-01-11T03:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0361-2026,d12105962f0f12e7,2025-12-31T14:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0362-2026,63b20d9461f24bdf,2025-12-27T21:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0363-2026,eb476e1d3aa2741d,2026-03-28T20:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0364-2026,55de83b26cf368d5,2026-03-20T14:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0365-2026,de33a44bb9aaa888,2026-04-02T12:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0366-2026,082bf75d003587ce,2025-12-15T20:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0367-2026,1ef38ae78217d38e,2026-03-26T17:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0368-2026,66c0e6c586c15631,2026-01-29T01:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0369-2026,e4bfc3b17fd4731a,2026-05-03T20:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0370-2026,ce3294f563a1bfbc,2026-04-04T07:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0371-2026,ae59b3aa38a35c33,2026-04-28T01:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0372-2026,9bf414aa925b2c1e,2025-12-05T06:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0373-2026,ad5a7a3a8d00a1ab,2026-04-13T12:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0374-2026,1d16ced6dc259354,2026-03-18T04:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0375-2026,4921ff53ccdc0801,2026-05-03T09:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0376-2026,7492da3b48c06795,2026-05-11T15:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0377-2026,b09a818876c8452c,2026-03-13T10:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0378-2026,3307796850c2e658,2025-12-24T21:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0379-2026,d14d5b0ac8f176fe,2026-02-11T14:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0380-2026,5d1b3594ff6f119a,2026-02-23T19:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0381-2026,7f3f2767e447f65d,2026-04-11T08:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0382-2026,b14aa64b5a42c7cd,2026-02-20T15:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0383-2026,6e130e8c659649ea,2026-02-08T00:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0384-2026,d09b4d5170e82e1d,2026-02-04T14:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0385-2026,4648996092f6b5b6,2026-05-06T15:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-MSA
+q-0386-2026,0251313921a2d5a3,2025-12-19T19:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0387-2026,8ed5f8a6f95d53ab,2026-03-08T16:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0388-2026,263f3003f64875e3,2026-05-02T15:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0389-2026,ba619c8d425355c6,2026-04-16T23:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0390-2026,e7401cdccc686b7a,2026-02-23T09:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0391-2026,ee796d63000c3316,2026-05-08T23:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0392-2026,a61e1c8e2548609e,2025-12-04T13:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0393-2026,a45090c29100bf4d,2026-05-14T17:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0394-2026,cee2f5f29fbf59b6,2026-04-26T20:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0395-2026,857ed270dda1c484,2026-02-17T03:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0396-2026,7a45fbc58fd17661,2026-04-25T14:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-NRB
+q-0397-2026,3f8dbb7eb8989f79,2025-12-12T02:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0398-2026,c7b8f0679e6bdebf,2025-12-28T12:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0399-2026,040de41d3008e03a,2026-01-02T02:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0400-2026,174e0f4168dc5923,2026-02-04T17:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0401-2026,2e27c3d0431752c6,2026-04-05T08:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0402-2026,077711c214fa2bb4,2026-03-07T09:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0403-2026,ce5fd21db93484f0,2026-04-25T07:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0404-2026,61650b080c59950a,2026-05-09T02:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0405-2026,b3169b785e7492ac,2026-01-15T19:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0406-2026,2b05c77c9e946ca5,2025-12-02T13:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0407-2026,db5609e24a867421,2026-02-08T08:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0408-2026,8c486a2e127b5b4c,2025-12-30T10:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0409-2026,9772f7a9a6144814,2026-05-03T22:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0410-2026,1d767f4dbc2b13c2,2026-02-08T23:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0411-2026,678099cc0f5aeffe,2025-12-25T21:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0412-2026,0de4a5dab87d3093,2026-03-06T14:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0413-2026,692b7e0af19fd62f,2026-04-30T22:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0414-2026,e57c1f4893cca914,2026-01-20T07:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0415-2026,f09b4dc68cdd09c5,2026-03-25T13:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0416-2026,6de1ba1e885c70c7,2026-04-18T11:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0417-2026,f5ddf0a456e50361,2026-05-26T18:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0418-2026,d9559568cdadc92c,2026-03-05T19:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0419-2026,42a96f9a1631a985,2025-12-20T11:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0420-2026,2b0c4037c97ae621,2025-12-25T11:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0421-2026,a1787dfe95cbb058,2026-02-02T23:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0422-2026,ad3d5367a6e6e5fd,2025-12-23T19:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0423-2026,ebff6e913071144e,2025-12-26T11:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0424-2026,2af9f04f8c989073,2025-12-13T19:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0425-2026,3cf034681b297ab7,2026-05-05T03:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0426-2026,35239dd59e1b8abb,2025-12-24T04:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0427-2026,edcc58be01d42534,2026-03-04T12:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0428-2026,252e02ca92c2fd31,2026-04-03T16:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0429-2026,25363b7d8d4495c6,2026-01-30T22:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0430-2026,75fc75c294055668,2026-01-20T20:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-MSA
+q-0431-2026,07dfcc6fc9745450,2026-01-22T07:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0432-2026,8c099dbebb92e680,2026-04-19T00:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0433-2026,144aaaf998f60fd7,2026-01-24T08:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0434-2026,1f6088454e6a8d73,2025-12-21T09:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0435-2026,dac6362108baedfa,2025-12-09T10:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,UG-C
+q-0436-2026,6608508cfe2cfe33,2025-12-03T17:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0437-2026,977c48d36b1f9ed6,2026-04-11T15:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0438-2026,461441e93062f91a,2026-01-14T23:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0439-2026,80a4cf9180d32a3c,2026-05-06T07:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0440-2026,fbaed1ef649d0695,2026-04-04T01:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,UG-C
+q-0441-2026,d3e3b3089e81e6ea,2025-12-05T01:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0442-2026,8c7a5b50045c03e7,2026-05-01T05:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0443-2026,d57b535d290bac63,2026-05-19T17:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0444-2026,372a280ab434c93d,2025-12-31T09:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0445-2026,28d1b48f43ea58ca,2026-01-13T11:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0446-2026,3cae8ffd14f26d19,2026-04-26T07:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0447-2026,55ce2dc1d9ae3a15,2026-05-14T16:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0448-2026,c6b2876ebbe4815a,2026-04-30T19:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0449-2026,efd318caf7b1e2b7,2025-12-25T17:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0450-2026,b2b40cca8ab19718,2026-03-17T20:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0451-2026,18d36a0aa25cc6ec,2026-04-04T14:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0452-2026,468ab4617e70f1f4,2026-03-10T11:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0453-2026,237a19d7669537ba,2026-05-24T10:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0454-2026,7869bc145223e01e,2026-01-06T23:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0455-2026,512efa94219311c9,2026-01-03T20:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0456-2026,e4d88f3492db5cad,2026-01-11T08:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0457-2026,7acc6609c026036c,2026-02-26T07:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0458-2026,2aaae028b54c11b6,2026-03-06T07:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0459-2026,73278d6d72bd1cb8,2026-02-11T13:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0460-2026,5e843fc12871ce70,2026-05-02T18:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0461-2026,8d304788f2f10945,2026-03-03T10:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0462-2026,e02571e748b3e6b5,2026-04-28T06:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-MSA
+q-0463-2026,f8a572ae0387a56d,2025-12-19T02:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0464-2026,d48a608a92122698,2025-12-12T06:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0465-2026,6c6c209601379a92,2026-03-15T11:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0466-2026,3cb5f3780d7cc206,2026-04-11T08:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0467-2026,1f41d3a7f5591568,2026-01-04T08:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0468-2026,58c05b28c0047a2a,2026-02-08T10:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0469-2026,1c002c21ab33a52d,2026-02-04T19:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0470-2026,9de86ffc92ebe681,2026-05-19T19:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0471-2026,8a59dd290ab81383,2025-11-29T10:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0472-2026,1e71f52f42b1eb4d,2026-03-21T08:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0473-2026,830617dc8e3c3762,2026-02-02T08:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0474-2026,bc426ad6de14d106,2025-12-16T11:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0475-2026,ae027abd43aac43c,2026-05-25T18:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0476-2026,ba9b40defdb1b683,2025-12-25T23:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0477-2026,c0812ac21ab458af,2025-12-18T02:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0478-2026,e0785116c713486c,2026-01-25T00:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0479-2026,e9bfa38f4da7001c,2026-01-15T08:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0480-2026,e056d93bbf87e94d,2026-05-22T09:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0481-2026,c8d2b18b919619d7,2026-02-18T16:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0482-2026,ff0deadb1e9bcdc8,2026-02-12T00:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0483-2026,29312a8f7c84b258,2026-04-23T10:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0484-2026,02e5d958c4ba3498,2026-05-17T22:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0485-2026,9f54cbfeb63d1210,2026-04-29T05:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0486-2026,f93d321ad8a95ea3,2026-01-05T21:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0487-2026,cfa3c98820bec133,2026-04-30T10:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0488-2026,249c70e1055ef995,2025-12-17T13:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0489-2026,0e81d4991c376159,2025-12-18T01:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-NRB
+q-0490-2026,a4eee1ffdaa6fcfb,2026-02-14T15:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0491-2026,134df5eaa526ee38,2026-02-11T16:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0492-2026,227da460a5bddaeb,2026-03-16T11:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0493-2026,6cf725d72fefe599,2026-04-10T16:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0494-2026,e53c1a92cbf4dc61,2025-12-04T21:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0495-2026,ffcc924454234cc0,2026-05-04T22:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0496-2026,7f8d44b784ef3e01,2025-12-09T09:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0497-2026,e7cabdbf3752dea8,2026-04-18T20:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0498-2026,d7ca9a228e7cb4f3,2026-01-25T12:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0499-2026,6d97ed908b98b993,2026-01-12T01:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0500-2026,548399035e873040,2026-01-03T03:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0501-2026,9369a01aa53d2b28,2026-02-02T09:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0502-2026,843c9cc102dd7fd5,2026-02-14T01:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-MSA
+q-0503-2026,b19144b1f542c2c2,2026-02-19T08:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0504-2026,4e06339b11e858d5,2025-12-30T15:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0505-2026,94d9b0eb3d082f4d,2025-12-31T03:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0506-2026,a669043fd6a22558,2025-12-27T20:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0507-2026,1a088584ea2c8c00,2026-01-25T15:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0508-2026,3f95ec434feec1f2,2026-05-13T04:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0509-2026,599271c08285fc89,2026-03-16T08:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0510-2026,451b70d25d1de7b7,2026-02-22T12:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0511-2026,38dbeb04cf79d611,2026-02-25T10:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0512-2026,6e53468fa1557c7f,2026-03-27T10:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0513-2026,f6c8df30b0b78053,2026-03-01T06:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0514-2026,4e737d212bbf510d,2026-01-27T04:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0515-2026,9a3e9d35de05fb06,2026-01-20T01:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0516-2026,0952404c7abca4cc,2026-02-12T13:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0517-2026,3347f8c39b681e94,2026-03-10T08:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0518-2026,cb520efa81a49e29,2026-05-13T15:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0519-2026,c8cd15b6211387cf,2026-01-21T14:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0520-2026,575bdf78aa489d03,2026-03-15T18:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0521-2026,42360fe40f6c3f5f,2026-02-07T18:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0522-2026,8b22274ec70a803a,2026-04-12T11:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0523-2026,5b249ce33f52bff2,2025-12-22T15:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0524-2026,fb437a0c066eef70,2025-12-07T01:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0525-2026,947e519a638ae1c4,2026-03-10T23:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0526-2026,9bcdb7fdb49cf243,2026-04-12T13:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0527-2026,752c8d72af2f13bd,2026-05-04T22:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0528-2026,63fbeb13260ec61f,2025-12-01T05:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0529-2026,5a6010971d6d1fd8,2026-04-30T17:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0530-2026,c31aaf5f30cb1823,2026-02-25T18:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-MSA
+q-0531-2026,2d1220c6bb7bfdc7,2026-03-29T18:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0532-2026,31f1b8263e51e69b,2025-12-30T08:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0533-2026,ca3ac4fe75fe0cbc,2026-04-04T23:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0534-2026,18ccb442fb83b1fe,2026-03-12T12:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0535-2026,934818709e8324e7,2026-01-07T20:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0536-2026,f554fa6f5278fd23,2026-01-26T04:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0537-2026,726eefd3db8d3be0,2026-02-25T01:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0538-2026,a91f9dd731170324,2025-12-20T19:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0539-2026,dc9b622b27f8ccab,2026-02-15T17:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0540-2026,f9c5e4b6a1fcdc8f,2026-01-13T18:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-MSA
+q-0541-2026,1f6cc9f7547fcd1c,2026-02-03T05:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0542-2026,d74376575ac4e010,2025-12-21T02:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0543-2026,1d779ad5a98d8bc8,2026-04-15T19:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,UG-C
+q-0544-2026,78b4538695804539,2026-03-16T03:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0545-2026,bf815d68683e9905,2026-04-21T00:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0546-2026,a303fa9dea0ea49b,2026-05-01T18:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0547-2026,ee9a38f6f134914e,2026-05-13T05:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0548-2026,03da7b327be8e87c,2026-02-15T07:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0549-2026,5a0967910eafe2d4,2026-02-22T06:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0550-2026,5f33738c261fb796,2026-03-06T16:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0551-2026,ba59dcd2c63cf6d2,2026-04-01T15:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0552-2026,2609c63dbf269ca8,2026-01-02T06:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0553-2026,943f6de1c0cc1322,2026-03-29T00:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0554-2026,9da47f97ac670e75,2026-03-28T19:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0555-2026,5bf2b50e8977a2aa,2025-12-09T09:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0556-2026,c8aba538943ff37a,2026-04-17T05:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0557-2026,a93263737e685429,2026-01-13T12:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0558-2026,c476e65b5d33e636,2025-12-12T10:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0559-2026,5d7f1b7ab8979b65,2026-05-17T08:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0560-2026,5c464e1c128d1fa7,2026-03-02T01:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0561-2026,828e09405a10d34e,2026-03-05T19:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0562-2026,0bc2351d83dcf077,2026-04-09T22:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0563-2026,8c31cfb56b2e0087,2026-03-05T08:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0564-2026,2f6c5b337d23877d,2026-05-25T08:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0565-2026,1723f320029bb3b8,2026-02-17T18:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0566-2026,807476aa35baf5f9,2026-03-22T03:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-NRB
+q-0567-2026,bcfde2935e12a03c,2026-01-04T17:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,UG-C
+q-0568-2026,63bad0d0cb98256c,2026-05-08T18:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0569-2026,86953304a34b1093,2026-01-05T05:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0570-2026,f40bd2f1379e7dba,2026-03-19T23:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0571-2026,2c4f5e9ba00bcf53,2026-03-22T04:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0572-2026,657903fcdc1888a8,2026-05-11T10:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0573-2026,c5d199299f7f3667,2026-01-17T08:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0574-2026,7372cfd6865ced32,2026-02-11T23:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0575-2026,f84a5b2390ff8f68,2025-12-10T17:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0576-2026,48c28258b632c676,2026-05-08T08:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0577-2026,0f8abe3e2e11a9c4,2026-03-31T19:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0578-2026,210011fe262019cd,2026-03-24T03:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-NRB
+q-0579-2026,94a9911d031129d2,2026-02-06T00:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0580-2026,45e863cd37bbb9bc,2026-01-10T00:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0581-2026,179b7042eeca8252,2026-03-16T11:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0582-2026,d8b86d0b855ab1b1,2026-02-07T15:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0583-2026,e42e71fa88f26aa7,2025-12-02T02:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0584-2026,8801d6f2eee8542d,2026-03-22T06:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0585-2026,a20c337832970871,2026-02-01T05:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0586-2026,9a4c03a226f85490,2026-01-29T08:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-MSA
+q-0587-2026,019ac206842d65c2,2025-12-27T18:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0588-2026,ac57bff4ef97de95,2026-01-11T17:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0589-2026,db89cc9f0d1b438a,2026-04-24T01:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0590-2026,25575f17edafec52,2026-05-18T04:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0591-2026,f53891cdaad97480,2026-04-14T22:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0592-2026,047ef0f1c105e7d3,2026-03-31T11:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-NRB
+q-0593-2026,4d62ae2818a46a78,2026-02-16T14:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0594-2026,6aaeecb7cf4ca5b4,2026-02-13T11:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0595-2026,f0667da3676f6f48,2026-02-24T07:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0596-2026,011062f7c50ef628,2025-12-20T04:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0597-2026,3d4e2a4add0b0c7a,2026-05-22T12:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0598-2026,d0a55ae565f09d6e,2026-01-04T15:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0599-2026,9ecc597417a3c60c,2026-05-14T20:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0600-2026,09bee7899163b660,2026-01-16T09:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0601-2026,5413b53e274d2256,2026-02-06T01:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0602-2026,045c0b59e8f88fd5,2026-01-11T19:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0603-2026,cf0af3cf9d0205fe,2026-03-26T15:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,UG-C
+q-0604-2026,99c332c1760db959,2025-12-22T01:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0605-2026,d15b1f0637579602,2026-05-24T04:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0606-2026,605061d4a5a6f1f0,2026-03-21T11:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0607-2026,9b669c4376bece0f,2026-05-15T03:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0608-2026,a2a384ca0b042f21,2026-01-09T16:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0609-2026,45f1b4b0b3f33506,2026-05-21T12:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0610-2026,650f6690e2cf406c,2026-04-16T11:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0611-2026,6c3adf876a4ebc43,2026-04-22T17:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0612-2026,480cd1b185e6c23f,2026-04-09T10:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-NRB
+q-0613-2026,5976681777031057,2026-01-06T16:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0614-2026,aad1b9f28306ad16,2026-04-04T19:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0615-2026,6f4019345c3cb93f,2026-02-25T23:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0616-2026,a04b4ebe39f16dab,2026-05-27T15:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0617-2026,9d4a002822c80c6a,2026-03-04T13:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0618-2026,95cd53dbb9c10d56,2025-12-19T04:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0619-2026,d6e87a485289f38e,2026-01-28T19:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0620-2026,6b989f5ca74ec1bb,2025-12-24T01:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0621-2026,d70e036e8039136a,2026-05-16T14:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0622-2026,5c313614d50bed2b,2026-04-05T19:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-MSA
+q-0623-2026,fb75a2c60a1d3c62,2026-05-10T18:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0624-2026,eb50e7e26f637ea8,2026-03-12T06:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0625-2026,81604ec9fd6103dd,2026-03-08T22:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0626-2026,4f086778ce30da54,2026-01-08T18:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0627-2026,4f39a5011c3371bf,2026-04-30T17:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0628-2026,3adf72f09a1380f1,2025-12-06T01:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0629-2026,03bc3c3353bbd84b,2026-03-27T07:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0630-2026,2f2d7cf104f76591,2026-05-21T19:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0631-2026,860a791d5d779aa0,2026-03-09T07:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0632-2026,6b70aaca6e7e68e8,2026-01-20T20:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0633-2026,0fd6b7b4602b70fe,2026-01-25T23:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0634-2026,7bbdda0891a18e5d,2026-02-25T06:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0635-2026,05a090ec995104a2,2026-05-16T18:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0636-2026,6afa0bac708186fb,2026-01-20T01:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0637-2026,54748fae86a49bac,2026-05-27T18:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0638-2026,f666ff76e8c16308,2026-04-13T16:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0639-2026,7085a0289d473d5d,2026-02-14T16:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-NRB
+q-0640-2026,c5a97259a7db8953,2026-04-16T11:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0641-2026,ff9934fa1321dcea,2026-05-22T13:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0642-2026,c11523e0636daa25,2026-03-15T03:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0643-2026,0d7f03eab8726d6f,2026-05-17T17:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0644-2026,5b4acde46fb025f8,2026-05-26T19:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0645-2026,dce474a589f63419,2026-01-06T18:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0646-2026,6ba32662602e8700,2026-03-07T17:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0647-2026,738d0f59b2f33d8f,2026-04-11T03:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0648-2026,02efe7c3f5256c41,2026-02-10T09:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0649-2026,bbe2909a13b85a6e,2026-05-21T16:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-MSA
+q-0650-2026,d5271cf05ad959e9,2026-04-13T20:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0651-2026,8e363a6ed2d38461,2026-02-09T23:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-NRB
+q-0652-2026,486cd658bf11212e,2026-01-23T17:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0653-2026,cdbdff240d2aa98d,2026-04-15T03:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0654-2026,ba405eda89212d16,2026-01-24T19:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0655-2026,97b125ebf0e7d8aa,2026-01-20T17:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0656-2026,a88823fa8e76910a,2025-12-21T15:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0657-2026,9d426944f0a5f403,2026-05-24T14:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0658-2026,df4b1ea230276475,2026-03-03T14:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0659-2026,4b5504c9509e770d,2025-12-25T19:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0660-2026,3aed4beffad267de,2026-04-25T10:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0661-2026,3a9d0879a5652c4d,2026-01-04T13:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0662-2026,e695e2b038eb9eb8,2026-05-13T14:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0663-2026,21022ec053ddf62e,2026-05-16T13:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0664-2026,613a285ed96358d6,2026-01-15T05:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0665-2026,afba84b2ef2716bc,2026-04-02T07:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0666-2026,9ec7821bcd8bc614,2025-12-13T08:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0667-2026,b1f8fc9a2848de1f,2026-02-06T02:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0668-2026,bfa8c724068a6017,2026-03-20T20:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0669-2026,c9af4c4aa5210845,2026-05-07T22:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0670-2026,b108acb8510932b0,2026-03-29T20:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0671-2026,393fd1fe94e05b16,2026-05-08T04:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0672-2026,5f7ca352ab6cdf79,2026-02-05T02:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-NRB
+q-0673-2026,f6752f893ecab7e5,2025-12-26T03:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0674-2026,e1ac13b23ecb2d22,2026-03-09T23:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0675-2026,866d2a40104442d5,2026-03-20T12:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,UG-C
+q-0676-2026,63a73bf68ec4e4aa,2025-12-13T10:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0677-2026,b9378c5b6511cf18,2026-01-18T14:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0678-2026,b20f7b7d8f5d80b6,2026-02-11T12:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0679-2026,51b3a5f1015d0685,2025-12-18T17:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0680-2026,70c336a46e439fd6,2025-12-07T08:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0681-2026,7c75d6d64089b343,2026-02-12T08:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0682-2026,7f785436bd8cebcd,2026-03-09T18:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0683-2026,4b0cb5b4c77e000c,2025-12-06T21:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0684-2026,d6f3166423d68831,2026-01-22T21:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0685-2026,66a722c07fcbfc33,2026-01-17T11:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0686-2026,0e6d8c8f8740e54d,2025-12-15T17:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-NRB
+q-0687-2026,913263e620afc79a,2026-05-10T21:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0688-2026,4671ae44bc2c268a,2026-05-02T12:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0689-2026,6b84a6de02ab443d,2026-04-23T19:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0690-2026,7f1e907b763af802,2026-03-30T22:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0691-2026,c63d6d26d02a154e,2026-02-07T15:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0692-2026,5df52ca3676d0777,2026-04-24T08:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0693-2026,ca8f3e1a99c18921,2026-01-17T06:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0694-2026,f11497c6ffcd4970,2025-12-10T02:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0695-2026,dc5887a83f5c6d74,2025-12-21T16:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-NRB
+q-0696-2026,93d9749e2b2f73e7,2026-03-22T04:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0697-2026,c4d0a975dea9a72d,2026-02-27T19:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0698-2026,5fcbd31ed84597e3,2026-05-09T00:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0699-2026,363d52597f39a9cb,2026-01-02T02:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0700-2026,c427375b8739dcc5,2026-02-27T12:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-MSA
+q-0701-2026,f55be08a7e4f9852,2026-03-21T08:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0702-2026,efacd387293b04e9,2026-02-10T20:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0703-2026,f501d0bd737f78ef,2026-03-14T07:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0704-2026,6e81de97238a1b6c,2026-01-27T06:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0705-2026,7a71cfd18a4642d5,2026-04-11T12:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-NRB
+q-0706-2026,6a852d3647bce0f3,2026-03-07T08:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0707-2026,c584bc02a5b7464b,2026-01-23T01:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0708-2026,5375c8285b82827a,2025-12-13T23:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0709-2026,cc2e244196e3b503,2026-04-02T05:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0710-2026,aaf8d0b747d61927,2026-02-07T10:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0711-2026,2124eca19c6bdf59,2026-05-14T08:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0712-2026,3dbd95efc5594c5f,2026-01-15T15:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0713-2026,456e3eff6dcf8774,2025-12-28T19:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0714-2026,104527b6afcb7031,2026-02-24T08:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,UG-C
+q-0715-2026,6c527cd898c8191f,2026-01-02T04:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0716-2026,2ebafe96314e2fb0,2026-02-26T03:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0717-2026,a2f3c6f73ddb9885,2026-02-02T17:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0718-2026,4a6664e4391021c5,2026-04-05T02:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0719-2026,c1e938b29b9f7dae,2026-03-12T15:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,TZ-DAR
+q-0720-2026,177b9086cbc5e178,2026-02-19T11:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0721-2026,afab7d1360a076ec,2026-04-14T15:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0722-2026,bd6175b2e1d5dd88,2026-02-27T03:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,KE-NRB
+q-0723-2026,ec6cc4ff35cbd77c,2026-05-03T19:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0724-2026,45568a6568dae3df,2026-04-04T05:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0725-2026,0b5098da7530dbe9,2026-02-18T05:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0726-2026,a98e7e565b2d693c,2026-05-08T23:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0727-2026,56954a87fb166d7d,2026-04-23T21:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0728-2026,6328178a90f5b0fc,2026-05-03T09:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0729-2026,0b98ad5f9e404071,2026-01-03T12:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0730-2026,1c54f3955ed46b0a,2026-04-06T17:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0731-2026,536653bd8f069dc2,2026-05-08T11:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0732-2026,ea6769618157417f,2026-02-03T01:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0733-2026,41b90c1f7bb0fa9a,2025-12-13T03:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0734-2026,dff3a8dc510cc78c,2026-05-23T15:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0735-2026,06643de120144175,2026-02-21T13:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0736-2026,9a220cbd2c329a3a,2026-02-20T00:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-NRB
+q-0737-2026,3972edebf7012215,2026-03-19T00:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0738-2026,c5c09b11b47569fa,2026-01-31T12:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0739-2026,90a113f64a87fd00,2026-01-30T06:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0740-2026,7b1aa323afcfe8ab,2026-05-12T10:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0741-2026,e28d7ddd33736c18,2026-03-26T01:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0742-2026,81265e53c68345ff,2026-01-23T20:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0743-2026,39e483d216c53153,2026-01-29T07:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0744-2026,9e63240ebf3087a9,2025-12-26T00:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0745-2026,d3f55e9dd40a85a9,2026-04-06T01:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0746-2026,18e3d3e8f5dc2ca1,2026-05-15T13:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0747-2026,f2282438657c2a4c,2026-01-30T01:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0748-2026,0fd93cf8eecec280,2026-01-30T21:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0749-2026,4acc473210662a0f,2025-12-31T09:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0750-2026,8e87eff5a450602b,2026-01-29T08:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0751-2026,08475182ad94e7eb,2026-04-01T00:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0752-2026,efdb04054d2c0cc9,2026-01-09T16:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0753-2026,ad37b6c7d47cb03b,2026-02-13T16:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0754-2026,1064b8df54baa6cf,2026-01-19T05:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0755-2026,d0452f9db95c2f43,2026-03-23T15:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0756-2026,b3f727bc8fac8eaa,2026-04-02T12:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-NRB
+q-0757-2026,3314d987c58d2c2b,2026-02-02T23:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0758-2026,61b7956bb851d3e2,2026-03-13T12:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-MSA
+q-0759-2026,97aa5f12a656fb21,2026-02-09T10:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0760-2026,06963a25173871d8,2026-04-30T11:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0761-2026,73f06c2bfdbddee6,2026-03-31T03:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0762-2026,7b3c9d89fc65e1c8,2025-12-30T00:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0763-2026,2ceb14b30fcf4986,2026-03-10T09:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0764-2026,f12fde5467d51203,2025-12-24T07:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0765-2026,aa544a1ab3f21f62,2025-12-03T05:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-NRB
+q-0766-2026,fed0e509ead72888,2026-02-07T21:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0767-2026,5d4ce44655a44560,2026-05-07T13:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0768-2026,1400b5113f0b3716,2026-01-28T21:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0769-2026,0aa6aa959f8b1e78,2026-01-27T01:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0770-2026,d5db1ea6e7952ad2,2026-05-25T08:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0771-2026,af91db415c2c8a6b,2026-05-26T01:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-NRB
+q-0772-2026,f0fcfc137f40b4b4,2026-01-14T13:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0773-2026,050d30da52ab881f,2025-12-03T09:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0774-2026,d5890da841450ae7,2026-05-02T19:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0775-2026,e936aea7e99fb18b,2026-05-08T19:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0776-2026,f964fb6d67152a0e,2026-04-03T08:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,TZ-DAR
+q-0777-2026,1d9586c49e4f7a5f,2026-01-11T10:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR
+q-0778-2026,0890c53cc1f90b57,2026-03-28T19:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,sw,UG-C
+q-0779-2026,953acf24a7024f89,2026-03-17T08:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-NRB
+q-0780-2026,35c0fa9a81952e75,2026-03-08T20:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0781-2026,ca58d4b57b23e83d,2026-02-22T03:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0782-2026,6e878552ad8c0637,2026-04-05T15:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0783-2026,9a7ef2e90b8929b6,2026-01-29T10:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-MSA
+q-0784-2026,283ce82c180d3687,2026-03-28T08:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0785-2026,204d98478426b885,2026-02-06T10:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,TZ-DAR
+q-0786-2026,c352b273d392f510,2026-02-21T00:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0787-2026,6be2dbe34dce8f4c,2026-01-14T01:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0788-2026,5e82a68804a564ef,2025-12-05T17:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0789-2026,136d84e5516ff763,2026-02-28T16:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0790-2026,3214f3e605286349,2026-02-07T05:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0791-2026,e437acd88e0d7cdc,2026-01-13T01:30:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0792-2026,0bb668418fb7cb54,2026-04-06T22:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0793-2026,99a6ff3cea184bf0,2026-05-06T11:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-NRB
+q-0794-2026,887c1587d9d74721,2026-05-03T09:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,TZ-DAR
+q-0795-2026,db808f40a5b055dd,2025-11-30T21:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0796-2026,bb3a3d80d21fbf93,2025-12-27T18:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0797-2026,0fd5b0aa4b37bdfb,2026-04-10T17:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0798-2026,369cd25b0f829bef,2026-03-04T14:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,TZ-DAR
+q-0799-2026,eb142bbbdc93423c,2026-03-03T03:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0800-2026,3b8de2afadf7474f,2026-04-18T00:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0801-2026,90850cba0cde6790,2025-12-28T18:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0802-2026,1d60185f51d47841,2026-01-04T21:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0803-2026,9e60129d147a53da,2026-03-21T10:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0804-2026,050794feed553934,2026-04-19T19:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0805-2026,b8eb7d98a2bfa150,2026-02-20T00:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0806-2026,327f4329adbc7b1c,2025-11-29T15:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0807-2026,6e59d13f96ed31e0,2026-05-24T11:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0808-2026,c824cb2bd27d5b50,2025-12-18T01:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0809-2026,931e1a605cbb657f,2026-03-07T05:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0810-2026,b892b1ddef69a536,2026-05-04T00:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0811-2026,6accd4604752aa56,2026-02-14T00:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0812-2026,5258eabefdef6a1b,2026-01-18T09:30:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,TZ-DAR
+q-0813-2026,d2a9aec12d4b65e1,2026-04-07T05:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0814-2026,3ea06b4a83a56b35,2026-01-04T07:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0815-2026,85494652a1f51b7e,2026-01-16T09:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,TZ-DAR
+q-0816-2026,825c31f71d358d01,2026-01-16T22:30:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0817-2026,9a2cf6e23619345d,2026-05-11T16:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0818-2026,4129e75dde896d54,2025-12-01T07:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0819-2026,e8e13319904a58fc,2025-12-01T14:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0820-2026,50cf73e0455c1800,2025-12-03T06:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0821-2026,eb03c8558d55005a,2026-02-02T00:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0822-2026,384b57636f95e49a,2026-01-13T17:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0823-2026,937bbcf42af87bef,2026-04-02T00:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0824-2026,4603b16c73ac0338,2026-04-15T12:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0825-2026,13ed88d09dc9e729,2026-03-31T03:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,TZ-DAR
+q-0826-2026,d8107fbd291f647e,2026-04-11T10:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0827-2026,551865276392504d,2026-01-08T20:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,TZ-DAR
+q-0828-2026,a3c59560b99dc029,2026-05-20T18:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-NRB
+q-0829-2026,f3a5db34e919e54f,2026-02-17T19:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0830-2026,39a64e6436b0cfd1,2026-01-21T04:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0831-2026,d360966d900b8f4f,2025-11-30T22:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0832-2026,e82efd91d28df613,2026-04-05T11:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0833-2026,4301d6361d47e90a,2026-03-05T02:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0834-2026,bfc7b46d8c1a893f,2026-03-26T01:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0835-2026,97e6ff460fd5416f,2026-04-01T21:15:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0836-2026,bf6268c1d0becd68,2025-12-28T04:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,UG-C
+q-0837-2026,6b76ad6fe7bb97b8,2026-04-06T10:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0838-2026,2f5041a17976fe77,2026-05-15T07:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,TZ-DAR
+q-0839-2026,18e73f79835308b0,2026-04-01T19:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0840-2026,e518ec660d275312,2026-01-06T09:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0841-2026,d9dfff3b4d1c9198,2026-05-16T02:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-NRB
+q-0842-2026,dbde8b99a7fe9eb8,2026-02-24T00:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,UG-C
+q-0843-2026,3075864f8772e66b,2025-12-06T23:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-MSA
+q-0844-2026,15413d5b8a8cd481,2026-01-19T03:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,KE-MSA
+q-0845-2026,2639d3a2eaebfbd3,2026-02-20T11:00:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0846-2026,fa282f9f85a8cc68,2026-04-29T15:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,UG-C
+q-0847-2026,badb4be3874186b3,2025-12-30T05:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0848-2026,00b841b1c65c7762,2026-02-14T03:45:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0849-2026,8b0820203056745b,2026-03-16T06:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0850-2026,abc760fe4f4de327,2026-04-21T00:30:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0851-2026,97b2b9262fe4ca11,2026-02-18T21:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,TZ-DAR
+q-0852-2026,454a598c6d79e04a,2026-05-05T08:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0853-2026,f7354deaebb21181,2026-03-13T10:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0854-2026,9ecc3ae858d0078b,2026-02-26T00:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-NRB
+q-0855-2026,cae46ec93e56d5a2,2025-12-29T11:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0856-2026,d19733cd03f8a41e,2026-04-23T14:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-MSA
+q-0857-2026,b442f0c721d79bcc,2026-05-04T01:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0858-2026,28e369f8c4ecf82e,2025-12-13T16:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,UG-C
+q-0859-2026,41a4a85105ec8bf4,2026-04-19T06:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,UG-C
+q-0860-2026,9b66c39d634c11fb,2026-05-12T13:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,UG-C
+q-0861-2026,d129372280be8365,2026-03-06T06:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-NRB
+q-0862-2026,ed3d11f13326ef73,2026-04-10T05:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,sw,UG-C
+q-0863-2026,1af28d07dad53878,2026-02-22T08:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-MSA
+q-0864-2026,6c63ec8cf967d393,2026-05-18T11:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-NRB
+q-0865-2026,a1cca1e79c23e40a,2025-12-21T06:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,sw,KE-NRB
+q-0866-2026,adfff49ad5a9024b,2026-04-16T18:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0867-2026,d323f22b16eed745,2026-05-12T12:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0868-2026,e180962741498325,2026-03-22T14:30:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0869-2026,ac6f64f840385dd9,2026-03-22T11:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0870-2026,722582160eccfac6,2025-12-30T18:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0871-2026,1759d5a7641b8389,2026-04-14T16:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0872-2026,3f7372fdbb6515d9,2025-12-18T10:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0873-2026,5b45d5b5d9f0f6cd,2026-03-03T04:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0874-2026,39396f4f2cd754ff,2026-04-27T17:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0875-2026,e34b3bebdab7386c,2026-04-05T19:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,KE-NRB
+q-0876-2026,0639fd80385b8f01,2026-04-01T00:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0877-2026,c523339cc8cb2bcc,2026-02-06T20:45:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,KE-MSA
+q-0878-2026,42d680f2fae622c9,2025-12-13T03:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0879-2026,f8e495bee9379271,2026-01-30T01:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,UG-C
+q-0880-2026,4b92d4ac0c148af1,2026-03-17T00:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0881-2026,4b87c9c6c733a0b9,2026-01-31T13:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0882-2026,f252f38a29cccbc8,2025-12-16T10:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0883-2026,c8b14c9078331083,2025-12-25T14:15:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-MSA
+q-0884-2026,666f992b86fb6cd9,2026-04-15T22:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0885-2026,1705ba27ad752bb2,2026-05-17T06:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0886-2026,ec69bf28f10288b8,2026-03-06T21:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,en,KE-MSA
+q-0887-2026,360f9fb37e6618d4,2026-05-22T14:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,KE-MSA
+q-0888-2026,4b2a1ad41d48a6b3,2026-02-03T12:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,sw,KE-NRB
+q-0889-2026,c4b79eef8dfa8b4a,2025-12-18T02:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,KE-MSA
+q-0890-2026,58c24115d8ef17c4,2026-03-28T13:15:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-MSA
+q-0891-2026,73be8717de6d962d,2026-01-11T01:00:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0892-2026,9c9e5f7137994582,2026-05-08T06:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0893-2026,04abcea14c484c62,2026-01-04T04:45:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0894-2026,e11c3329a80b6006,2026-02-19T05:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,UG-C
+q-0895-2026,e6b07e320a5d4de3,2026-01-24T07:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,UG-C
+q-0896-2026,3a71d747e0b4793e,2026-02-10T09:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0897-2026,572effb7c90e68a9,2026-01-11T10:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0898-2026,9d5269349d1bb369,2026-05-23T00:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0899-2026,17a8d2d55e810a2e,2026-01-07T21:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,en,TZ-DAR
+q-0900-2026,361fa4f3250c3f42,2026-05-25T16:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-NRB
+q-0901-2026,63fdb4e216d5a81c,2025-12-20T01:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0902-2026,0d724f9b59d24806,2026-01-13T05:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0903-2026,f89e568e881d65fd,2026-02-20T01:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0904-2026,45e91d1084d1916f,2026-01-03T06:00:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,KE-MSA
+q-0905-2026,49c4fad1a1087686,2026-04-19T18:15:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0906-2026,08041de0ad7c2470,2025-12-12T07:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0907-2026,04802ddcb92fb813,2025-12-11T02:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,TZ-DAR
+q-0908-2026,ccc432990eb37d46,2026-04-10T23:45:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0909-2026,4f4f702157bca0b0,2026-01-26T20:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0910-2026,62d2af11bfbcb17b,2026-01-05T02:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0911-2026,84dd8a546298192e,2026-01-19T17:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0912-2026,12baf8d1aca5b3e7,2026-01-23T02:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0913-2026,7694c767edc305a3,2026-05-09T23:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,,sw,TZ-DAR
+q-0914-2026,f4a12316bde4b28c,2026-01-17T15:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0915-2026,7a12ca9dc260b48f,2025-12-02T21:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,KE-NRB
+q-0916-2026,f50d05ffd90bf494,2026-05-20T07:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,KE-NRB
+q-0917-2026,6e81e55dcddb1521,2026-01-17T21:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0918-2026,2e432d304902bfe6,2026-05-13T17:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-NRB
+q-0919-2026,e4b138929d2adcc8,2026-01-01T11:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,KE-MSA
+q-0920-2026,ee2f8d1fa542979f,2026-01-15T23:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-NRB
+q-0921-2026,121bb715e3d4bb45,2025-12-17T09:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0922-2026,8bb85ae424ea2af6,2026-04-17T07:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,sw,TZ-DAR
+q-0923-2026,e4378bae96582006,2026-05-11T21:30:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0924-2026,7282b30195a7cc62,2025-11-28T02:15:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,UG-C
+q-0925-2026,08130ba51bd8cb46,2026-05-01T05:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0926-2026,ac6a79f203f072b7,2026-01-07T14:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0927-2026,8aeb8e3c66161b92,2026-02-02T17:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0928-2026,bc795e71ea1a22e0,2026-02-01T14:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,KE-MSA
+q-0929-2026,8ff23ff45ca1adb4,2025-12-03T10:00:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0930-2026,ad0842b72f460680,2025-12-29T01:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0931-2026,66a563d3533d720e,2026-02-11T18:30:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,en,TZ-DAR
+q-0932-2026,511847b0d5334b38,2026-03-26T21:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,sw,TZ-DAR
+q-0933-2026,c118d893038359c9,2026-03-19T11:15:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0934-2026,70c76a005d1f0cab,2026-01-21T16:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0935-2026,3a4a0bcb59a089d7,2026-03-29T13:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,TZ-DAR
+q-0936-2026,2085902d6e84b568,2026-01-09T18:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0937-2026,b49fe3e407859219,2026-03-20T08:30:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,UG-C
+q-0938-2026,b856b4e30ab33c34,2025-12-15T01:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0939-2026,ab8f5638b92c034b,2025-12-28T17:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0940-2026,d1bf68fd8739263f,2026-02-11T06:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-NRB
+q-0941-2026,72912c6626cb1cd1,2026-05-20T09:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,KE-NRB
+q-0942-2026,e59f1b8f3a409d31,2025-12-22T17:00:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,UG-C
+q-0943-2026,77a7442a3e95f62c,2026-05-24T16:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-NRB
+q-0944-2026,a7aa5e838aa1b85c,2026-01-19T06:15:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,KE-MSA
+q-0945-2026,d8f2e854ff5ca6ae,2026-03-11T01:15:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,UG-C
+q-0946-2026,8fd6db6229d452a5,2026-04-11T11:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0947-2026,71c22f032e48f88b,2026-02-23T10:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0948-2026,5e0110af8faa7f3f,2026-05-09T00:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,en,UG-C
+q-0949-2026,066759b7031cda48,2026-03-02T10:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-NRB
+q-0950-2026,b72708fb5ee6fdc8,2026-02-13T00:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,TZ-DAR
+q-0951-2026,4292673bfbceaba7,2025-12-06T02:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,en,TZ-DAR
+q-0952-2026,cb0843a5484d4271,2026-05-22T22:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,negative,sw,UG-C
+q-0953-2026,77e15d0f090ba454,2026-01-29T22:00:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,,en,UG-C
+q-0954-2026,41cf5edb98fd186b,2025-12-02T12:45:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0955-2026,6805f46daf257824,2026-02-16T00:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0956-2026,6315e7a33cf70c9d,2026-05-22T11:15:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,UG-C
+q-0957-2026,ec5c7e3c5e5a7de2,2025-12-28T13:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-NRB
+q-0958-2026,17fa25f2f444bfa4,2026-03-07T16:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,UG-C
+q-0959-2026,67202e748cdf9ed9,2026-02-09T07:30:00Z,T1,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,UG-C
+q-0960-2026,aa385366e3cb4051,2026-04-22T23:45:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,TZ-DAR
+q-0961-2026,04412027a56d0e70,2026-04-15T05:15:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,UG-C
+q-0962-2026,e80031e2afa0a529,2025-12-03T05:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,positive,sw,UG-C
+q-0963-2026,c60ac87367f5389d,2025-12-23T19:00:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,sw,KE-MSA
+q-0964-2026,d64ad5a719dd83df,2026-02-17T17:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0965-2026,48c760a1f972c2f6,2026-04-04T13:30:00Z,T3,What should I prepare before labour starts?,birth_prep,False,,negative,en,TZ-DAR
+q-0966-2026,250e1f0af75e957f,2025-12-04T11:00:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,positive,sw,KE-NRB
+q-0967-2026,2a2238fe75093d6e,2026-01-23T14:45:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,negative,sw,UG-C
+q-0968-2026,2d87c6aac925a4b5,2025-12-01T20:15:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-MSA
+q-0969-2026,8109847f787f73a7,2026-02-18T15:15:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0970-2026,f05df6fa940483d6,2026-03-04T14:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,UG-C
+q-0971-2026,073a1b6d9fa2dcf5,2025-12-07T00:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,UG-C
+q-0972-2026,e0c7efd8be9effa5,2026-01-12T04:45:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,TZ-DAR
+q-0973-2026,85301777b024f8ca,2026-04-27T07:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,UG-C
+q-0974-2026,644431148637c4d7,2026-02-07T16:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,,en,TZ-DAR
+q-0975-2026,0bc668d82824f882,2026-03-29T18:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0976-2026,7e3f9f75a4aaded7,2026-05-18T23:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,,en,UG-C
+q-0977-2026,202d1bfbc2bd2a1f,2026-01-28T08:15:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,en,TZ-DAR
+q-0978-2026,cf97788685a16014,2026-03-12T08:30:00Z,T2,What foods can I manage if I feel nauseated?,nutrition,False,,,en,TZ-DAR
+q-0979-2026,21c501badcbf215d,2026-05-11T01:30:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-MSA
+q-0980-2026,bd0080db6c61eda5,2026-03-18T01:45:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,negative,en,KE-MSA
+q-0981-2026,e22abf048bc4eebf,2026-03-24T12:00:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,positive,sw,KE-MSA
+q-0982-2026,642a4651babd7a3d,2026-03-30T10:45:00Z,T1,I feel anxious most days. What should I do?,mental_health,False,,,en,KE-NRB
+q-0983-2026,2f707811f056f8c6,2025-12-13T11:45:00Z,T3,I feel anxious most days. What should I do?,mental_health,False,,negative,sw,KE-NRB
+q-0984-2026,0f99bd34dcc7d509,2026-05-20T03:15:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,KE-MSA
+q-0985-2026,decc5b003e57a2d5,2026-02-01T19:45:00Z,T2,I have heavy bleeding and dizziness.,emergency,True,emergency,,sw,TZ-DAR
+q-0986-2026,1abf81da933dbb5a,2026-01-25T15:00:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,KE-MSA
+q-0987-2026,627eba31f702ebe8,2026-02-04T23:45:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,sw,KE-MSA
+q-0988-2026,6b4ae1bac112a0db,2026-02-16T06:00:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,positive,en,KE-MSA
+q-0989-2026,fc683435d1cfa2c5,2026-02-12T04:30:00Z,T3,What foods can I manage if I feel nauseated?,nutrition,False,,,sw,UG-C
+q-0990-2026,9a3333d22be373c3,2026-03-24T12:45:00Z,T3,Is it normal to feel cramping at 11 weeks?,symptoms,False,,negative,sw,TZ-DAR
+q-0991-2026,80ac8f988bee19d8,2026-03-08T07:45:00Z,T1,What should I prepare before labour starts?,birth_prep,False,,negative,sw,KE-MSA
+q-0992-2026,6ae7a76e1aaa2def,2025-12-12T10:30:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0993-2026,f9f4bc3e9fee8a1e,2026-04-14T01:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,positive,en,KE-MSA
+q-0994-2026,e9ba62ec386abf87,2026-04-16T17:00:00Z,T3,I have heavy bleeding and dizziness.,emergency,True,emergency,positive,en,KE-NRB
+q-0995-2026,586d2d89b2e7e56f,2026-02-18T10:00:00Z,T1,I have heavy bleeding and dizziness.,emergency,True,emergency,negative,sw,TZ-DAR
+q-0996-2026,5ae12e386c3c626a,2025-12-20T13:00:00Z,T2,I feel anxious most days. What should I do?,mental_health,False,,positive,en,KE-MSA
+q-0997-2026,c5976527641a7eb0,2026-05-05T10:15:00Z,T1,What foods can I manage if I feel nauseated?,nutrition,False,,negative,en,UG-C
+q-0998-2026,d3e5e186b2a9d443,2025-12-15T14:30:00Z,T2,Is it normal to feel cramping at 11 weeks?,symptoms,False,,,sw,KE-MSA
+q-0999-2026,8dfe0b151625b8d1,2026-01-15T13:00:00Z,T2,What should I prepare before labour starts?,birth_prep,False,,,en,TZ-DAR

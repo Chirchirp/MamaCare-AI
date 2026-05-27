@@ -1,0 +1,134 @@
+[
+  {
+    "chunk_id": "seed-001",
+    "title": "First trimester booking and early care",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/first-trimester-booking",
+    "document_type": "guideline",
+    "trimester": "T1",
+    "topic_tags": ["booking", "first_visit", "trimester_1"],
+    "content": "In early pregnancy, it is important to begin antenatal care as soon as possible so blood pressure, weight, and other routine checks can start early. Keep a list of symptoms, previous pregnancies, and questions for your first visit. Severe pain, heavy bleeding, fainting, or one-sided abdominal pain need urgent medical attention.",
+    "confidence_score": 0.72
+  },
+  {
+    "chunk_id": "seed-002",
+    "title": "First trimester nutrition basics",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/first-trimester-nutrition",
+    "document_type": "guideline",
+    "trimester": "T1",
+    "topic_tags": ["nutrition", "nausea", "trimester_1"],
+    "content": "During the first trimester, focus on regular meals, safe hydration, and foods that are easier to tolerate if nausea is present. If morning sickness makes eating difficult, try small frequent meals and speak with a clinician if you cannot keep fluids down. Medication or supplement doses should only be decided by a healthcare professional.",
+    "confidence_score": 0.71
+  },
+  {
+    "chunk_id": "seed-003",
+    "title": "Second trimester fetal movement awareness",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/second-trimester-movement",
+    "document_type": "guideline",
+    "trimester": "T2",
+    "topic_tags": ["fetal_movement", "trimester_2"],
+    "content": "Many mothers begin noticing fetal movement during the second trimester, although timing varies. If you are worried that movement is much less than expected for your stage, contact your midwife or antenatal clinic. Sudden absence of movement later in pregnancy needs urgent review.",
+    "confidence_score": 0.78
+  },
+  {
+    "chunk_id": "seed-004",
+    "title": "Second trimester swelling and warning signs",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/second-trimester-swelling",
+    "document_type": "guideline",
+    "trimester": "T2",
+    "topic_tags": ["swelling", "blood_pressure", "trimester_2"],
+    "content": "Mild swelling can happen in pregnancy, but swelling with severe headache, blurred vision, chest pain, or marked discomfort is not routine and should be assessed quickly. Rest, hydration, and follow-up are important, but danger signs need urgent medical care. Blood pressure monitoring during antenatal visits remains important throughout pregnancy.",
+    "confidence_score": 0.8
+  },
+  {
+    "chunk_id": "seed-005",
+    "title": "Second trimester routine care",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/second-trimester-routine-care",
+    "document_type": "guideline",
+    "trimester": "T2",
+    "topic_tags": ["checkups", "growth", "trimester_2"],
+    "content": "Second trimester antenatal care often focuses on maternal wellbeing, fetal growth, blood pressure review, and education for the months ahead. It is a good time to ask about nutrition, movement changes, and any new symptoms. Ongoing pain, fever, or unusual discharge should be reviewed by a clinician.",
+    "confidence_score": 0.75
+  },
+  {
+    "chunk_id": "seed-006",
+    "title": "Third trimester birth preparation",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/third-trimester-birth-prep",
+    "document_type": "guideline",
+    "trimester": "T3",
+    "topic_tags": ["birth_preparation", "trimester_3"],
+    "content": "In the third trimester, prepare for delivery by knowing where you will go, how you will travel, and who can support you. Keep emergency contacts ready and attend scheduled antenatal visits. If contractions, leaking fluid, or bleeding start earlier than expected, seek prompt medical advice.",
+    "confidence_score": 0.79
+  },
+  {
+    "chunk_id": "seed-007",
+    "title": "Third trimester danger signs",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/third-trimester-danger-signs",
+    "document_type": "guideline",
+    "trimester": "T3",
+    "topic_tags": ["emergency", "trimester_3"],
+    "content": "Urgent review is needed for heavy bleeding, severe headache with visual changes, severe abdominal pain, chest pain, breathing difficulty, convulsions, high fever, or if the baby is not moving as expected. Water breaking before term or any concern about labour starting too early should be assessed quickly.",
+    "confidence_score": 0.86
+  },
+  {
+    "chunk_id": "seed-008",
+    "title": "All stages hydration and nutrition support",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/all-stages-nutrition",
+    "document_type": "guideline",
+    "trimester": "all",
+    "topic_tags": ["nutrition", "hydration"],
+    "content": "Across pregnancy, regular meals, adequate fluids, and follow-up on nutrition questions are part of routine antenatal care. If you are unable to eat or drink well, or vomiting is persistent, contact a healthcare professional. Supplement choices and doses should always be guided by a clinician.",
+    "confidence_score": 0.74
+  },
+  {
+    "chunk_id": "seed-009",
+    "title": "All stages privacy and safe sharing",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/privacy",
+    "document_type": "policy",
+    "trimester": "all",
+    "topic_tags": ["privacy", "safety"],
+    "content": "When using a digital pregnancy support tool, avoid sharing names, phone numbers, national identification numbers, or exact home addresses. Questions can still be answered without personal identifiers. Personal medical decisions should be made with a trusted clinician.",
+    "confidence_score": 0.68
+  },
+  {
+    "chunk_id": "seed-010",
+    "title": "All stages when to seek clinic support",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/doctor-referral",
+    "document_type": "guideline",
+    "trimester": "all",
+    "topic_tags": ["referral", "symptoms"],
+    "content": "Pregnancy symptoms such as pain, fever, swelling, cramping, spotting, or unusual discharge should not be ignored. Some may be mild, but persistent or worsening symptoms need review from a midwife, antenatal clinic, or doctor. If symptoms are severe or sudden, seek urgent care.",
+    "confidence_score": 0.83
+  },
+  {
+    "chunk_id": "seed-011",
+    "title": "All stages emotional wellbeing",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/mental-wellbeing",
+    "document_type": "guideline",
+    "trimester": "all",
+    "topic_tags": ["mental_health", "support"],
+    "content": "Emotional stress can happen at any stage of pregnancy. Rest, support from trusted people, and antenatal follow-up are important, and ongoing distress should be discussed with a healthcare professional. If someone feels unsafe or at risk of self-harm, urgent professional support is needed.",
+    "confidence_score": 0.72
+  },
+  {
+    "chunk_id": "seed-012",
+    "title": "Postpartum basics in scope",
+    "source_name": "MamaCare MVP seed guidance",
+    "source_url": "internal://seed-guidance/postpartum-basics",
+    "document_type": "guideline",
+    "trimester": "all",
+    "topic_tags": ["postpartum", "scope"],
+    "content": "This prototype can also give basic support on the early postpartum period, such as recovery follow-up and when to seek care. Heavy bleeding, fainting, high fever, or severe pain after birth need urgent medical attention. For personalised advice, speak with your healthcare team.",
+    "confidence_score": 0.69
+  }
+]

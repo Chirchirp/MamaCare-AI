@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local indexes and generated runtime state
+data/index/chroma_db/
+data/index/*.sqlite
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log

@@ -1,0 +1,523 @@
+{
+  "schema_version": "2.0",
+  "title": "MamaCare Curated Maternal Knowledge Base",
+  "description": "Starter curated maternal knowledge cards for the MamaCare AI prototype. These cards are structured for retrieval and should later be replaced or expanded with licensed WHO, CDC, and Ministry of Health content.",
+  "last_updated": "2026-05-27",
+  "cards": [
+    {
+      "card_id": "t1-booking-001",
+      "title": "Starting antenatal care early",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t1-booking-001",
+      "document_type": "curated_guidance",
+      "trimester": "T1",
+      "topic_tags": ["booking", "first_visit", "screening"],
+      "keywords": ["antenatal clinic", "first antenatal visit", "booking visit", "start antenatal care", "early pregnancy clinic"],
+      "common_questions": [
+        "When should I start antenatal clinic?",
+        "I just found out I am pregnant. When should I go for my first checkup?",
+        "What happens at the first antenatal visit?"
+      ],
+      "answer": "Start antenatal care as early as possible in pregnancy so routine checks like blood pressure, weight, blood tests, and symptom review can begin early. Your first visit is also a good time to share past pregnancy history, current symptoms, and questions about nutrition or warning signs.",
+      "when_to_seek_care": [
+        "You have not booked care and have ongoing symptoms or concerns.",
+        "You are missing routine visits or cannot access your usual clinic."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Fainting",
+        "Severe one-sided abdominal pain"
+      ],
+      "confidence_score": 0.78
+    },
+    {
+      "card_id": "t1-nausea-001",
+      "title": "Morning sickness and nausea in the first trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t1-nausea-001",
+      "document_type": "curated_guidance",
+      "trimester": "T1",
+      "topic_tags": ["nausea", "vomiting", "nutrition"],
+      "keywords": ["morning sickness", "nausea", "vomiting", "nauseated", "cannot eat", "can't keep food down"],
+      "common_questions": [
+        "I feel nauseated at 11 weeks. What should I do?",
+        "Is morning sickness normal in early pregnancy?",
+        "What can help if I keep vomiting in the first trimester?"
+      ],
+      "answer": "Nausea is common in early pregnancy. Small frequent meals, fluids in small amounts, and foods that are easier to tolerate may help. If symptoms make eating or drinking difficult, it is important to speak with a clinician rather than guessing about medicines or supplement doses.",
+      "when_to_seek_care": [
+        "You cannot keep fluids down.",
+        "You are urinating much less than usual.",
+        "You feel weak, dizzy, or faint."
+      ],
+      "danger_signs": [
+        "Persistent vomiting with dehydration",
+        "Vomiting with severe abdominal pain",
+        "Vomiting with bleeding"
+      ],
+      "confidence_score": 0.84
+    },
+    {
+      "card_id": "t1-cramping-001",
+      "title": "Cramping and spotting in early pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t1-cramping-001",
+      "document_type": "curated_guidance",
+      "trimester": "T1",
+      "topic_tags": ["cramping", "spotting", "pain"],
+      "keywords": ["cramps", "cramping", "spotting", "light bleeding", "stomach pain early pregnancy"],
+      "common_questions": [
+        "Is cramping normal in the first trimester?",
+        "I have spotting at 9 weeks. Should I worry?",
+        "What does mild cramping mean in early pregnancy?"
+      ],
+      "answer": "Mild cramping can happen in early pregnancy, but pain and bleeding should never be ignored. If cramping is ongoing, getting stronger, or comes with spotting or bleeding, you should contact your antenatal clinic or doctor for advice.",
+      "when_to_seek_care": [
+        "Cramping lasts or gets worse.",
+        "Spotting keeps happening.",
+        "You have pain together with dizziness or weakness."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Severe abdominal pain",
+        "Fainting or collapse"
+      ],
+      "confidence_score": 0.82
+    },
+    {
+      "card_id": "t1-fatigue-001",
+      "title": "Tiredness and rest in the first trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t1-fatigue-001",
+      "document_type": "curated_guidance",
+      "trimester": "T1",
+      "topic_tags": ["fatigue", "rest", "wellbeing"],
+      "keywords": ["tired", "fatigue", "sleepy", "weak", "no energy"],
+      "common_questions": [
+        "Why am I so tired in the first trimester?",
+        "Is it normal to feel weak early in pregnancy?"
+      ],
+      "answer": "Feeling more tired than usual is common in early pregnancy. Regular meals, fluids, rest, and keeping up with clinic visits can help, but severe weakness or tiredness that feels unusual should be discussed with a clinician.",
+      "when_to_seek_care": [
+        "Tiredness is severe or worsening.",
+        "You feel breathless, dizzy, or unable to carry out usual activities."
+      ],
+      "danger_signs": [
+        "Fainting",
+        "Chest pain",
+        "Difficulty breathing"
+      ],
+      "confidence_score": 0.74
+    },
+    {
+      "card_id": "t1-supplements-001",
+      "title": "Questions about supplements in pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t1-supplements-001",
+      "document_type": "curated_guidance",
+      "trimester": "T1",
+      "topic_tags": ["supplements", "iron", "folate", "medication_safety"],
+      "keywords": ["supplements", "iron tablets", "folic acid", "prenatal vitamins", "medicine in pregnancy"],
+      "common_questions": [
+        "Do I need supplements in pregnancy?",
+        "Can I take iron tablets while pregnant?",
+        "Which vitamins are used in pregnancy?"
+      ],
+      "answer": "Pregnancy supplements are commonly discussed during antenatal care, but the right choice and dose depend on your own health needs and local clinical guidance. Use your clinic or doctor as the source of truth for any supplement or medication decision.",
+      "when_to_seek_care": [
+        "You were prescribed something and do not understand how to use it.",
+        "You think a supplement is causing side effects."
+      ],
+      "danger_signs": [
+        "Fainting after taking medication",
+        "Trouble breathing after taking medication"
+      ],
+      "confidence_score": 0.79
+    },
+    {
+      "card_id": "t2-fetal-movement-001",
+      "title": "Fetal movement awareness in the second trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t2-fetal-movement-001",
+      "document_type": "curated_guidance",
+      "trimester": "T2",
+      "topic_tags": ["fetal_movement", "growth", "reassurance"],
+      "keywords": ["baby moving", "fetal movement", "kicks", "quickening", "movement not strong"],
+      "common_questions": [
+        "When should I start feeling the baby move?",
+        "I feel the baby moving less than before. What should I do?",
+        "Are kicks normal in the second trimester?"
+      ],
+      "answer": "Many mothers begin to notice fetal movement in the second trimester, although the timing can vary. If movement seems much less than expected for your stage, or you are worried about a change, contact your midwife or antenatal clinic for review.",
+      "when_to_seek_care": [
+        "Movement feels clearly less than usual for your stage.",
+        "You are worried because movement has changed suddenly."
+      ],
+      "danger_signs": [
+        "No movement later in pregnancy when movement was previously felt",
+        "Reduced movement with pain or bleeding"
+      ],
+      "confidence_score": 0.86
+    },
+    {
+      "card_id": "t2-swelling-001",
+      "title": "Swelling in the second trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t2-swelling-001",
+      "document_type": "curated_guidance",
+      "trimester": "T2",
+      "topic_tags": ["swelling", "blood_pressure", "warning_signs"],
+      "keywords": ["swollen feet", "swelling", "puffy hands", "face swelling", "leg swelling"],
+      "common_questions": [
+        "Is swollen feet normal at 24 weeks?",
+        "My legs are swelling in pregnancy. What does it mean?",
+        "When is swelling dangerous in pregnancy?"
+      ],
+      "answer": "Mild swelling can happen during pregnancy, but swelling with severe headache, blurred vision, chest pain, or significant discomfort should be assessed quickly. Blood pressure checks and antenatal follow-up are important when swelling is new or worsening.",
+      "when_to_seek_care": [
+        "Swelling is getting worse.",
+        "Swelling comes with headache or visual changes.",
+        "You also feel unwell, breathless, or have pain."
+      ],
+      "danger_signs": [
+        "Swelling with severe headache",
+        "Swelling with blurred vision",
+        "Swelling with chest pain or breathing difficulty"
+      ],
+      "confidence_score": 0.87
+    },
+    {
+      "card_id": "t2-heartburn-001",
+      "title": "Heartburn and digestion changes in mid-pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t2-heartburn-001",
+      "document_type": "curated_guidance",
+      "trimester": "T2",
+      "topic_tags": ["heartburn", "digestion", "meals"],
+      "keywords": ["heartburn", "acid", "burning chest after meals", "indigestion", "reflux"],
+      "common_questions": [
+        "I have heartburn after meals at 22 weeks. What can help?",
+        "Is acid reflux common in pregnancy?",
+        "Why do I get burning in my chest after eating?"
+      ],
+      "answer": "Heartburn and indigestion can happen in pregnancy. Smaller meals, avoiding lying flat straight after eating, and discussing persistent symptoms at antenatal visits can help. If symptoms are severe or confusing, speak with a clinician rather than self-prescribing medicines.",
+      "when_to_seek_care": [
+        "Heartburn is severe or keeps returning.",
+        "You cannot eat properly because of symptoms.",
+        "You are unsure whether the pain is from digestion or something more serious."
+      ],
+      "danger_signs": [
+        "Chest pain with difficulty breathing",
+        "Pain with fainting or collapse"
+      ],
+      "confidence_score": 0.8
+    },
+    {
+      "card_id": "t2-back-pain-001",
+      "title": "Back pain and body changes in the second trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t2-back-pain-001",
+      "document_type": "curated_guidance",
+      "trimester": "T2",
+      "topic_tags": ["back_pain", "body_changes", "mobility"],
+      "keywords": ["back pain", "lower back pain", "hip pain", "body aches", "pelvic discomfort"],
+      "common_questions": [
+        "Is back pain normal during pregnancy?",
+        "My lower back hurts at 20 weeks. What should I do?"
+      ],
+      "answer": "Back and pelvic discomfort can become more noticeable as pregnancy progresses. Rest, posture support, and mentioning the pain at your next antenatal review are sensible, but worsening pain or pain with fever, bleeding, or weakness should be checked sooner.",
+      "when_to_seek_care": [
+        "Pain is getting worse or affecting walking.",
+        "Pain comes with fever, bleeding, or urinary symptoms."
+      ],
+      "danger_signs": [
+        "Severe pain with bleeding",
+        "Pain with fever",
+        "Pain with weakness or collapse"
+      ],
+      "confidence_score": 0.76
+    },
+    {
+      "card_id": "t2-routine-care-001",
+      "title": "Routine second trimester antenatal care",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t2-routine-care-001",
+      "document_type": "curated_guidance",
+      "trimester": "T2",
+      "topic_tags": ["checkups", "blood_pressure", "growth"],
+      "keywords": ["second trimester visit", "routine checkup", "antenatal review", "blood pressure check"],
+      "common_questions": [
+        "What happens during second trimester antenatal visits?",
+        "Why do I need blood pressure checks in pregnancy?"
+      ],
+      "answer": "Second trimester antenatal visits often focus on maternal wellbeing, fetal growth, blood pressure checks, and questions about symptoms, nutrition, and movement. Keeping these appointments helps identify concerns early instead of waiting until symptoms become severe.",
+      "when_to_seek_care": [
+        "You missed a visit and now have symptoms.",
+        "You are unsure when your next clinic review should be."
+      ],
+      "danger_signs": [
+        "Symptoms worsening between visits",
+        "Headache, blurred vision, or bleeding"
+      ],
+      "confidence_score": 0.78
+    },
+    {
+      "card_id": "t3-birth-prep-001",
+      "title": "Birth preparation in the third trimester",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t3-birth-prep-001",
+      "document_type": "curated_guidance",
+      "trimester": "T3",
+      "topic_tags": ["birth_preparation", "delivery_plan", "readiness"],
+      "keywords": ["prepare for labour", "birth plan", "hospital bag", "who will take me to hospital", "delivery preparation"],
+      "common_questions": [
+        "What should I prepare before labour in the third trimester?",
+        "How do I get ready for birth?",
+        "What should I keep ready before delivery?"
+      ],
+      "answer": "In the third trimester, it helps to know where you will go for delivery, how you will travel, and who can support you. Keep important contacts ready, attend scheduled antenatal visits, and have a plan for what to do if labour symptoms or urgent warning signs begin.",
+      "when_to_seek_care": [
+        "You think labour may be starting early.",
+        "You do not know where to go if labour or complications begin."
+      ],
+      "danger_signs": [
+        "Bleeding",
+        "Leaking fluid before term",
+        "Severe pain with reduced movement"
+      ],
+      "confidence_score": 0.84
+    },
+    {
+      "card_id": "t3-labour-signs-001",
+      "title": "Labour signs and leaking fluid",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t3-labour-signs-001",
+      "document_type": "curated_guidance",
+      "trimester": "T3",
+      "topic_tags": ["labour", "contractions", "ruptured_membranes"],
+      "keywords": ["contractions", "water broke", "water breaking", "leaking fluid", "labour starting"],
+      "common_questions": [
+        "How do I know if labour is starting?",
+        "What should I do if my water breaks?",
+        "I am leaking fluid in late pregnancy. What now?"
+      ],
+      "answer": "Contractions, leaking fluid, or other signs that labour may be starting should be taken seriously, especially if they happen earlier than expected. Contact your maternity team or go for review so they can assess whether labour has started and whether you or the baby need urgent care.",
+      "when_to_seek_care": [
+        "Fluid is leaking.",
+        "Contractions are becoming regular or painful.",
+        "You are not sure whether symptoms are labour or something else."
+      ],
+      "danger_signs": [
+        "Water breaking before term",
+        "Bleeding with contractions",
+        "Labour symptoms with reduced fetal movement"
+      ],
+      "confidence_score": 0.85
+    },
+    {
+      "card_id": "t3-reduced-movement-001",
+      "title": "Reduced fetal movement in late pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t3-reduced-movement-001",
+      "document_type": "curated_guidance",
+      "trimester": "T3",
+      "topic_tags": ["fetal_movement", "late_pregnancy", "urgent_review"],
+      "keywords": ["baby moving less", "reduced movement", "baby not moving", "few kicks", "no fetal movement"],
+      "common_questions": [
+        "The baby is moving less today at 31 weeks.",
+        "What should I do if I do not feel the baby move much?",
+        "When is reduced movement urgent?"
+      ],
+      "answer": "Reduced fetal movement in late pregnancy needs prompt review. If the baby is moving less than expected, do not wait for the next routine visit. Contact your midwife, antenatal clinic, or maternity unit as soon as possible for advice and assessment.",
+      "when_to_seek_care": [
+        "Movement is less than usual.",
+        "You are worried because the baby's pattern has changed."
+      ],
+      "danger_signs": [
+        "No fetal movement",
+        "Reduced movement with bleeding",
+        "Reduced movement with severe abdominal pain"
+      ],
+      "confidence_score": 0.91
+    },
+    {
+      "card_id": "t3-headache-001",
+      "title": "Severe headache, vision changes, and blood pressure warning signs",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/t3-headache-001",
+      "document_type": "curated_guidance",
+      "trimester": "T3",
+      "topic_tags": ["headache", "vision_changes", "blood_pressure", "warning_signs"],
+      "keywords": ["severe headache", "blurred vision", "seeing spots", "high blood pressure signs", "preeclampsia symptoms"],
+      "common_questions": [
+        "I have a severe headache and blurred vision in late pregnancy.",
+        "When is headache dangerous in pregnancy?",
+        "Does swelling with headache need urgent care?"
+      ],
+      "answer": "Severe headache, visual disturbance, and swelling can signal a serious pregnancy complication and should be assessed urgently. Do not wait for a routine appointment if these symptoms are happening together or feel intense.",
+      "when_to_seek_care": [
+        "Headache is severe or not settling.",
+        "You also have blurred vision, swelling, or feel generally unwell."
+      ],
+      "danger_signs": [
+        "Severe headache with blurred vision",
+        "Headache with swelling",
+        "Headache with chest pain or shortness of breath"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "all-nutrition-001",
+      "title": "Hydration and nutrition across pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-nutrition-001",
+      "document_type": "curated_guidance",
+      "trimester": "all",
+      "topic_tags": ["nutrition", "hydration", "routine_care"],
+      "keywords": ["nutrition", "hydration", "drink water", "healthy meals", "eat during pregnancy"],
+      "common_questions": [
+        "How can I ensure I am eating healthy?",
+        "How can I eat healthy during pregnancy?",
+        "What should I focus on eating during pregnancy?",
+        "How important is hydration in pregnancy?",
+        "What if I am not eating well?"
+      ],
+      "answer": "Healthy eating in pregnancy usually means regular meals, enough fluids, and a balance of foods that support energy and growth. Try to include a mix of protein foods, iron-rich foods, fruits, vegetables, and everyday staples you tolerate well, and avoid skipping meals for long periods. If nausea, vomiting, heartburn, or poor appetite are making it hard to eat or drink well, that should be discussed with a healthcare professional rather than waiting too long.",
+      "when_to_seek_care": [
+        "You cannot eat or drink well.",
+        "Weight loss or weakness is becoming noticeable."
+      ],
+      "danger_signs": [
+        "Signs of dehydration",
+        "Weakness with dizziness or fainting"
+      ],
+      "confidence_score": 0.79
+    },
+    {
+      "card_id": "all-danger-signs-001",
+      "title": "General pregnancy danger signs",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-danger-signs-001",
+      "document_type": "curated_guidance",
+      "trimester": "all",
+      "topic_tags": ["emergency", "danger_signs", "urgent_care"],
+      "keywords": ["danger signs", "emergency in pregnancy", "when to go to hospital", "urgent pregnancy symptoms"],
+      "common_questions": [
+        "What symptoms are dangerous in pregnancy?",
+        "When should I go to hospital immediately?",
+        "What are emergency warning signs while pregnant?"
+      ],
+      "answer": "Some pregnancy symptoms need urgent attention, including heavy bleeding, severe abdominal pain, chest pain, difficulty breathing, convulsions, severe headache with visual changes, very high fever, or reduced or absent fetal movement later in pregnancy. If these happen, seek emergency care immediately.",
+      "when_to_seek_care": [
+        "Symptoms are new and getting worse.",
+        "You are unsure whether a symptom is an emergency."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Convulsions",
+        "Chest pain or difficulty breathing",
+        "No fetal movement later in pregnancy"
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "card_id": "all-doctor-referral-001",
+      "title": "When to contact a clinic or midwife soon",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-doctor-referral-001",
+      "document_type": "curated_guidance",
+      "trimester": "all",
+      "topic_tags": ["referral", "symptoms", "follow_up"],
+      "keywords": ["pain in pregnancy", "fever in pregnancy", "spotting", "cramping", "discharge", "when to call a midwife"],
+      "common_questions": [
+        "When should I call my midwife?",
+        "Do pain or fever need review in pregnancy?",
+        "What symptoms should be checked at a clinic soon?"
+      ],
+      "answer": "Symptoms such as pain, fever, swelling, spotting, cramping, or unusual discharge should not be ignored in pregnancy. Some may turn out to be mild, but persistent or worsening symptoms deserve review from a midwife, antenatal clinic, or doctor.",
+      "when_to_seek_care": [
+        "Pain or fever does not settle.",
+        "Spotting, cramping, or discharge keeps happening.",
+        "You are worried even if symptoms seem mild."
+      ],
+      "danger_signs": [
+        "Sudden severe pain",
+        "Heavy bleeding",
+        "High fever with confusion or difficulty breathing"
+      ],
+      "confidence_score": 0.86
+    },
+    {
+      "card_id": "all-mental-health-001",
+      "title": "Emotional wellbeing during pregnancy",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-mental-health-001",
+      "document_type": "curated_guidance",
+      "trimester": "all",
+      "topic_tags": ["mental_health", "stress", "support"],
+      "keywords": ["anxious", "sad", "stressed", "worried all the time", "mental health in pregnancy"],
+      "common_questions": [
+        "I feel anxious most days in pregnancy. What should I do?",
+        "Is stress during pregnancy something I should talk about?",
+        "Who should I tell if I feel overwhelmed?"
+      ],
+      "answer": "Emotional stress and anxiety can happen at any stage of pregnancy. Support from trusted people, rest, and talking to a healthcare professional are important, especially if distress is ongoing or beginning to affect daily life.",
+      "when_to_seek_care": [
+        "Anxiety, low mood, or stress feels persistent.",
+        "You are struggling to cope or function normally."
+      ],
+      "danger_signs": [
+        "Feeling unsafe",
+        "Thoughts of self-harm"
+      ],
+      "confidence_score": 0.81
+    },
+    {
+      "card_id": "all-privacy-001",
+      "title": "Safe sharing and privacy in chat",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-privacy-001",
+      "document_type": "policy",
+      "trimester": "all",
+      "topic_tags": ["privacy", "safety", "data_protection"],
+      "keywords": ["privacy", "personal details", "phone number", "ID number", "safe to share"],
+      "common_questions": [
+        "What personal details should I avoid sharing?",
+        "Is it okay to type my phone number or ID here?"
+      ],
+      "answer": "You do not need to share your name, phone number, national ID, or exact home address to ask pregnancy questions. It is safer to describe symptoms and pregnancy stage without sending identifying details.",
+      "when_to_seek_care": [
+        "You need personal clinical follow-up and the chat tool is not enough."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.72
+    },
+    {
+      "card_id": "all-postpartum-001",
+      "title": "Early postpartum basics",
+      "source_name": "MamaCare curated maternal guidance",
+      "source_url": "internal://curated-kb/all-postpartum-001",
+      "document_type": "curated_guidance",
+      "trimester": "all",
+      "topic_tags": ["postpartum", "recovery", "follow_up"],
+      "keywords": ["after birth", "postpartum", "recovery after delivery", "bleeding after birth"],
+      "common_questions": [
+        "Can this assistant help after delivery too?",
+        "When should I seek help after giving birth?",
+        "What postpartum warning signs matter most?"
+      ],
+      "answer": "This prototype can also support basic early postpartum questions. Recovery concerns should still be reviewed by a healthcare professional, and heavy bleeding, fainting, severe pain, or high fever after birth need urgent medical attention.",
+      "when_to_seek_care": [
+        "Bleeding is heavier than expected.",
+        "Pain or fever develops after birth.",
+        "You feel weak, dizzy, or unwell."
+      ],
+      "danger_signs": [
+        "Heavy bleeding after birth",
+        "High fever",
+        "Fainting or collapse"
+      ],
+      "confidence_score": 0.77
+    }
+  ]
+}

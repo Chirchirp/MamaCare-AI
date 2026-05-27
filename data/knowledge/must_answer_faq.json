@@ -1,0 +1,1016 @@
+{
+  "schema_version": "2.0",
+  "title": "MamaCare Must Answer FAQ",
+  "description": "Curated prototype FAQ coverage for common pregnancy, birth, breastfeeding, postpartum, and newborn questions. This file prioritizes clear answers to must-answer maternal questions in the MamaCare prototype.",
+  "last_updated": "2026-05-27",
+  "priority": 100,
+  "cards": [
+    {
+      "card_id": "faq-early-pregnancy-confirmation",
+      "title": "Early pregnancy signs, tests, and first doctor visit",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/early-pregnancy-confirmation",
+      "document_type": "must_answer_faq",
+      "trimester": "T1",
+      "topic_tags": ["early_pregnancy", "pregnancy_test", "hcg"],
+      "keywords": ["pregnant", "pregnancy test", "hcg", "positive test", "doctor visit", "early signs"],
+      "common_questions": [
+        "How do I know if I'm pregnant?",
+        "What are the earliest signs of pregnancy?",
+        "When should I take a pregnancy test?",
+        "How accurate are home pregnancy tests?",
+        "What does a positive pregnancy test look like?",
+        "When should I see a doctor after a positive test?",
+        "What is an HCG level and what should mine be?"
+      ],
+      "answer": "Early pregnancy signs can include a missed period, breast tenderness, tiredness, nausea, frequent urination, and light spotting around implantation. Home pregnancy tests are usually most reliable after a missed period when hCG, the pregnancy hormone, has risen enough to detect. A positive test usually shows two lines, a plus sign, or a clear positive word depending on the brand. After a positive test, it is a good idea to arrange your first antenatal or doctor visit soon so pregnancy dating, routine checks, and next steps can begin. HCG levels rise differently from one pregnancy to another, so one number by itself is not enough to judge whether everything is normal.",
+      "when_to_seek_care": [
+        "Your test is positive and you have pain or bleeding.",
+        "You are unsure how far along you are.",
+        "You have repeated positive or unclear test results and need confirmation."
+      ],
+      "danger_signs": [
+        "Positive pregnancy test with severe one-sided pain",
+        "Positive test with fainting",
+        "Heavy bleeding in early pregnancy"
+      ],
+      "confidence_score": 0.94
+    },
+    {
+      "card_id": "faq-early-pregnancy-symptoms",
+      "title": "Morning sickness, no symptoms, and showing in early pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/early-pregnancy-symptoms",
+      "document_type": "must_answer_faq",
+      "trimester": "T1",
+      "topic_tags": ["morning_sickness", "first_trimester", "symptoms"],
+      "keywords": ["morning sickness", "nausea", "vomiting", "no symptoms", "showing", "heartbeat"],
+      "common_questions": [
+        "What causes morning sickness and when does it start?",
+        "How do I manage nausea and vomiting?",
+        "Is it normal to have no symptoms?",
+        "When does the heartbeat start?",
+        "When do I start showing?"
+      ],
+      "answer": "Morning sickness is thought to be linked to pregnancy hormone changes and often starts in the first trimester. Small, frequent meals, gentle hydration, and bland foods can help, but severe vomiting should be reviewed by a clinician. It is also possible to have very few symptoms and still have a healthy pregnancy, so a lack of symptoms does not automatically mean something is wrong. The baby's heartbeat starts very early in development and is often first seen on scan in early pregnancy, depending on timing. Showing happens at different times for different mothers, and first pregnancies often show a little later.",
+      "when_to_seek_care": [
+        "You cannot keep fluids down.",
+        "You feel very weak, dizzy, or dehydrated.",
+        "You are worried because symptoms changed suddenly."
+      ],
+      "danger_signs": [
+        "Persistent vomiting with dehydration",
+        "Vomiting with severe pain",
+        "Vomiting with bleeding"
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "card_id": "faq-early-bleeding-miscarriage-ectopic",
+      "title": "Spotting, implantation bleeding, miscarriage, and ectopic pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/early-bleeding-miscarriage-ectopic",
+      "document_type": "must_answer_faq",
+      "trimester": "T1",
+      "topic_tags": ["spotting", "miscarriage", "ectopic_pregnancy", "bleeding"],
+      "keywords": ["spotting", "implantation bleeding", "miscarriage", "ectopic pregnancy", "missed miscarriage"],
+      "common_questions": [
+        "What is implantation bleeding?",
+        "Is spotting in early pregnancy normal?",
+        "What is a missed miscarriage?",
+        "What are the signs of miscarriage?",
+        "How common is miscarriage in the first trimester?",
+        "Can stress cause a miscarriage?",
+        "What is an ectopic pregnancy and what are the signs?",
+        "When should I worry about bleeding or spotting?"
+      ],
+      "answer": "Light spotting can happen in early pregnancy, including around implantation, but bleeding should always be taken seriously if it becomes heavier, more painful, or worrying. A miscarriage is a pregnancy loss, and signs can include bleeding, cramping, or loss of pregnancy symptoms, though only a clinician can confirm what is happening. A missed miscarriage is when the pregnancy has stopped developing but may not cause obvious symptoms right away. Stress alone is not usually described as a direct cause of miscarriage, but emotional strain still matters and deserves support. An ectopic pregnancy is when the pregnancy grows outside the womb, often in a fallopian tube, and can become dangerous very quickly.",
+      "when_to_seek_care": [
+        "Spotting keeps happening.",
+        "Bleeding gets heavier or comes with cramps.",
+        "You have pregnancy pain and are unsure what it means."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Severe one-sided abdominal pain",
+        "Fainting or collapse"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "card_id": "faq-first-trimester-care-basics",
+      "title": "Prenatal vitamins, folic acid, exercise, and sex in early pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/first-trimester-care-basics",
+      "document_type": "must_answer_faq",
+      "trimester": "T1",
+      "topic_tags": ["prenatal_vitamins", "folic_acid", "exercise", "sex"],
+      "keywords": ["prenatal vitamins", "folic acid", "exercise first trimester", "sex in pregnancy"],
+      "common_questions": [
+        "What prenatal vitamins should I take?",
+        "How much folic acid do I need?",
+        "Is it safe to exercise in the first trimester?",
+        "Can I have sex during early pregnancy?"
+      ],
+      "answer": "Prenatal vitamins are commonly recommended early in pregnancy, especially because folic acid is important in the first trimester. The exact supplement plan should follow your clinician's advice, but folic acid is usually discussed very early because it supports early fetal development. Gentle exercise is often safe in pregnancy if there are no medical reasons to avoid it, and many mothers can continue walking or other moderate movement. Sex in early pregnancy is often safe unless a clinician has told you otherwise because of bleeding, pain, or a higher-risk situation.",
+      "when_to_seek_care": [
+        "You are unsure which supplements are right for you.",
+        "Exercise causes pain, bleeding, or dizziness.",
+        "Sex causes bleeding or strong cramping."
+      ],
+      "danger_signs": [
+        "Bleeding after intercourse with severe pain",
+        "Exercise-related collapse or chest pain"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-food-safety-core",
+      "title": "Foods to avoid and food safety during pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/food-safety-core",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["nutrition", "food_safety"],
+      "keywords": ["foods to avoid", "fish", "sushi", "deli meat", "soft cheese", "honey", "unpasteurized", "spicy food"],
+      "common_questions": [
+        "What foods should I avoid during pregnancy?",
+        "Is it safe to eat fish?",
+        "Can I eat sushi?",
+        "Can I eat deli meat or hot dogs?",
+        "Is soft cheese safe?",
+        "Is alcohol ever safe during pregnancy?",
+        "Can I drink alcohol during pregnancy?",
+        "Is it safe to eat spicy food?",
+        "Can I eat honey?",
+        "What about unpasteurized foods?"
+      ],
+      "answer": "Food safety matters in pregnancy because some foods carry a higher risk of infection or harm. Raw fish and sushi made with raw seafood are usually avoided, and deli meat or hot dogs should be heated until steaming if eaten. Soft cheese can be safer if it is made from pasteurized milk, but unpasteurized foods are best avoided. Fish can still be part of pregnancy nutrition, but it is wise to follow trusted guidance on safer types and avoid high-mercury choices. Honey is generally discussed as safe for the mother during pregnancy, but food safety advice should still follow local guidance. Alcohol is best avoided during pregnancy because there is no clearly safe amount that can be recommended for every pregnancy.",
+      "when_to_seek_care": [
+        "You ate something risky and now feel unwell.",
+        "You have vomiting, diarrhea, fever, or severe stomach pain after food."
+      ],
+      "danger_signs": [
+        "Fever after suspected food-borne illness",
+        "Severe dehydration from vomiting or diarrhea"
+      ],
+      "confidence_score": 0.93
+    },
+    {
+      "card_id": "faq-pregnancy-nutrition-calories",
+      "title": "Caffeine, water, calories, and general pregnancy eating",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/pregnancy-nutrition-calories",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["nutrition", "hydration", "calories", "caffeine"],
+      "keywords": ["coffee", "tea", "caffeine", "water", "eat for two", "calories", "brain development"],
+      "common_questions": [
+        "Can I drink coffee or caffeine?",
+        "How can I ensure I am eating healthy?",
+        "How can I eat healthy during pregnancy?",
+        "How much water should I drink?",
+        "What should I eat to help baby's brain development?",
+        "Do I need to eat for two?",
+        "How many extra calories do I need?",
+        "How much weight should I gain during pregnancy?"
+      ],
+      "answer": "You do not usually need to fully 'eat for two' in pregnancy, but your body does need good-quality nutrition and enough fluids. Extra calorie needs change by stage, so balance and regular meals matter more than simply eating much larger amounts. Caffeine is often discussed with limits during pregnancy, so it is best to keep intake moderate and follow your clinician's or local guidance. Water needs vary, but staying well hydrated is important throughout pregnancy. Foods that support overall nutrition, including protein, iron-rich foods, healthy fats, and varied meals, help support your baby's growth and development.",
+      "when_to_seek_care": [
+        "You are losing weight unintentionally.",
+        "You are struggling to eat or drink enough.",
+        "You are unsure about healthy weight gain in your own pregnancy."
+      ],
+      "danger_signs": [
+        "Severe dehydration",
+        "Fainting related to poor intake"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-special-diets-and-iron",
+      "title": "Morning sickness foods, vegetarian diets, iron, and gestational diabetes diet",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/special-diets-and-iron",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["nutrition", "iron", "gestational_diabetes", "special_diets"],
+      "keywords": ["vegetarian", "vegan", "iron foods", "gestational diabetes", "morning sickness foods"],
+      "common_questions": [
+        "What foods help with morning sickness?",
+        "Can I follow a vegetarian or vegan diet while pregnant?",
+        "What foods are high in iron?",
+        "How do I manage gestational diabetes through diet?"
+      ],
+      "answer": "Small, plain meals and steady fluids are often easier to tolerate when morning sickness is strong. Vegetarian and vegan diets can still support pregnancy, but they usually need careful attention to protein, iron, vitamin B12, and other nutrients. Iron-rich foods are often part of pregnancy nutrition discussions, especially if anaemia is a concern. If gestational diabetes is diagnosed, diet support should be more structured and personalized, usually focusing on meal balance, carbohydrate planning, and monitoring with your care team.",
+      "when_to_seek_care": [
+        "You cannot keep food down.",
+        "You follow a restricted diet and are unsure if you are meeting your needs.",
+        "You have gestational diabetes and need personalized food guidance."
+      ],
+      "danger_signs": [
+        "Persistent vomiting with dehydration",
+        "Symptoms of very high or very low blood sugar"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-medications-core",
+      "title": "Medication safety in pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/medications-core",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["medications", "safety"],
+      "keywords": ["medications", "paracetamol", "tylenol", "ibuprofen", "antidepressants"],
+      "common_questions": [
+        "Which medications are safe during pregnancy?",
+        "Can I take paracetamol / Tylenol?",
+        "Is ibuprofen safe?",
+        "Can I take antidepressants while pregnant?",
+        "Is it safe to take medications or herbal remedies while pregnant?"
+      ],
+      "answer": "Medication safety in pregnancy depends on the medicine, the stage of pregnancy, and your own health history. Some medicines are commonly discussed as safer than others, but this is not something to decide by general advice alone. Herbal remedies can also be risky because 'natural' does not always mean safe in pregnancy. If you need pain relief or mental health medicine, the safest step is to review it with your doctor or midwife before taking or stopping anything.",
+      "when_to_seek_care": [
+        "You are already taking a medicine and become pregnant.",
+        "You are thinking about starting, stopping, or changing medication.",
+        "You used a medicine or herbal product and feel worried about it."
+      ],
+      "danger_signs": [
+        "Trouble breathing or swelling after taking something",
+        "Collapse or severe reaction after medication use"
+      ],
+      "confidence_score": 0.94
+    },
+    {
+      "card_id": "faq-vaccines-pregnancy",
+      "title": "Vaccines during pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/vaccines-pregnancy",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["vaccines", "flu", "covid"],
+      "keywords": ["vaccination", "flu vaccine", "covid vaccine"],
+      "common_questions": [
+        "What vaccinations are safe or recommended?",
+        "Is the flu vaccine safe during pregnancy?",
+        "Can I get a COVID vaccine while pregnant?"
+      ],
+      "answer": "Vaccines in pregnancy should follow current local and clinician guidance, because some are specifically recommended while others depend on timing and medical history. The flu vaccine and COVID vaccine are commonly asked about in pregnancy, and many mothers discuss them during antenatal care because infection prevention matters for both mother and baby. Your midwife or doctor can tell you which vaccines are recommended in your setting and at what stage.",
+      "when_to_seek_care": [
+        "You are unsure which vaccines are recommended for you.",
+        "You had a reaction after a vaccine."
+      ],
+      "danger_signs": [
+        "Difficulty breathing after vaccination",
+        "Severe allergic reaction"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-safety-lifestyle-travel",
+      "title": "Hair dye, skincare, travel, hot tubs, massage, exercise, sleep, work, and dental safety",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/safety-lifestyle-travel",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["travel", "exercise", "sleep", "beauty", "work", "dental"],
+      "keywords": ["hair dye", "retinol", "salicylic acid", "plane", "zika", "hot tub", "sauna", "massage", "exercise", "sleep on back", "lift heavy", "physical job", "dental procedure"],
+      "common_questions": [
+        "Is it safe to dye my hair?",
+        "Can I use skincare products with retinol or salicylic acid?",
+        "Is it safe to travel by plane?",
+        "What is Zika virus and should I be concerned?",
+        "Can I use a hot tub or sauna?",
+        "Is it safe to get a massage?",
+        "How do I safely exercise during pregnancy?",
+        "What exercises should I avoid?",
+        "Can I sleep on my back?",
+        "When should I stop sleeping on my back?",
+        "Is it safe to lift heavy things?",
+        "Can I continue my job if it involves physical activity?",
+        "Is it safe to have a dental procedure?",
+        "Can I continue exercising, and what types are safe?",
+        "Is it safe to travel, especially by plane, while pregnant?"
+      ],
+      "answer": "Many daily activities can continue in pregnancy with some adjustments, but safety depends on your stage, symptoms, and risk factors. Travel, massage, exercise, sleep position, lifting, and physical work are often safe with sensible precautions, though discomfort or medical complications may change what is recommended. Hot tubs and saunas are commonly discussed with more caution because overheating can be a concern. Some skincare products, including retinoids, are often flagged for review in pregnancy, and beauty treatments are best checked if you are unsure. Dental care is still important in pregnancy, and travel questions should include when you plan to travel and whether you have any complications.",
+      "when_to_seek_care": [
+        "You have pain, bleeding, or dizziness during exercise or travel.",
+        "Your job feels too physically demanding now.",
+        "You have a high-risk pregnancy and need activity advice."
+      ],
+      "danger_signs": [
+        "Chest pain or fainting with activity",
+        "Bleeding or contractions during travel or exercise"
+      ],
+      "confidence_score": 0.88
+    },
+    {
+      "card_id": "faq-headache-swelling-preeclampsia",
+      "title": "Headaches, swelling, preeclampsia signs, gestational hypertension, and PUPPP rash",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/headache-swelling-preeclampsia",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["headache", "swelling", "preeclampsia", "blood_pressure", "rash"],
+      "keywords": ["headache", "swelling", "back pain", "preeclampsia", "gestational hypertension", "puppp"],
+      "common_questions": [
+        "What can I do about back pain, headaches, or swelling?",
+        "What are the signs of preeclampsia?",
+        "What is gestational hypertension?",
+        "What is PUPPP rash?"
+      ],
+      "answer": "Back pain, headaches, and swelling can all happen in pregnancy, but the context matters. Mild discomfort may improve with rest, hydration, posture support, and routine antenatal care. Headache with blurred vision, swelling of the hands or face, or feeling generally unwell can be warning signs of a blood pressure problem such as preeclampsia and should be checked urgently. Gestational hypertension means raised blood pressure that develops in pregnancy and needs monitoring. PUPPP rash is a pregnancy-related itchy rash that can be miserable but is usually not treated like an emergency unless symptoms suggest something more serious.",
+      "when_to_seek_care": [
+        "Headache is strong or keeps returning.",
+        "Swelling becomes sudden or severe.",
+        "Pain is worsening or interfering with normal movement."
+      ],
+      "danger_signs": [
+        "Severe headache with blurred vision",
+        "Swelling with headache and feeling unwell",
+        "Chest pain or breathing difficulty"
+      ],
+      "confidence_score": 0.96
+    },
+    {
+      "card_id": "faq-fever-infections-symptoms",
+      "title": "Fever, infection concerns, and unusual symptoms in pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/fever-infections-symptoms",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["fever", "infection", "symptoms"],
+      "keywords": ["fever", "infection", "unusual symptoms", "discharge", "persistent vomiting", "extreme fatigue"],
+      "common_questions": [
+        "What should I do if I have fever, infections, or unusual symptoms?",
+        "What are warning signs that require immediate medical attention?",
+        "How do I reduce the risk of gestational diabetes or high blood pressure?"
+      ],
+      "answer": "Fever, infection symptoms, unusual discharge, persistent vomiting, and extreme tiredness should not be brushed aside in pregnancy. Some causes are mild, but others need testing or treatment to protect both mother and baby. The best general prevention steps are regular antenatal care, paying attention to symptoms, keeping up with food safety, and following advice on monitoring blood pressure or blood sugar if you are at risk.",
+      "when_to_seek_care": [
+        "Fever or infection symptoms are not settling.",
+        "You feel much worse very quickly.",
+        "Unusual discharge, pain, or dehydration is present."
+      ],
+      "danger_signs": [
+        "High fever with chills",
+        "Confusion or breathing difficulty",
+        "Severe pain with fever"
+      ],
+      "confidence_score": 0.91
+    },
+    {
+      "card_id": "faq-baby-development-basics",
+      "title": "Baby development in pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/baby-development-basics",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["baby_development", "fetal_growth"],
+      "keywords": ["heartbeat", "organs", "size by week", "fingernails", "eyes", "hearing", "dreaming"],
+      "common_questions": [
+        "When does the baby's heart start beating?",
+        "When do organs form?",
+        "When does the baby's heart start beating?",
+        "When does the baby open its eyes?",
+        "When can the baby hear?",
+        "When is the baby considered full-term?",
+        "How big is the baby at each week?",
+        "When do fingernails develop?",
+        "When does the baby start dreaming?",
+        "How do I know if my baby is developing normally?"
+      ],
+      "answer": "Baby development happens step by step throughout pregnancy, and many milestones happen long before a mother can feel or see them. The heartbeat and organ development begin early, while hearing, eye opening, nail development, growth, and maturity continue across the trimesters. Full-term generally refers to the later part of pregnancy when the baby has had more time to mature for life outside the womb. The best way to know whether growth looks normal is through routine antenatal follow-up, measurements, and scans rather than trying to judge it from one symptom alone.",
+      "when_to_seek_care": [
+        "You are worried about fetal growth or development.",
+        "A scan result confused or worried you."
+      ],
+      "danger_signs": [
+        "Reduced or absent movement later in pregnancy",
+        "Bleeding or severe pain with pregnancy concerns"
+      ],
+      "confidence_score": 0.89
+    },
+    {
+      "card_id": "faq-fetal-movement-position",
+      "title": "Feeling the baby move, kick patterns, and baby position",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/fetal-movement-position",
+      "document_type": "must_answer_faq",
+      "trimester": "T2",
+      "topic_tags": ["fetal_movement", "kick_counts", "breech"],
+      "keywords": ["quickening", "baby move", "kicks", "kick count", "breech", "baby position"],
+      "common_questions": [
+        "When can I feel the baby move?",
+        "What does fetal movement feel like?",
+        "How often should I feel baby move?",
+        "What is the baby's position in the womb and when does it matter?",
+        "What is a breech baby?",
+        "When will I feel the baby move?",
+        "How do I track fetal kicks and activity?",
+        "What should I do if I notice reduced fetal movement?",
+        "When do I start feeling the baby move?",
+        "What is quickening?"
+      ],
+      "answer": "Many mothers first notice movement in the second trimester, often described as fluttering, bubbles, tapping, or gentle kicks. Patterns become clearer later in pregnancy, and paying attention to your baby's usual movement matters more than comparing with someone else's experience. Kick counting is usually discussed in late pregnancy when movement patterns are more regular. A breech baby is one who is not head-down, and position becomes more important closer to birth.",
+      "when_to_seek_care": [
+        "Movement is clearly less than usual.",
+        "You are unsure whether what you feel is normal for your stage.",
+        "You are in late pregnancy and the pattern changes suddenly."
+      ],
+      "danger_signs": [
+        "No baby movement for more than 12 hours after 28 weeks",
+        "Reduced movement with bleeding or severe pain"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "card_id": "faq-prenatal-appointments-tests",
+      "title": "Prenatal appointments, first visit, and routine pregnancy tests",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/prenatal-appointments-tests",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["prenatal_appointments", "blood_tests", "screening"],
+      "keywords": ["first prenatal appointment", "blood tests", "glucose", "group b strep", "non-stress test", "biophysical profile"],
+      "common_questions": [
+        "How many prenatal appointments will I have?",
+        "What happens at the first prenatal appointment?",
+        "What blood tests are done during pregnancy?",
+        "What is the glucose tolerance test?",
+        "What does a Group B Strep test involve?",
+        "What is a non-stress test?",
+        "What is a biophysical profile?",
+        "What prenatal tests and ultrasounds will I need?"
+      ],
+      "answer": "Prenatal care includes regular visits that become more frequent as pregnancy progresses. The first appointment often covers dating, medical history, routine blood work, and planning the rest of care. Blood tests and screenings are done at different times depending on local guidance and personal risk. The glucose test checks for gestational diabetes, the Group B Strep test is usually done later in pregnancy, and tests like a non-stress test or biophysical profile are often used when closer monitoring is needed.",
+      "when_to_seek_care": [
+        "You missed appointments and need to catch up.",
+        "A test result was abnormal or unclear.",
+        "You are not sure which tests apply to your pregnancy."
+      ],
+      "danger_signs": [
+        "Symptoms worsening while waiting for an appointment"
+      ],
+      "confidence_score": 0.91
+    },
+    {
+      "card_id": "faq-scans-and-genetic-tests",
+      "title": "Scans, AFP, and genetic testing options",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/scans-and-genetic-tests",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["ultrasound", "genetic_testing", "afp"],
+      "keywords": ["nuchal translucency", "anatomy scan", "amniocentesis", "cvs", "nipt", "gender blood test", "3d ultrasound", "4d ultrasound", "afp"],
+      "common_questions": [
+        "What is the nuchal translucency scan?",
+        "What is the anatomy scan?",
+        "What is an amniocentesis?",
+        "What is chorionic villus sampling (CVS)?",
+        "What is the NIPT test?",
+        "Can I find out the gender via blood test?",
+        "When is a 3D or 4D ultrasound done?",
+        "What does it mean if my AFP levels are high?",
+        "Should I consider genetic testing or screening?"
+      ],
+      "answer": "Scans and genetic tests each answer different questions. The nuchal translucency scan and blood screening can help estimate the chance of certain conditions, while the anatomy scan looks at how the baby is developing. Tests like NIPT, CVS, or amniocentesis are more specific but come with different reasons, timing, and decision points. AFP is one of the blood markers sometimes used in screening, and an unusual result usually means more assessment is needed, not that one conclusion has already been made.",
+      "when_to_seek_care": [
+        "You are deciding whether to have screening or diagnostic testing.",
+        "A scan or blood test result worried you.",
+        "You want help understanding what a test can and cannot tell you."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-second-trimester-common",
+      "title": "Second trimester questions and common symptoms",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/second-trimester-common",
+      "document_type": "must_answer_faq",
+      "trimester": "T2",
+      "topic_tags": ["second_trimester", "quickening", "travel", "leg_cramps"],
+      "keywords": ["second trimester", "round ligament pain", "back pain", "leg cramps", "glucose screening"],
+      "common_questions": [
+        "When does morning sickness usually stop?",
+        "When do I start feeling the baby move?",
+        "What is the anatomy scan and what does it check for?",
+        "Is it safe to announce my pregnancy at 12 weeks?",
+        "What is the glucose screening test and when is it done?",
+        "Why do I have round ligament pain?",
+        "Is back pain normal in the second trimester?",
+        "Why do I have leg cramps?",
+        "Can I still travel in the second trimester?",
+        "The golden trimester"
+      ],
+      "answer": "The second trimester is often called the 'golden trimester' because many mothers start feeling better, though symptoms can still happen. Morning sickness often improves by this stage, and quickening or first noticeable movement commonly begins here. Round ligament pain, back pain, and leg cramps can also show up as the body changes. The anatomy scan and glucose screening are important second-trimester checks, and many mothers find this stage more comfortable for travel if there are no complications.",
+      "when_to_seek_care": [
+        "Pain feels strong or keeps getting worse.",
+        "Travel plans need medical advice because of complications.",
+        "You are unsure whether symptoms are normal or not."
+      ],
+      "danger_signs": [
+        "Severe pain",
+        "Bleeding",
+        "Reduced movement once movements are established"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-third-trimester-basics",
+      "title": "Third trimester discomforts, labor prep, and 36-week questions",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/third-trimester-basics",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["third_trimester", "hospital_bag", "gbs", "breech"],
+      "keywords": ["braxton hicks", "hospital bag", "birth plan", "mucus plug", "water breaks", "36 weeks", "breech", "ecv"],
+      "common_questions": [
+        "What is Braxton Hicks and how does it differ from real labor?",
+        "When should I pack my hospital bag?",
+        "What should I put in my hospital bag?",
+        "What is a birth plan and should I have one?",
+        "What is cervical effacement and dilation?",
+        "What is the mucus plug and what does it mean when it comes out?",
+        "What does it feel like when your water breaks?",
+        "What is a membrane sweep?",
+        "What is lightning crotch?",
+        "Why can't I sleep in the third trimester?",
+        "What is symphysis pubis dysfunction (SPD)?",
+        "What is pelvic girdle pain?",
+        "What happens at 36-week appointments?",
+        "What is a Group B Strep positive result and what does it mean for delivery?",
+        "What if my baby is breech at 36 weeks?",
+        "What is an external cephalic version (ECV)?",
+        "How do I choose a hospital or birth plan?"
+      ],
+      "answer": "The third trimester often brings more discomfort, more anticipation, and more planning. Braxton Hicks are practice contractions and are usually different from real labor because they are less regular and do not keep building in the same way. This is the stage for thinking about your hospital bag, birth plan, baby's position, Group B Strep testing, and what your 36-week checks involve. Pelvic discomfort, trouble sleeping, and pressure sensations can happen, but labor-related symptoms need careful attention if they become regular, painful, or are joined by leaking fluid or bleeding.",
+      "when_to_seek_care": [
+        "Contractions become regular and stronger.",
+        "You think your water may have broken.",
+        "You are told the baby is breech and want to understand next steps."
+      ],
+      "danger_signs": [
+        "Water breaking before 37 weeks",
+        "Heavy bleeding",
+        "No baby movement for more than 12 hours after 28 weeks"
+      ],
+      "confidence_score": 0.93
+    },
+    {
+      "card_id": "faq-recognising-labor",
+      "title": "How to recognise labor and preterm labor",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/recognising-labor",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["labor", "preterm_labor"],
+      "keywords": ["real labor", "active labor", "early labor", "preterm labor", "water breaks"],
+      "common_questions": [
+        "How do I know when I'm in real labor?",
+        "What is the difference between early labor and active labor?",
+        "How will I know I’m in labor?",
+        "What are the signs of preterm labor?",
+        "What is the risk of miscarriage or preterm labor?"
+      ],
+      "answer": "Real labor usually becomes more regular, stronger, and harder to ignore over time, while early labor is often milder and active labor is more established and demanding. Preterm labor means labor signs before term and needs prompt medical review. Leaking fluid, regular painful contractions, pressure, bleeding, or major change in fetal movement are all reasons to call your maternity team or go for assessment.",
+      "when_to_seek_care": [
+        "Contractions are getting stronger and closer together.",
+        "You think labor may be starting too early.",
+        "Your waters may have broken."
+      ],
+      "danger_signs": [
+        "Water breaking before 37 weeks",
+        "Heavy bleeding",
+        "No baby movement for more than 12 hours after 28 weeks"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "card_id": "faq-labor-stages-and-pain-relief",
+      "title": "Stages of labor, labor length, and pain relief options",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/labor-stages-and-pain-relief",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["labor", "epidural", "pain_relief"],
+      "keywords": ["stages of labor", "how long labor lasts", "epidural", "natural birth", "water birth"],
+      "common_questions": [
+        "What are the stages of labor?",
+        "How long does labor last?",
+        "What pain relief options are available?",
+        "What is an epidural and how does it work?",
+        "What are the risks of an epidural?",
+        "Can I have a natural / unmedicated birth in a hospital?",
+        "What is a water birth?",
+        "How long does labor usually last?"
+      ],
+      "answer": "Labor is usually described in stages, beginning with the cervix opening and ending with the birth of the baby and then the placenta. Labor length varies a lot from one mother to another. Pain relief options can include breathing and movement techniques, supportive care, medicines, and epidural anesthesia depending on the setting and your plan. If you are considering options such as unmedicated birth or water birth, it helps to discuss what is available and safe where you plan to deliver.",
+      "when_to_seek_care": [
+        "You are close to birth and want to review pain relief options.",
+        "You are unsure what is available at your planned birth location."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-birth-settings-and-support",
+      "title": "Birth settings, support people, and care providers",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/birth-settings-and-support",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["birth_plan", "doula", "midwife", "obgyn"],
+      "keywords": ["birth center", "home birth", "doula", "midwife", "ob-gyn", "support person", "hospital choice"],
+      "common_questions": [
+        "What is a birth center?",
+        "What is a home birth?",
+        "What is a doula and do I need one?",
+        "What is a midwife vs an OB-GYN?",
+        "Who can be with me during delivery?",
+        "How do I choose a hospital or birth plan?"
+      ],
+      "answer": "Where and with whom you give birth can shape how supported you feel. Hospitals, birth centers, and home birth options differ by local availability, safety criteria, and how much medical support is nearby. A doula offers non-medical support, while a midwife and an OB-GYN have different clinical roles depending on your needs and local care system. It helps to choose a birth setting and support team that match your medical needs, your comfort, and the kind of birth experience you hope for.",
+      "when_to_seek_care": [
+        "You are unsure which birth setting is safest for your pregnancy.",
+        "You need a provider discussion because your pregnancy is higher risk."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.88
+    },
+    {
+      "card_id": "faq-csection-and-birth-procedures",
+      "title": "C-section, VBAC, induction, Pitocin, and birth procedures",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/csection-and-birth-procedures",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["c_section", "induction", "birth_procedures"],
+      "keywords": ["c-section", "emergency c-section", "vbac", "episiotomy", "tearing", "induction", "pitocin", "cervical ripening balloon"],
+      "common_questions": [
+        "What is a cesarean section (C-section)?",
+        "What are the reasons for an emergency C-section?",
+        "What is a VBAC (vaginal birth after cesarean)?",
+        "What is an episiotomy?",
+        "What is perineal tearing and how bad can it be?",
+        "What is induced labor and how is it done?",
+        "What is a cervical ripening balloon?",
+        "What is Pitocin and when is it used?"
+      ],
+      "answer": "A cesarean section is surgery to deliver the baby through the abdomen and uterus, and it may be planned or done urgently if labor or the baby's condition changes. VBAC means planning a vaginal birth after a previous cesarean, but it is not suitable for every situation. Induction means helping labor begin when there is a reason not to wait, and methods can include medicines or mechanical tools such as a cervical ripening balloon. Episiotomy and perineal tearing are both related to the area around the vaginal opening during birth, and your care team can explain how they are managed in your setting.",
+      "when_to_seek_care": [
+        "You are being offered induction and want to understand why.",
+        "You have a previous cesarean and want to discuss VBAC."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-immediately-after-birth",
+      "title": "What happens immediately after birth",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/immediately-after-birth",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["birth", "placenta", "newborn_transition"],
+      "keywords": ["delayed cord clamping", "skin to skin", "apgar", "placenta", "retained placenta", "postpartum hemorrhage"],
+      "common_questions": [
+        "What is delayed cord clamping?",
+        "What is skin-to-skin contact and why is it important?",
+        "What is the Apgar score?",
+        "What happens immediately after birth?",
+        "What is the placenta and what happens to it after birth?",
+        "What is a retained placenta?",
+        "What is postpartum hemorrhage?",
+        "What happens in the first 24 hours after birth?"
+      ],
+      "answer": "Right after birth, attention usually turns to both the baby and the mother's recovery. Skin-to-skin contact, checking the baby, watching bleeding, and delivering the placenta all happen during this period. Delayed cord clamping and the Apgar score are part of many birth conversations because they relate to the baby's transition after birth. A retained placenta or postpartum hemorrhage are important complications because they can become emergencies if not treated quickly.",
+      "when_to_seek_care": [
+        "You want to understand what your birth team may do right after birth.",
+        "You have questions about heavy bleeding after delivery."
+      ],
+      "danger_signs": [
+        "Heavy bleeding after birth",
+        "Fainting after delivery"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "faq-postpartum-physical-recovery",
+      "title": "Postpartum bleeding, recovery, sex, exercise, and stitches",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/postpartum-physical-recovery",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["postpartum", "recovery", "lochia", "csection"],
+      "keywords": ["lochia", "vaginal birth recovery", "c-section recovery", "exercise after birth", "sex after birth", "stitches", "6-week checkup", "diastasis recti"],
+      "common_questions": [
+        "What is postpartum bleeding (lochia) and how long does it last?",
+        "How long does recovery take after a vaginal birth?",
+        "How long does recovery take after a C-section?",
+        "When can I exercise after giving birth?",
+        "When can I have sex after giving birth?",
+        "What is diastasis recti?",
+        "What is a perineal tear recovery like?",
+        "How do I care for stitches after delivery?",
+        "What is the 6-week postpartum checkup?",
+        "How long does postpartum bleeding last?",
+        "How soon can I exercise or resume sexual activity after birth?"
+      ],
+      "answer": "Postpartum recovery is different for every mother and also depends on whether the birth was vaginal or by cesarean. Lochia is the normal bleeding after birth, but the amount and duration can vary. Exercise, sex, healing from tears or stitches, abdominal recovery, and the 6-week checkup are all part of postpartum care planning. Recovery should gradually improve, but ongoing pain, heavy bleeding, or feeling very unwell should be reviewed sooner.",
+      "when_to_seek_care": [
+        "Bleeding stays heavy or starts increasing again.",
+        "Stitches look infected or are becoming more painful.",
+        "Recovery feels much harder than expected."
+      ],
+      "danger_signs": [
+        "Heavy bleeding after birth",
+        "High fever postpartum",
+        "Fainting or severe weakness"
+      ],
+      "confidence_score": 0.93
+    },
+    {
+      "card_id": "faq-postpartum-mental-health",
+      "title": "Baby blues, postpartum depression, anxiety, and psychosis",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/postpartum-mental-health",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["postpartum_mental_health", "anxiety", "ppd"],
+      "keywords": ["baby blues", "postpartum depression", "postpartum psychosis", "postpartum anxiety"],
+      "common_questions": [
+        "What is postpartum depression (PPD)?",
+        "What are the signs of postpartum psychosis?",
+        "What is the baby blues?",
+        "How do I cope with postpartum anxiety?",
+        "What should I expect emotionally (baby blues, postpartum depression)?"
+      ],
+      "answer": "Emotional changes after birth can range from common short-lived baby blues to more serious conditions such as postpartum depression or postpartum psychosis. Baby blues often improve in the early days, while ongoing sadness, anxiety, hopelessness, or feeling unable to cope deserve support quickly. Postpartum psychosis is a medical emergency because it can involve confusion, severe mood changes, or loss of touch with reality. Asking for help early is a sign of strength, not weakness.",
+      "when_to_seek_care": [
+        "Low mood or anxiety does not improve.",
+        "You feel unable to cope or function.",
+        "You are frightened by your thoughts or feelings."
+      ],
+      "danger_signs": [
+        "Feeling unsafe",
+        "Thoughts of self-harm",
+        "Confusion or hallucinations after birth"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "card_id": "faq-breastfeeding-start",
+      "title": "Starting breastfeeding and early milk questions",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/breastfeeding-start",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["breastfeeding", "colostrum", "milk_supply"],
+      "keywords": ["breastfeeding", "colostrum", "milk coming in", "good latch", "enough milk", "c-section breastfeeding"],
+      "common_questions": [
+        "How do I start breastfeeding?",
+        "What is colostrum?",
+        "When does breast milk come in?",
+        "How do I know if my baby is getting enough milk?",
+        "What is a good latch?",
+        "Can I breastfeed if I have a C-section?",
+        "How soon can I breastfeed after delivery?",
+        "What are the benefits and challenges of breastfeeding vs. formula?"
+      ],
+      "answer": "Breastfeeding often starts soon after birth, and the first milk, called colostrum, is small in amount but very important. Milk usually changes over the first days, and many mothers need practice and support with latch, positioning, and confidence. A good latch should feel effective rather than damaging, and feeding patterns plus diaper output are often used to judge whether a baby is getting enough milk. Breastfeeding can still happen after a cesarean, though extra help with positioning and comfort may be needed.",
+      "when_to_seek_care": [
+        "Feeding is very painful.",
+        "You are worried the baby is not getting enough milk.",
+        "You need hands-on breastfeeding support."
+      ],
+      "danger_signs": [
+        "Baby seems too sleepy to feed",
+        "Very poor feeding with few wet diapers"
+      ],
+      "confidence_score": 0.93
+    },
+    {
+      "card_id": "faq-breastfeeding-problems-and-pumping",
+      "title": "Engorgement, mastitis, pumping, milk storage, combination feeding, and weaning",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/breastfeeding-problems-and-pumping",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["breastfeeding", "mastitis", "pumping"],
+      "keywords": ["engorgement", "mastitis", "breast pump", "store breast milk", "combination feeding", "weaning", "alcohol breastfeeding"],
+      "common_questions": [
+        "How do I manage engorgement?",
+        "What is mastitis and how is it treated?",
+        "Is it safe to breastfeed while sick?",
+        "What foods should I avoid while breastfeeding?",
+        "Can I drink alcohol while breastfeeding?",
+        "How do I use a breast pump?",
+        "How do I store breast milk?",
+        "What is combination feeding?",
+        "How do I wean from breastfeeding?",
+        "What contraception options are safe while breastfeeding?"
+      ],
+      "answer": "Breastfeeding can come with challenges such as engorgement, sore breasts, blocked ducts, or mastitis, and early help can make a big difference. Pumping and storing milk safely require practical guidance, especially if you plan to return to work or combine feeding. Questions about illness, alcohol, food, contraception, and weaning are all common and are best discussed in a way that matches your own feeding goals and health history. Mastitis usually needs prompt review because infection and worsening pain should not be ignored.",
+      "when_to_seek_care": [
+        "Breasts are very painful or fever is present.",
+        "You think you may have mastitis.",
+        "You need support with pumping, storage, or weaning."
+      ],
+      "danger_signs": [
+        "High fever with breast pain",
+        "Red painful breast with feeling very unwell"
+      ],
+      "confidence_score": 0.91
+    },
+    {
+      "card_id": "faq-pregnancy-mental-health",
+      "title": "Anxiety, depression, fear of childbirth, and emotional support in pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/pregnancy-mental-health",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["mental_health", "anxiety", "depression", "tokophobia"],
+      "keywords": ["pregnancy anxiety", "prenatal depression", "relationship", "fear of childbirth", "high-risk anxiety", "pregnancy loss grief", "partner support"],
+      "common_questions": [
+        "Is anxiety during pregnancy normal?",
+        "How do I manage pregnancy anxiety?",
+        "What is prenatal depression?",
+        "How does pregnancy affect my relationship?",
+        "How do I cope with a high-risk pregnancy diagnosis?",
+        "What is pregnancy loss grief and where do I find support?",
+        "How do I deal with fear of childbirth (tokophobia)?",
+        "How do partners support during pregnancy?",
+        "What are the benefits and challenges of breastfeeding vs. formula?"
+      ],
+      "answer": "Anxiety, low mood, fear, and relationship stress can all happen during pregnancy, and they deserve care just like physical symptoms do. Prenatal depression and severe anxiety are not signs of weakness. A high-risk diagnosis, previous pregnancy loss, or fear of childbirth can make emotional support even more important. Partners and trusted supporters can help by listening, joining appointments when possible, and helping the mother feel less alone.",
+      "when_to_seek_care": [
+        "Anxiety or low mood is persistent.",
+        "You feel unable to cope.",
+        "You need emotional support after pregnancy loss."
+      ],
+      "danger_signs": [
+        "Thoughts of self-harm",
+        "Feeling unsafe"
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "card_id": "faq-pregnancy-decision-support",
+      "title": "Emotional support for uncertainty about continuing a pregnancy",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/pregnancy-decision-support",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["mental_health", "pregnancy_decision", "counselling"],
+      "keywords": ["abortion", "termination", "ending pregnancy", "unplanned pregnancy", "pregnancy counselling"],
+      "common_questions": [
+        "I am thinking about ending this pregnancy",
+        "I do not want to continue this pregnancy",
+        "Can you help me with abortion advice?",
+        "Can I talk to someone about termination?",
+        "I am not sure I want to continue this pregnancy",
+        "Where can I get counselling about an unplanned pregnancy?"
+      ],
+      "answer": "If you feel unsure about continuing a pregnancy, it can help to speak with a qualified doctor, midwife, reproductive health professional, or counsellor who can support you without judgment. They can help you talk through your emotions, your safety, and the care options available to you. If someone is pressuring you, you feel unsafe, or this situation is affecting your mental health badly, please reach out for in-person support as soon as possible.",
+      "when_to_seek_care": [
+        "You feel overwhelmed and need emotional support.",
+        "You want confidential counselling from a qualified professional.",
+        "You feel pressured, unsafe, or unable to cope."
+      ],
+      "danger_signs": [
+        "Thoughts of self-harm",
+        "Feeling unsafe with another person"
+      ],
+      "confidence_score": 0.95
+    },
+    {
+      "card_id": "faq-high-risk-basics",
+      "title": "What makes a pregnancy high-risk and how common complications are monitored",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/high-risk-basics",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["high_risk_pregnancy", "complications"],
+      "keywords": ["high-risk pregnancy", "advanced maternal age", "twins", "triplets"],
+      "common_questions": [
+        "What makes a pregnancy high-risk?",
+        "How do I manage multiple pregnancies (twins/triplets)?",
+        "What are the risks of advanced maternal age?"
+      ],
+      "answer": "A pregnancy may be called high-risk when there are health conditions, pregnancy complications, or other factors that mean closer monitoring is needed. Multiple pregnancy, age-related risks, diabetes, blood pressure problems, bleeding issues, growth concerns, or previous pregnancy complications can all change the care plan. High-risk does not always mean something will go wrong, but it does mean your team may want more visits, tests, or specialist input.",
+      "when_to_seek_care": [
+        "You were told your pregnancy is high-risk and need a clearer plan.",
+        "You are carrying twins or more and want more support."
+      ],
+      "danger_signs": [],
+      "confidence_score": 0.87
+    },
+    {
+      "card_id": "faq-high-risk-complications-1",
+      "title": "Preeclampsia, gestational diabetes, preterm labor, PROM, and short cervix",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/high-risk-complications-1",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["preeclampsia", "gestational_diabetes", "preterm_labor", "prom", "short_cervix"],
+      "keywords": ["preeclampsia", "gestational diabetes", "preterm labor", "prom", "short cervix", "cerclage"],
+      "common_questions": [
+        "What is preeclampsia and how is it managed?",
+        "What is gestational diabetes and how is it treated?",
+        "What is preterm labor and what are the signs?",
+        "What is PROM (premature rupture of membranes)?",
+        "What is a cervical incompetence / short cervix?",
+        "What is a cerclage?"
+      ],
+      "answer": "Some of the most common higher-risk pregnancy complications involve blood pressure, blood sugar, labor starting too early, or the cervix changing too soon. Preeclampsia needs urgent attention if symptoms suggest it. Gestational diabetes usually needs structured follow-up with diet changes and sometimes more treatment. PROM means the waters break before labor is meant to, and a short cervix or cervical weakness can increase the risk of preterm birth. A cerclage is a stitch sometimes used to help support the cervix in selected pregnancies.",
+      "when_to_seek_care": [
+        "You have been diagnosed with one of these complications.",
+        "You have symptoms that suggest labor is starting too early.",
+        "You think your waters may have broken."
+      ],
+      "danger_signs": [
+        "Water breaking before 37 weeks",
+        "Severe headache with blurred vision",
+        "Regular painful contractions too early"
+      ],
+      "confidence_score": 0.94
+    },
+    {
+      "card_id": "faq-high-risk-complications-2",
+      "title": "Placenta problems, fluid problems, growth restriction, and severe pregnancy conditions",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/high-risk-complications-2",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["placenta", "fluid", "growth_restriction", "severe_complications"],
+      "keywords": ["placenta previa", "placental abruption", "polyhydramnios", "oligohydramnios", "iugr", "hellp", "cholestasis", "hyperemesis", "molar pregnancy", "blighted ovum", "chromosomal abnormalities"],
+      "common_questions": [
+        "What is placenta previa?",
+        "What is placental abruption?",
+        "What is polyhydramnios?",
+        "What is oligohydramnios?",
+        "What is intrauterine growth restriction (IUGR)?",
+        "What is hyperemesis gravidarum?",
+        "What is cholestasis of pregnancy?",
+        "What is HELLP syndrome?",
+        "What is a molar pregnancy?",
+        "What is a blighted ovum?",
+        "What are chromosomal abnormalities and how are they detected?"
+      ],
+      "answer": "Placenta position, amniotic fluid levels, fetal growth, and rare but serious pregnancy conditions may all require closer monitoring or urgent treatment. Placenta previa and placental abruption involve the placenta and can cause bleeding. Polyhydramnios and oligohydramnios refer to too much or too little fluid. IUGR means the baby may not be growing as expected. Hyperemesis, cholestasis, HELLP syndrome, molar pregnancy, blighted ovum, and chromosomal abnormality screening all need medical assessment because they are not conditions a mother can safely judge on her own.",
+      "when_to_seek_care": [
+        "You were told a scan or test suggests one of these complications.",
+        "You have itching, severe vomiting, bleeding, or other concerning symptoms.",
+        "You need help understanding a specialist result."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Severe pain with bleeding",
+        "Severe headache with feeling very unwell"
+      ],
+      "confidence_score": 0.92
+    },
+    {
+      "card_id": "faq-newborn-care-basics",
+      "title": "Newborn feeding, sleep, crying, appointments, and cord care",
+      "source_name": "MamaCare sample health records maternal FAQ",
+      "source_url": "internal://must-answer/newborn-care-basics",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["newborn_care", "safe_sleep", "umbilical_cord", "feeding"],
+      "keywords": ["umbilical cord", "safe sleep", "cluster feeding", "newborn cry", "colic", "vaccines", "pediatrician", "jaundice", "vernix", "bath"],
+      "common_questions": [
+        "What is vernix and should it be wiped off?",
+        "What is jaundice in newborns?",
+        "What is the newborn screening test?",
+        "When does the umbilical cord fall off?",
+        "How do I give a newborn a bath?",
+        "What is safe sleep / back-to-sleep?",
+        "How often should a newborn feed?",
+        "What is cluster feeding?",
+        "What is a normal newborn sleep schedule?",
+        "Why does my newborn cry so much?",
+        "What is colic?",
+        "What vaccinations does a newborn need?",
+        "When is the first pediatrician appointment?",
+        "How do I care for my newborn’s umbilical cord stump?"
+      ],
+      "answer": "The first days with a newborn involve feeding, sleep, settling, diapers, cord care, and routine checks. Safe sleep advice usually focuses on placing the baby on the back to sleep. The cord stump dries and falls off over time, and it should be kept clean and dry. Cluster feeding and frequent waking can be normal in newborns, but feeding should still be watched carefully. Jaundice, newborn screening, early vaccines, crying, colic, bathing, and the first pediatric review are all common newborn topics.",
+      "when_to_seek_care": [
+        "Your baby is feeding poorly.",
+        "The cord stump looks infected.",
+        "You are worried about jaundice, sleepiness, or unusual crying."
+      ],
+      "danger_signs": [
+        "Baby too sleepy to feed",
+        "Fever in a newborn",
+        "Breathing difficulty in a newborn"
+      ],
+      "confidence_score": 0.94
+    }
+  ]
+}
+
