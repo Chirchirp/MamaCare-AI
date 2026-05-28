@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "title": "MamaCare Topic Overviews",
+  "description": "High-level grounded overview cards that match the current supported topic clusters in the MamaCare prototype.",
+  "last_updated": "2026-05-28",
+  "priority": 5,
+  "cards": [
+    {
+      "card_id": "overview-early-pregnancy",
+      "title": "Early pregnancy and first-trimester questions",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/early-pregnancy",
+      "document_type": "must_answer_faq",
+      "trimester": "T1",
+      "topic_tags": ["early_pregnancy", "first_trimester"],
+      "keywords": ["early pregnancy", "first trimester", "pregnancy test", "morning sickness", "spotting", "miscarriage"],
+      "common_questions": [
+        "early pregnancy and first-trimester questions",
+        "What can you tell me about early pregnancy and the first trimester?",
+        "What first-trimester topics can you help with?"
+      ],
+      "answer": "MamaCare can support many early-pregnancy questions, including pregnancy tests, early symptoms, nausea, spotting, miscarriage warning signs, prenatal vitamins, and what usually happens in the first trimester. If you ask about one specific concern, I can usually give a much more useful answer than if the topic stays very broad.",
+      "when_to_seek_care": [
+        "You have heavy bleeding, severe pain, or feel faint.",
+        "You are worried about miscarriage or ectopic pregnancy symptoms."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Severe one-sided pain",
+        "Fainting or collapse"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-nutrition",
+      "title": "Nutrition, hydration, and safe food choices",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/nutrition",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["nutrition", "hydration", "food_safety"],
+      "keywords": ["healthy eating", "nutrition", "hydration", "safe foods", "caffeine", "fish", "water"],
+      "common_questions": [
+        "nutrition, hydration, and safe food choices",
+        "What nutrition topics can you help with in pregnancy?",
+        "What safe food choices should I know about in pregnancy?"
+      ],
+      "answer": "MamaCare can help with healthy pregnancy eating, hydration, food safety, caffeine, fish, weight gain basics, and nutrients like iron and folic acid. The clearest answers usually come when you ask about one nutrition issue at a time, such as water, morning-sickness foods, or foods to avoid.",
+      "when_to_seek_care": [
+        "You are struggling to eat or drink enough.",
+        "You have ongoing vomiting or signs of dehydration."
+      ],
+      "danger_signs": [
+        "Severe dehydration",
+        "Fainting related to poor intake"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-symptoms-warning-signs",
+      "title": "Common pregnancy symptoms and warning signs",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/symptoms-warning-signs",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["symptoms", "warning_signs"],
+      "keywords": ["symptoms", "warning signs", "headache", "swelling", "bleeding", "pain", "vomiting"],
+      "common_questions": [
+        "common pregnancy symptoms and warning signs",
+        "What symptoms and warning signs can you help with?",
+        "Which pregnancy warning signs should I watch for?"
+      ],
+      "answer": "MamaCare can support common symptom questions such as nausea, swelling, headache, back pain, spotting, vomiting, and when symptoms may need medical review. It is especially useful when the question names the symptom clearly, because that helps me match it to the right guidance and warning signs.",
+      "when_to_seek_care": [
+        "Your symptoms are worsening or not settling.",
+        "You are unsure whether what you feel is normal for pregnancy."
+      ],
+      "danger_signs": [
+        "Heavy bleeding",
+        "Severe abdominal pain",
+        "Severe headache with blurred vision"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-baby-development",
+      "title": "Baby development and fetal movement",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/baby-development",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["baby_development", "fetal_movement"],
+      "keywords": ["baby development", "fetal movement", "quickening", "kick counts", "heartbeat"],
+      "common_questions": [
+        "baby development and fetal movement",
+        "What baby development topics can you help with?",
+        "What can you tell me about fetal movement?"
+      ],
+      "answer": "MamaCare can help with common questions about fetal development, heartbeat timing, first movements, kick awareness, and how movement patterns usually change as pregnancy progresses. If your concern is specifically about reduced movement, that is best asked directly so the response can focus on the warning signs and next steps.",
+      "when_to_seek_care": [
+        "You notice movement is clearly less than usual.",
+        "You are unsure how to think about movement for your stage."
+      ],
+      "danger_signs": [
+        "No baby movement for more than 12 hours after 28 weeks",
+        "Reduced movement with bleeding or severe pain"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-antenatal-tests",
+      "title": "Antenatal tests, scans, and appointments",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/antenatal-tests",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["antenatal_care", "tests", "scans"],
+      "keywords": ["antenatal visits", "tests", "scans", "glucose test", "group b strep", "nipt"],
+      "common_questions": [
+        "antenatal tests, scans, and appointments",
+        "What tests and scans can you help explain?",
+        "What antenatal appointment topics can you help with?"
+      ],
+      "answer": "MamaCare can support many routine antenatal care questions, including the first prenatal visit, blood tests, glucose testing, Group B Strep, anatomy scans, and some common screening terms. The best answers usually come when you name the exact test, scan, or appointment you want explained.",
+      "when_to_seek_care": [
+        "You have results you do not understand.",
+        "You have missed important follow-up and need guidance on what to ask next."
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-late-pregnancy-changes",
+      "title": "Second- and third-trimester changes",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/late-pregnancy-changes",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["second_trimester", "third_trimester"],
+      "keywords": ["second trimester", "third trimester", "quickening", "braxton hicks", "round ligament pain"],
+      "common_questions": [
+        "second- and third-trimester changes",
+        "What second- and third-trimester changes can you help explain?",
+        "What should I expect later in pregnancy?"
+      ],
+      "answer": "MamaCare can help with many later-pregnancy topics such as quickening, anatomy scans, round ligament pain, Braxton Hicks, sleep changes, discomforts, and 36-week questions. If your question is about one specific change, the answer will usually be more exact and more useful.",
+      "when_to_seek_care": [
+        "You are worried the change feels sudden or severe.",
+        "You are late in pregnancy and symptoms are changing quickly."
+      ],
+      "danger_signs": [
+        "Bleeding",
+        "Leaking fluid",
+        "Strong regular painful contractions too early"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-labor-birth-prep",
+      "title": "Labor, delivery, and birth preparation",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/labor-birth-prep",
+      "document_type": "must_answer_faq",
+      "trimester": "T3",
+      "topic_tags": ["labor", "delivery", "birth_preparation"],
+      "keywords": ["labor", "delivery", "birth preparation", "hospital bag", "birth plan", "pain relief"],
+      "common_questions": [
+        "labor, delivery, and birth preparation",
+        "What labor and delivery topics can you help with?",
+        "What birth preparation questions can you answer?"
+      ],
+      "answer": "MamaCare can support many birth-related questions, including signs of labor, stages of labor, pain relief options, hospital bag planning, birth settings, C-section basics, and what happens right after birth. If you are feeling anxious about birth, asking the exact part you are worried about usually leads to a clearer answer.",
+      "when_to_seek_care": [
+        "You think labor may be starting too early.",
+        "You have questions about delivery plans because of a medical concern."
+      ],
+      "danger_signs": [
+        "Water breaking before 37 weeks",
+        "Heavy bleeding",
+        "Regular painful contractions too early"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-postpartum-newborn",
+      "title": "Postpartum recovery and immediate newborn basics",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/postpartum-newborn",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["postpartum", "newborn"],
+      "keywords": ["postpartum recovery", "lochia", "newborn basics", "umbilical cord", "safe sleep"],
+      "common_questions": [
+        "postpartum recovery and immediate newborn basics",
+        "What postpartum topics can you help with?",
+        "What immediate newborn basics can you explain?"
+      ],
+      "answer": "MamaCare can help with early postpartum recovery, normal bleeding after birth, emotional recovery, immediate newborn care, and first-day newborn basics. It is most helpful when you ask about one part clearly, such as lochia, stitches, umbilical cord care, or safe sleep.",
+      "when_to_seek_care": [
+        "You have heavy bleeding, severe pain, or high fever after birth.",
+        "You are worried your newborn seems unwell."
+      ],
+      "danger_signs": [
+        "Heavy bleeding after birth",
+        "Fever after birth",
+        "A very sleepy or difficult-to-wake newborn"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-breastfeeding",
+      "title": "Breastfeeding and feeding support",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/breastfeeding",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["breastfeeding", "feeding_support"],
+      "keywords": ["breastfeeding", "latch", "colostrum", "engorgement", "mastitis", "milk supply"],
+      "common_questions": [
+        "breastfeeding and feeding support",
+        "What breastfeeding topics can you help with?",
+        "What feeding support can you explain?"
+      ],
+      "answer": "MamaCare can support common breastfeeding questions such as how breastfeeding starts, what colostrum is, latch, engorgement, pumping, and how to tell whether feeding seems to be going well. If the issue is pain, fever, or a sick baby, it helps to ask directly because those situations need closer attention.",
+      "when_to_seek_care": [
+        "Feeds are very painful or your baby seems not to be feeding well.",
+        "You have fever, breast redness, or feel unwell while breastfeeding."
+      ],
+      "danger_signs": [
+        "Fever with a painful red breast",
+        "A baby who is not feeding or waking well"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-emotional-wellbeing",
+      "title": "Emotional wellbeing in pregnancy and after birth",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/emotional-wellbeing",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["mental_health", "emotional_wellbeing"],
+      "keywords": ["emotional wellbeing", "anxiety", "depression", "fear of childbirth", "baby blues", "postpartum depression"],
+      "common_questions": [
+        "emotional wellbeing in pregnancy and after birth",
+        "What emotional wellbeing topics can you help with?",
+        "What mental health questions can you support in pregnancy?"
+      ],
+      "answer": "MamaCare can support common emotional-health questions in pregnancy and after birth, including anxiety, fear of childbirth, prenatal depression, baby blues, postpartum depression, and asking for support. If the concern is urgent, or if there are thoughts of self-harm, that needs immediate in-person help rather than a general guidance answer.",
+      "when_to_seek_care": [
+        "Low mood or anxiety is persistent or worsening.",
+        "You feel unable to cope or are not feeling safe."
+      ],
+      "danger_signs": [
+        "Thoughts of self-harm",
+        "Confusion or hallucinations after birth"
+      ],
+      "confidence_score": 0.9
+    },
+    {
+      "card_id": "overview-higher-risk-pregnancy",
+      "title": "Higher-risk pregnancy conditions and when to seek care",
+      "source_name": "MamaCare supported topic overviews",
+      "source_url": "internal://topic-overviews/higher-risk-pregnancy",
+      "document_type": "must_answer_faq",
+      "trimester": "all",
+      "topic_tags": ["high_risk_pregnancy", "complications"],
+      "keywords": ["higher-risk pregnancy", "high-risk pregnancy", "preeclampsia", "gestational diabetes", "placenta previa", "seek care"],
+      "common_questions": [
+        "higher-risk pregnancy conditions and when to seek care",
+        "What higher-risk pregnancy conditions should I know about and when should I seek care?",
+        "What high-risk pregnancy conditions can you help explain?"
+      ],
+      "answer": "MamaCare can help explain several higher-risk pregnancy conditions, especially preeclampsia, gestational diabetes, preterm labor, waters breaking too early, placenta-related problems, severe vomiting, and other complications that may need closer monitoring. The safest next step is usually to ask about the exact condition you are worried about, because the advice and warning signs differ from one complication to another.",
+      "when_to_seek_care": [
+        "You have been told you have a high-risk pregnancy and need help understanding what that means.",
+        "You have symptoms that could fit a complication and want to know whether they need urgent review."
+      ],
+      "danger_signs": [
+        "Severe headache with blurred vision",
+        "Heavy bleeding",
+        "Waters breaking too early"
+      ],
+      "confidence_score": 0.92
+    }
+  ]
+}

@@ -50,6 +50,8 @@ class ChromaVectorStore:
         self.db_path.mkdir(parents=True, exist_ok=True)
         self._client = None
         self._embedding_model = None
+        self._has_index_cache: bool | None = None
+        self._collection_count_cache: int | None = None
 
     @property
     def manifest_path(self) -> Path:
@@ -117,6 +119,8 @@ class ChromaVectorStore:
             "source_paths": [source["path"] for source in unique_sources],
         }
         self.manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+        self._has_index_cache = True
+        self._collection_count_cache = len(unique_cards)
 
         return IndexStats(
             source_count=len(unique_sources),
@@ -127,14 +131,22 @@ class ChromaVectorStore:
         )
 
     def has_index(self) -> bool:
+        if self._has_index_cache is not None:
+            return self._has_index_cache
         if not self.dependencies_available():
+            self._has_index_cache = False
             return False
         if not self.db_path.exists() or not self.manifest_path.exists():
+            self._has_index_cache = False
             return False
         try:
             collection = self._get_collection()
-            return collection.count() > 0
+            count = collection.count()
+            self._collection_count_cache = count
+            self._has_index_cache = count > 0
+            return self._has_index_cache
         except Exception:
+            self._has_index_cache = False
             return False
 
     def search(self, query: str, *, trimester: str = "all", top_k: int = 4) -> list[RetrievalResult]:
@@ -143,7 +155,8 @@ class ChromaVectorStore:
 
         collection = self._get_collection()
         query_embedding = self._embed_texts([query])[0]
-        candidate_count = min(max(top_k * 4, 8), max(collection.count(), 1))
+        collection_size = self._get_collection_size(collection)
+        candidate_count = min(max(top_k * 4, 8), max(collection_size, 1))
         payload = collection.query(
             query_embeddings=[query_embedding],
             n_results=candidate_count,
@@ -205,9 +218,27 @@ class ChromaVectorStore:
     def _get_collection(self):
         return self._get_client().get_collection(self.collection_name)
 
+    def _get_collection_size(self, collection) -> int:
+        if self._collection_count_cache is not None:
+            return self._collection_count_cache
+        manifest = self.read_manifest()
+        if isinstance(manifest.get("chunk_count"), int):
+            self._collection_count_cache = int(manifest["chunk_count"])
+            return self._collection_count_cache
+        count = collection.count()
+        self._collection_count_cache = count
+        return count
+
     def _get_embedding_model(self):
         if self._embedding_model is None:
-            self._embedding_model = SentenceTransformer(self.embedding_model_name)
+            try:
+                self._embedding_model = SentenceTransformer(self.embedding_model_name)
+            except Exception as exc:  # pragma: no cover - depends on local env
+                raise RuntimeError(
+                    "The local embedding model could not load. This environment may be missing "
+                    "a dependency such as torchvision. Install requirements and, if needed, "
+                    "'pip install torchvision' before rebuilding or querying the semantic index."
+                ) from exc
         return self._embedding_model
 
     def _embed_texts(self, texts: list[str]) -> list[list[float]]:

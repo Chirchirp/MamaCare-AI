@@ -8,6 +8,7 @@ applies guardrails, performs retrieval, and returns a final assistant response.
 from __future__ import annotations
 
 import re
+from difflib import SequenceMatcher
 from pathlib import Path
 
 from mamacare_ai.generator import build_answer
@@ -23,6 +24,19 @@ TRIMESTER_WEEK_RULES = (
     (13, "T1"),
     (26, "T2"),
 )
+SUPPORTED_TOPIC_CLUSTERS = [
+    "early pregnancy and first-trimester questions",
+    "nutrition, hydration, and safe food choices",
+    "common pregnancy symptoms and warning signs",
+    "baby development and fetal movement",
+    "antenatal tests, scans, and appointments",
+    "second- and third-trimester changes",
+    "labor, delivery, and birth preparation",
+    "postpartum recovery and immediate newborn basics",
+    "breastfeeding and feeding support",
+    "emotional wellbeing in pregnancy and after birth",
+    "higher-risk pregnancy conditions and when to seek care",
+]
 
 
 # ---------------------------------------------------------------------------
@@ -47,12 +61,13 @@ class MamaCareService:
             self.knowledge_base = load_knowledge_base(knowledge_base_path)
             self.retriever = SimpleRetriever(self.knowledge_base.cards)
         self.guardrails = GuardrailEngine()
+        self.supported_topics = list(SUPPORTED_TOPIC_CLUSTERS)
 
     @classmethod
     def from_repo_root(cls, root: Path) -> "MamaCareService":
         db_path = root / "data" / "index" / "chroma_db"
         knowledge_dir = root / "data" / "knowledge"
-        if db_path.exists() and not _knowledge_dir_is_newer(knowledge_dir, db_path / "manifest.json"):
+        if db_path.exists():
             if knowledge_dir.exists():
                 return cls(knowledge_dir, db_path=db_path)
             return cls(root / "data" / "seed" / "knowledge_base.json", db_path=db_path)
@@ -73,6 +88,8 @@ class MamaCareService:
         inferred_trimester = self._infer_trimester(query)
         trimester_used = trimester if trimester != "all" else inferred_trimester
         query_mode = detect_query_mode(query)
+        retrieval_query = _rewrite_query_for_retrieval(query)
+        effective_query = _augment_query_with_history(retrieval_query, conversation_history)
 
         outcome = self.guardrails.analyze(query)
         if query_mode != "normal":
@@ -80,22 +97,38 @@ class MamaCareService:
         elif outcome.out_of_scope or outcome.emergency_message or outcome.crisis_message:
             results = []
         else:
-            lexical_results = self.retriever.search(query, trimester=trimester_used, top_k=6)
+            lexical_results = self.retriever.search(effective_query, trimester=trimester_used, top_k=6)
             if _can_answer_from_fast_path(lexical_results):
                 results = _prioritize_trusted_results(lexical_results, top_k=4)
             elif self.vector_store and self.vector_store.has_index():
-                semantic_results = self.vector_store.search(query, trimester=trimester_used, top_k=6)
+                try:
+                    semantic_results = self.vector_store.search(effective_query, trimester=trimester_used, top_k=6)
+                except RuntimeError:
+                    semantic_results = []
                 merged = _merge_retrieval_results(semantic_results, lexical_results, top_k=6)
                 results = _prioritize_trusted_results(merged, top_k=4)
             else:
                 results = _prioritize_trusted_results(lexical_results, top_k=4)
-            results = _enforce_context_guardrail(query, results)
+            results = _select_specific_grounded_results(
+                query,
+                results,
+                alternate_queries=[effective_query, retrieval_query],
+            )
         answer = build_answer(
             query,
             trimester_used,
             results,
             outcome,
             conversation_history=conversation_history,
+            supported_topics=self.supported_topics,
+        )
+        out_of_context = (
+            query_mode == "normal"
+            and not results
+            and not outcome.out_of_scope
+            and not outcome.emergency_message
+            and not outcome.crisis_message
+            and "SENSITIVE_COUNSELLING" not in outcome.flags
         )
         citations = [
             {
@@ -112,6 +145,8 @@ class MamaCareService:
             citations=citations,
             flags=outcome.flags,
             trimester_used=trimester_used,
+            out_of_context=out_of_context,
+            supported_topics=self.supported_topics if out_of_context else [],
         )
 
     def _infer_trimester(self, query: str) -> str:
@@ -145,6 +180,72 @@ def _knowledge_dir_is_newer(knowledge_dir: Path, db_path: Path) -> bool:
         if path.stat().st_mtime > db_mtime:
             return True
     return False
+
+
+def _rewrite_query_for_retrieval(query: str) -> str:
+    normalized = " ".join(query.split())
+    lowered = normalized.lower()
+
+    for pattern in (
+        r"^(?:can you\s+)?tell me more (?:on|about)\s+(.+)$",
+        r"^(?:can you\s+)?explain\s+(.+)$",
+        r"^(?:help me understand)\s+(.+)$",
+    ):
+        match = re.match(pattern, normalized, re.IGNORECASE)
+        if match:
+            topic = match.group(1).strip().rstrip("?.! ")
+            if topic:
+                return topic
+
+    symptom_pattern = re.compile(
+        r"^(?:i\s+am|i'm|im|i\s+have|i'm\s+having|i\s+am\s+having)\s+(.+?)[,?.!]\s*(what\s+can\s+i\s+do.*)$",
+        re.IGNORECASE,
+    )
+    symptom_match = symptom_pattern.match(normalized)
+    if symptom_match:
+        symptom = symptom_match.group(1).strip().rstrip("?.! ")
+        symptom = re.sub(r"^(?:having|a|an)\s+", "", symptom, flags=re.IGNORECASE).strip()
+        ask = symptom_match.group(2).strip().rstrip("?.! ")
+        if symptom and ask:
+            return f"{ask} about {symptom}"
+
+    pattern = re.compile(
+        r"^(?:i am|i'm|im)\s+(?:really\s+)?(?:scared|afraid|worried|anxious)\s+about\s+([^,?.!]+)[, ]+(.*)$",
+        re.IGNORECASE,
+    )
+    match = pattern.match(normalized)
+    if match:
+        topic = match.group(1).strip()
+        rest = match.group(2).strip()
+        if rest:
+            rest = rest.rstrip("?.! ")
+            return f"{rest} about {topic}".strip()
+
+    return normalized
+
+
+def _augment_query_with_history(query: str, conversation_history: list[dict] | None) -> str:
+    if not conversation_history:
+        return query
+    lowered = query.lower().strip()
+    if len(tokenize(query)) > 5:
+        return query
+    follow_up_markers = (
+        "tell me more",
+        "what about that",
+        "what about this",
+        "can you explain more",
+        "and that",
+        "and this",
+    )
+    if not any(marker in lowered for marker in follow_up_markers):
+        return query
+
+    for item in reversed(conversation_history):
+        content = str(item.get("content", "")).strip()
+        if item.get("role") == "user" and content:
+            return f"{content} {query}".strip()
+    return query
 
 
 def _merge_retrieval_results(
@@ -203,7 +304,12 @@ def _prioritize_trusted_results(results: list[RetrievalResult], *, top_k: int) -
     return ranked
 
 
-def _enforce_context_guardrail(query: str, results: list[RetrievalResult]) -> list[RetrievalResult]:
+def _enforce_context_guardrail(
+    query: str,
+    results: list[RetrievalResult],
+    *,
+    alternate_queries: list[str] | None = None,
+) -> list[RetrievalResult]:
     if not results:
         return []
     top = results[0]
@@ -211,9 +317,47 @@ def _enforce_context_guardrail(query: str, results: list[RetrievalResult]) -> li
         return []
     if top.score < 0.68:
         return []
-    if not _is_specific_grounded_match(query, top):
+    candidate_queries = [query]
+    if alternate_queries:
+        candidate_queries.extend(item for item in alternate_queries if item and item not in candidate_queries)
+    if not any(_is_specific_grounded_match(candidate_query, top) for candidate_query in candidate_queries):
         return []
     return results
+
+
+def _select_specific_grounded_results(
+    query: str,
+    results: list[RetrievalResult],
+    *,
+    alternate_queries: list[str] | None = None,
+) -> list[RetrievalResult]:
+    if not results:
+        return []
+    candidate_queries = [query]
+    if alternate_queries:
+        candidate_queries.extend(item for item in alternate_queries if item and item not in candidate_queries)
+
+    trusted = [result for result in results if is_trusted_answer_source(result.chunk)]
+    if not trusted:
+        return []
+
+    specific: list[RetrievalResult] = []
+    broad: list[RetrievalResult] = []
+    for result in trusted:
+        if any(_is_specific_grounded_match(candidate_query, result) for candidate_query in candidate_queries):
+            specific.append(result)
+        else:
+            broad.append(result)
+
+    if not specific:
+        return []
+
+    chosen = specific + broad
+    return _enforce_context_guardrail(
+        query,
+        chosen,
+        alternate_queries=alternate_queries,
+    )
 
 
 def _is_specific_grounded_match(query: str, result: RetrievalResult) -> bool:
@@ -222,6 +366,8 @@ def _is_specific_grounded_match(query: str, result: RetrievalResult) -> bool:
     aliases = {normalize_text(item) for item in chunk.common_questions if item.strip()}
     if normalized_query in aliases:
         return True
+    if any(SequenceMatcher(None, normalized_query, alias).ratio() >= 0.83 for alias in aliases):
+        return True
 
     query_terms = set(tokenize(query))
     if not query_terms:
@@ -229,7 +375,10 @@ def _is_specific_grounded_match(query: str, result: RetrievalResult) -> bool:
     keyword_terms = set(tokenize(" ".join(chunk.keywords + chunk.topic_tags)))
     answer_terms = set(tokenize(chunk.title + " " + " ".join(chunk.common_questions)))
     matched_terms = query_terms & (keyword_terms | answer_terms)
+    overlap_ratio = len(matched_terms) / max(1, len(query_terms))
 
     if len(query_terms) <= 2:
         return len(matched_terms) == len(query_terms)
-    return len(matched_terms) >= 2
+    if len(query_terms) <= 4:
+        return overlap_ratio >= 0.6
+    return len(matched_terms) >= 2 and overlap_ratio >= 0.45
