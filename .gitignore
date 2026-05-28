@@ -15,7 +15,6 @@ venv/
 data/index/chroma_db/
 data/index/*.sqlite
 artifacts/
-data/external/
 data/training/
 
 # OS / editor noise

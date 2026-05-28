@@ -18,6 +18,7 @@ if str(SRC) not in sys.path:
 
 try:
     import streamlit as st
+    import streamlit.components.v1 as components
 except ImportError as exc:  # pragma: no cover
     raise SystemExit(
         "Streamlit is required to run this app. Install dependencies with "
@@ -30,7 +31,7 @@ from mamacare_ai.service import MamaCareService
 st.set_page_config(
     page_title="MamaCare AI",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 @st.cache_resource(show_spinner=False)
@@ -47,27 +48,47 @@ def render_styles() -> None:
     st.markdown(
         """
         <style>
+        :root {
+            color-scheme: light;
+            --mc-bg: linear-gradient(180deg, #fffaf6 0%, #fff8f3 100%);
+            --mc-text: #2f231d;
+            --mc-heading: #4c2d22;
+            --mc-soft-text: #5e4436;
+            --mc-muted-text: #7a5b4a;
+            --mc-surface: rgba(255, 255, 255, 0.92);
+            --mc-surface-strong: rgba(255, 255, 255, 0.98);
+            --mc-surface-soft: rgba(255, 250, 246, 0.96);
+            --mc-border: rgba(179, 127, 96, 0.12);
+            --mc-shadow: 0 4px 12px rgba(126, 83, 58, 0.05);
+            --mc-assistant-bg: #ffffff;
+            --mc-assistant-border: rgba(179, 127, 96, 0.16);
+            --mc-user-bg: rgba(254, 243, 235, 0.95);
+            --mc-user-border: rgba(217, 164, 129, 0.15);
+            --mc-chip-bg: rgba(255, 247, 240, 0.9);
+            --mc-chip-selected: rgba(247, 224, 207, 0.8);
+            --mc-status-bg: rgba(249, 228, 212, 0.2);
+        }
         .stApp {
-            background: linear-gradient(180deg, #fffaf6 0%, #fff8f3 100%);
-            color: #2f231d;
+            background: var(--mc-bg);
+            color: var(--mc-text);
         }
         .block-container {
-            max-width: 900px;
+            max-width: 980px;
             padding-top: 0.08rem;
             padding-bottom: 1rem;
-            padding-left: 0.5rem;
-            padding-right: 0.5rem;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
         }
         h1, h2, h3 {
             font-family: "Iowan Old Style", "Palatino Linotype", serif;
-            color: #4c2d22;
+            color: var(--mc-heading);
         }
         p, li, label, div, span {
             font-family: "Aptos", "Trebuchet MS", sans-serif;
         }
         [data-testid="stSidebar"] {
-            background: rgba(255, 255, 255, 0.9);
-            border-right: 1px solid rgba(179, 127, 96, 0.12);
+            background: var(--mc-surface);
+            border-right: 1px solid var(--mc-border);
         }
         button[title="View fullscreen"] {
             display: none;
@@ -78,35 +99,35 @@ def render_styles() -> None:
         .sidebar-card {
             border-radius: 16px;
             padding: 0.9rem 1rem;
-            background: rgba(255, 250, 246, 0.96);
-            border: 1px solid rgba(179, 127, 96, 0.12);
+            background: var(--mc-surface-soft);
+            border: 1px solid var(--mc-border);
             margin-bottom: 0.8rem;
-            box-shadow: 0 4px 12px rgba(126, 83, 58, 0.04);
+            box-shadow: var(--mc-shadow);
         }
         .sidebar-title {
             font-family: "Iowan Old Style", "Palatino Linotype", serif;
             font-size: 1rem;
-            color: #4c2d22;
+            color: var(--mc-heading);
             font-weight: 700;
             margin-bottom: 0.35rem;
         }
         .sidebar-copy {
-            color: #5e4436;
+            color: var(--mc-soft-text);
             font-size: 0.88rem;
             line-height: 1.6;
         }
         .sidebar-note {
-            color: #7a5b4a;
+            color: var(--mc-muted-text);
             font-size: 0.82rem;
             line-height: 1.55;
         }
         .hero-card {
             border-radius: 16px;
             padding: 0.8rem 1rem;
-            background: rgba(255, 255, 255, 0.8);
-            border: 1px solid rgba(179, 127, 96, 0.1);
+            background: var(--mc-surface);
+            border: 1px solid var(--mc-border);
             margin-bottom: 0.5rem;
-            max-width: 900px;
+            max-width: 980px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -114,19 +135,19 @@ def render_styles() -> None:
             position: sticky;
             top: 0.15rem;
             z-index: 1000;
-            max-width: 900px;
+            max-width: 980px;
             margin: 0 auto 0.3rem;
             padding: 0.5rem 0.9rem;
             border-radius: 12px;
-            background: rgba(255, 255, 255, 0.92);
-            border: 1px solid rgba(179, 127, 96, 0.1);
-            box-shadow: 0 4px 12px rgba(126, 83, 58, 0.05);
+            background: var(--mc-surface);
+            border: 1px solid var(--mc-border);
+            box-shadow: var(--mc-shadow);
             backdrop-filter: blur(8px);
         }
         .app-bar-title {
             font-family: "Iowan Old Style", "Palatino Linotype", serif;
             font-size: 1.1rem;
-            color: #4c2d22;
+            color: var(--mc-heading);
             font-weight: 700;
             margin: 0;
         }
@@ -143,16 +164,16 @@ def render_styles() -> None:
         .hero-copy {
             font-size: 0.9rem;
             line-height: 1.5;
-            color: #5e4436;
+            color: var(--mc-soft-text);
             margin: 0;
         }
         .hero-subcopy {
             margin: 0;
-            color: #74584a;
+            color: var(--mc-muted-text);
             font-size: 0.88rem;
         }
         div[data-testid="stChatMessageContainer"] {
-            max-width: 900px;
+            max-width: 980px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -160,25 +181,26 @@ def render_styles() -> None:
             border-radius: 16px;
             padding: 0.2rem 0.25rem;
             margin-bottom: 0.6rem;
+            background: transparent;
         }
         div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] {
-            background: linear-gradient(180deg, #fff6cc 0%, #fff8da 100%);
-            border: 1px solid rgba(215, 187, 92, 0.32);
+            background: var(--mc-assistant-bg);
+            border: 1px solid var(--mc-assistant-border);
             box-shadow: 0 6px 14px rgba(126, 83, 58, 0.05);
             border-radius: 18px;
         }
         div[data-testid="stChatMessage"][aria-label="Chat message from user"] {
-            background: rgba(254, 243, 235, 0.95);
-            border: 1px solid rgba(217, 164, 129, 0.15);
+            background: var(--mc-user-bg);
+            border: 1px solid var(--mc-user-border);
         }
         div[data-testid="stChatMessageContent"] p {
-            color: #47342a;
+            color: var(--mc-text);
             line-height: 1.6;
             font-size: 0.95rem;
             margin: 0.3rem 0;
         }
         div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] div[data-testid="stMarkdownContainer"] {
-            color: #4b3624;
+            color: var(--mc-text);
         }
         div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] ul,
         div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] li {
@@ -188,58 +210,184 @@ def render_styles() -> None:
             background: transparent !important;
             padding: 0.35rem 0.45rem;
         }
+        div[data-testid="stChatMessageContent"] > div {
+            background: transparent !important;
+        }
+        div[data-testid="stChatMessage"] [data-testid="stVerticalBlock"] {
+            background: transparent !important;
+        }
+        div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] div[data-testid="stChatMessageContent"] {
+            background: var(--mc-assistant-bg) !important;
+            border-radius: 16px;
+        }
+        div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] div[data-testid="stChatMessageContent"] > div,
+        div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] [data-testid="stVerticalBlock"],
+        div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] [data-testid="stVerticalBlock"] > div,
+        div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] [data-testid="stVerticalBlock"] > div > div {
+            background: var(--mc-assistant-bg) !important;
+        }
         div[data-testid="stChatInput"] {
-            background: rgba(255,255,255,0.95);
-            border: 1px solid rgba(179,127,96,0.14);
+            background: var(--mc-surface-strong);
+            border: 1px solid var(--mc-border);
             border-radius: 16px;
             box-shadow: 0 6px 16px rgba(126, 83, 58, 0.06);
-            padding: 0.3rem 0.35rem;
-            max-width: 900px;
+            padding: 0.45rem 0.45rem;
+            max-width: 980px;
             margin-left: auto;
             margin-right: auto;
         }
+        div[data-testid="stChatInput"] > div,
+        div[data-testid="stChatInput"] > div > div,
+        div[data-testid="stChatInput"] div[data-baseweb="textarea"],
+        div[data-testid="stChatInput"] div[data-baseweb="base-input"] {
+            background: #ffffff !important;
+            border-radius: 14px !important;
+        }
         div[data-testid="stChatInput"] textarea,
         div[data-testid="stChatInput"] input {
-            background: white !important;
-            color: #3e2a22 !important;
+            background: #ffffff !important;
+            color: var(--mc-text) !important;
+            min-height: 3.1rem !important;
+            line-height: 1.45 !important;
+            padding-top: 0.8rem !important;
+            padding-bottom: 0.8rem !important;
         }
         div[role="radiogroup"] label {
-            background: rgba(255, 247, 240, 0.9);
-            border: 1px solid rgba(217, 164, 129, 0.15);
+            background: var(--mc-chip-bg);
+            border: 1px solid var(--mc-user-border);
             border-radius: 999px;
             padding: 0.35rem 0.75rem;
             font-size: 0.85rem;
             font-weight: 500;
         }
         div[role="radiogroup"] label[data-selected="true"] {
-            background: rgba(247, 224, 207, 0.8);
+            background: var(--mc-chip-selected);
             border-color: rgba(177, 111, 74, 0.25);
         }
         div[data-testid="stButton"] > button {
             border-radius: 999px;
-            border: 1px solid rgba(179, 127, 96, 0.12);
-            background: white;
+            border: 1px solid var(--mc-border);
+            background: var(--mc-surface-strong);
+            color: var(--mc-text);
             font-size: 0.9rem;
             font-weight: 500;
             padding: 0.35rem 0.8rem;
+            white-space: normal;
+            min-height: 2.65rem;
         }
         div[data-testid="stExpander"] {
             border-radius: 12px;
-            border: 1px solid rgba(179,127,96,0.1);
-            background: rgba(255, 252, 248, 0.8);
+            border: 1px solid var(--mc-border);
+            background: var(--mc-surface);
         }
         .status-note {
-            color: #7a5b4a;
+            color: var(--mc-muted-text);
             font-size: 0.85rem;
             margin-top: 0.3rem;
             padding: 0.35rem 0.6rem;
-            background: rgba(249, 228, 212, 0.2);
+            background: var(--mc-status-bg);
             border-radius: 6px;
+        }
+        #latest-response-start {
+            display: block;
+            height: 1px;
+            scroll-margin-top: 4.8rem;
+        }
+        [data-testid="stMarkdownContainer"],
+        [data-testid="stCaptionContainer"],
+        [data-baseweb="radio"] label,
+        [data-testid="stExpander"] details summary,
+        [data-testid="stAlert"] {
+            color: var(--mc-text);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                color-scheme: dark;
+                --mc-bg: linear-gradient(180deg, #191614 0%, #12100f 100%);
+                --mc-text: #f5ede6;
+                --mc-heading: #fff2e6;
+                --mc-soft-text: #eadbce;
+                --mc-muted-text: #ceb7a7;
+                --mc-surface: rgba(36, 31, 28, 0.94);
+                --mc-surface-strong: rgba(42, 36, 33, 0.98);
+                --mc-surface-soft: rgba(43, 37, 34, 0.96);
+                --mc-border: rgba(237, 204, 179, 0.16);
+                --mc-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+                --mc-assistant-bg: rgba(42, 36, 33, 0.98);
+                --mc-assistant-border: rgba(237, 204, 179, 0.16);
+                --mc-user-bg: rgba(78, 51, 34, 0.95);
+                --mc-user-border: rgba(245, 188, 145, 0.18);
+                --mc-chip-bg: rgba(68, 55, 49, 0.96);
+                --mc-chip-selected: rgba(113, 85, 66, 0.98);
+                --mc-status-bg: rgba(91, 69, 55, 0.35);
+            }
+            .hero-tag {
+                background: rgba(110, 79, 59, 0.65);
+                color: #ffe9d8;
+            }
+            div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] ul,
+            div[data-testid="stChatMessage"][aria-label="Chat message from assistant"] li {
+                color: #ffe18f;
+            }
         }
         @media (max-width: 900px) {
             .block-container {
-                padding-left: 0.3rem;
-                padding-right: 0.3rem;
+                padding-left: 0.45rem;
+                padding-right: 0.45rem;
+            }
+            .hero-card,
+            .app-bar,
+            div[data-testid="stChatMessageContainer"],
+            div[data-testid="stChatInput"] {
+                max-width: 100%;
+            }
+        }
+        @media (max-width: 640px) {
+            .block-container {
+                padding-left: 0.35rem;
+                padding-right: 0.35rem;
+                padding-bottom: 0.6rem;
+            }
+            .hero-card {
+                padding: 0.75rem 0.8rem;
+                margin-bottom: 0.45rem;
+            }
+            .app-bar {
+                padding: 0.45rem 0.7rem;
+                border-radius: 10px;
+            }
+            .app-bar-title {
+                font-size: 1rem;
+            }
+            div[data-testid="stChatMessage"] {
+                padding: 0.1rem 0.15rem;
+                margin-bottom: 0.45rem;
+            }
+            div[data-testid="stChatMessageContent"] p {
+                font-size: 0.92rem;
+                line-height: 1.55;
+            }
+            div[data-testid="stChatInput"] {
+                padding: 0.3rem 0.3rem;
+                border-radius: 14px;
+            }
+            div[data-testid="stChatInput"] textarea,
+            div[data-testid="stChatInput"] input {
+                min-height: 3.35rem !important;
+                padding-top: 0.9rem !important;
+                padding-bottom: 0.9rem !important;
+            }
+            .sidebar-card {
+                padding: 0.75rem 0.85rem;
+            }
+            div[role="radiogroup"] {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.35rem;
+            }
+            div[role="radiogroup"] label {
+                padding: 0.32rem 0.62rem;
+                font-size: 0.8rem;
             }
         }
         </style>
@@ -347,24 +495,19 @@ def render_top_navigation() -> str:
         "<div class='status-note'><strong>Popular questions:</strong> tap one below or type your own question in the chat box.</div>",
         unsafe_allow_html=True,
     )
-    starter_rows = [
-        [
-            ("First-trimester nausea", "I am in my first trimester and feel nauseated. What can help?"),
-            ("Headache in pregnancy", "I am having headache, what can I do?"),
-            ("Healthy eating", "How can I ensure I am eating healthy during pregnancy?"),
-        ],
-        [
-            ("Baby moving less", "The baby is moving less today at 31 weeks. Should I be concerned?"),
-            ("First antenatal visit", "What happens at the first antenatal visit?"),
-            ("Postpartum depression", "Tell me more about postpartum depression."),
-        ],
+    starter_questions = [
+        ("First-trimester nausea", "I am in my first trimester and feel nauseated. What can help?"),
+        ("Headache in pregnancy", "I am having headache, what can I do?"),
+        ("Healthy eating", "How can I ensure I am eating healthy during pregnancy?"),
+        ("Baby moving less", "The baby is moving less today at 31 weeks. Should I be concerned?"),
+        ("First antenatal visit", "What happens at the first antenatal visit?"),
+        ("Postpartum depression", "Tell me more about postpartum depression."),
     ]
-    for row_index, row in enumerate(starter_rows):
-        row_columns = st.columns(len(row), gap="small")
-        for column, (label, prompt_text) in zip(row_columns, row):
-            with column:
-                if st.button(label, key=f"starter_{row_index}_{label}", use_container_width=True):
-                    st.session_state.pending_prompt = prompt_text
+    starter_columns = st.columns(2, gap="small")
+    for index, (label, prompt_text) in enumerate(starter_questions):
+        with starter_columns[index % 2]:
+            if st.button(label, key=f"starter_{index}", use_container_width=True):
+                st.session_state.pending_prompt = prompt_text
 
     return trimester
 
@@ -380,6 +523,23 @@ def render_chat_shell() -> None:
         </section>
         """,
         unsafe_allow_html=True,
+    )
+
+
+def scroll_to_latest_response() -> None:
+    components.html(
+        """
+        <script>
+        const doc = window.parent.document;
+        const target = doc.getElementById("latest-response-start");
+        if (target) {
+          window.parent.requestAnimationFrame(() => {
+            target.scrollIntoView({behavior: "smooth", block: "start"});
+          });
+        }
+        </script>
+        """,
+        height=0,
     )
 
 
@@ -489,6 +649,7 @@ def main() -> None:
         for message in st.session_state.messages[-6:]
     ]
     with st.chat_message("assistant"):
+        st.markdown('<div id="latest-response-start"></div>', unsafe_allow_html=True)
         with st.status("Searching...", expanded=False) as status:
             started_at = time.perf_counter()
             response = service.ask_with_history(
@@ -520,6 +681,7 @@ def main() -> None:
                         f"- **{source['source_name']}**: "
                         f"{source['title']} ({source['trimester']})"
                     )
+    scroll_to_latest_response()
     payload = {
         "role": "assistant",
         "content": response.answer,
