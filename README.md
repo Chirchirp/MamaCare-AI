@@ -14,7 +14,17 @@ This project was built from the product direction captured in `MamaCare_AI_Proje
 
 ## Architecture
 
+### Local RAG Architecture
+
+This diagram shows the current local retrieval and response flow used by the Streamlit prototype.
+
 ![MamaCare AI Local RAG Architecture](docs/assets/mamacare-rag-architecture.png)
+
+### ITU-Aligned ML Pipeline
+
+The project also follows an ITU-style ML pipeline view for solution governance and scaling. This highlights how MamaCare AI moves from trusted maternal-health data sources through collection, preprocessing, modeling, policy enforcement, distribution, and continuous improvement, with MLflow supporting experiment tracking, model registry, evaluation, and artifact management.
+
+![MamaCare AI MLflow RAG Architecture](docs/assets/mamacare-mlflow-rag-architecture-itu.png)
 
 ## Why This Project Exists
 
