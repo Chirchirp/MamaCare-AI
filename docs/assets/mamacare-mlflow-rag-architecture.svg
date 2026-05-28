@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">MamaCare AI MLflow RAG Architecture</title>
+  <desc id="desc">ML pipeline diagram for MamaCare AI showing Data Sources, Collectors, Preprocessing, Model, Policies, Distribution, Sink, and an MLflow governance layer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#fff7ef"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6fbff"/>
+    </linearGradient>
+    <linearGradient id="goldCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#fff7df"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#5e4436" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .title { font: 700 34px 'Segoe UI', Arial, sans-serif; fill: #17326d; }
+      .subtitle { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #0f7d84; }
+      .box-title { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #17326d; text-anchor: middle; }
+      .step-title { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #0f7d84; text-anchor: middle; }
+      .step-title.gold { fill: #c68c00; }
+      .body { font: 400 14px 'Segoe UI', Arial, sans-serif; fill: #2f231d; text-anchor: middle; }
+      .small { font: 400 13px 'Segoe UI', Arial, sans-serif; fill: #2f231d; text-anchor: middle; }
+      .number { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: white; text-anchor: middle; dominant-baseline: middle; }
+      .footer { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #17326d; text-anchor: middle; }
+      .outline-teal { fill: none; stroke: #14a2ab; stroke-width: 2; stroke-dasharray: 6 6; }
+      .arrow { stroke: #1b3d8c; stroke-width: 6; fill: none; marker-end: url(#arrowHead); }
+      .guide { stroke: #14a2ab; stroke-width: 2; stroke-dasharray: 5 5; fill: none; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1b3d8c"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="800" y="58" class="title" text-anchor="middle">MamaCare AI — MLflow RAG Architecture</text>
+
+  <rect x="290" y="90" width="1060" height="180" rx="24" class="outline-teal"/>
+  <text x="800" y="135" class="subtitle" text-anchor="middle">mlflow Governance Layer</text>
+
+  <g filter="url(#shadow)">
+    <rect x="320" y="150" width="230" height="92" rx="18" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <rect x="600" y="150" width="230" height="92" rx="18" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <rect x="880" y="150" width="230" height="92" rx="18" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <rect x="1160" y="150" width="230" height="92" rx="18" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+  </g>
+  <text x="435" y="186" class="box-title">Experiment</text>
+  <text x="435" y="212" class="box-title">Tracking</text>
+  <text x="715" y="186" class="box-title">Model</text>
+  <text x="715" y="212" class="box-title">Registry</text>
+  <text x="995" y="200" class="box-title">Evaluation</text>
+  <text x="1275" y="200" class="box-title">Artifacts</text>
+  <path d="M550 196 H600" class="guide"/>
+  <path d="M830 196 H880" class="guide"/>
+  <path d="M1110 196 H1160" class="guide"/>
+
+  <g>
+    <path d="M355 270 V330" class="guide"/>
+    <path d="M580 270 V330" class="guide"/>
+    <path d="M805 270 V330" class="guide"/>
+    <path d="M1030 270 V330" class="guide"/>
+    <path d="M1255 270 V330" class="guide"/>
+    <path d="M1480 270 V330" class="guide"/>
+    <path d="M355 330 H1480" class="guide"/>
+  </g>
+
+  <!-- Step 1 -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="350" width="200" height="420" rx="20" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <circle cx="140" cy="382" r="22" fill="#0f8f99"/>
+    <text x="140" y="383" class="number">1</text>
+    <text x="140" y="460" class="step-title">Data Sources</text>
+    <text x="140" y="520" class="body">Curated FAQ</text>
+    <text x="140" y="560" class="body">Sample Health Records</text>
+    <text x="140" y="600" class="body">CDC / NIH / Kenya /</text>
+    <text x="140" y="622" class="body">Nigeria Docs</text>
+    <text x="140" y="670" class="body">PDF / TXT / OCR Sidecars</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g filter="url(#shadow)">
+    <rect x="265" y="350" width="200" height="420" rx="20" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <circle cx="365" cy="382" r="22" fill="#0f8f99"/>
+    <text x="365" y="383" class="number">2</text>
+    <text x="365" y="460" class="step-title">Collectors</text>
+    <text x="365" y="530" class="body">File Discovery</text>
+    <text x="365" y="570" class="body">Document Loaders</text>
+    <text x="365" y="610" class="body">Source Registry</text>
+    <text x="365" y="650" class="body">Metadata Capture</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g filter="url(#shadow)">
+    <rect x="490" y="350" width="200" height="420" rx="20" fill="url(#blueCard)" stroke="#14a2ab" stroke-width="2"/>
+    <circle cx="590" cy="382" r="22" fill="#0f8f99"/>
+    <text x="590" y="383" class="number">3</text>
+    <text x="590" y="460" class="step-title">Preprocessing</text>
+    <text x="590" y="530" class="body">Cleaning</text>
+    <text x="590" y="570" class="body">Chunking</text>
+    <text x="590" y="610" class="body">Trimester Tagging</text>
+    <text x="590" y="650" class="body">Alias &amp; Keyword</text>
+    <text x="590" y="672" class="body">Enrichment</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g filter="url(#shadow)">
+    <rect x="715" y="350" width="220" height="420" rx="20" fill="url(#blueCard)" stroke="#1b3d8c" stroke-width="2"/>
+    <circle cx="825" cy="382" r="22" fill="#1b4da0"/>
+    <text x="825" y="383" class="number">4</text>
+    <text x="825" y="460" class="step-title" style="fill:#1b3d8c;">Model</text>
+    <text x="825" y="525" class="body">Sentence-Transformers</text>
+    <text x="825" y="547" class="body">Embeddings</text>
+    <text x="825" y="592" class="body">Hybrid Retrieval</text>
+    <text x="825" y="637" class="body">ChromaDB Vector Store</text>
+    <text x="825" y="682" class="body">Response Planning Layer</text>
+  </g>
+
+  <!-- Step 5 -->
+  <g filter="url(#shadow)">
+    <rect x="960" y="350" width="200" height="420" rx="20" fill="url(#goldCard)" stroke="#d39a00" stroke-width="2"/>
+    <circle cx="1060" cy="382" r="22" fill="#d39a00"/>
+    <text x="1060" y="383" class="number">5</text>
+    <text x="1060" y="460" class="step-title gold">Policies</text>
+    <text x="1060" y="530" class="body">Emergency Guardrails</text>
+    <text x="1060" y="570" class="body">Self-Harm Detection</text>
+    <text x="1060" y="610" class="body">Medication Block</text>
+    <text x="1060" y="650" class="body">Out-of-Context Refusal</text>
+  </g>
+
+  <!-- Step 6 -->
+  <g filter="url(#shadow)">
+    <rect x="1185" y="350" width="200" height="420" rx="20" fill="url(#blueCard)" stroke="#1d67d7" stroke-width="2"/>
+    <circle cx="1285" cy="382" r="22" fill="#1b4da0"/>
+    <text x="1285" y="383" class="number">6</text>
+    <text x="1285" y="460" class="step-title" style="fill:#1b3d8c;">Distribution</text>
+    <text x="1285" y="530" class="body">Streamlit App</text>
+    <text x="1285" y="570" class="body">Chat Interface</text>
+    <text x="1285" y="610" class="body">Citations</text>
+    <text x="1285" y="650" class="body">Future API /</text>
+    <text x="1285" y="672" class="body">Mobile Channels</text>
+  </g>
+
+  <!-- Step 7 -->
+  <g filter="url(#shadow)">
+    <rect x="1410" y="350" width="150" height="420" rx="20" fill="url(#goldCard)" stroke="#d39a00" stroke-width="2"/>
+    <circle cx="1485" cy="382" r="22" fill="#d39a00"/>
+    <text x="1485" y="383" class="number">7</text>
+    <text x="1485" y="460" class="step-title gold">SINK</text>
+    <text x="1485" y="530" class="small">User Feedback</text>
+    <text x="1485" y="570" class="small">Evaluation Logs</text>
+    <text x="1485" y="610" class="small">Analytics</text>
+    <text x="1485" y="650" class="small">Knowledge Base</text>
+    <text x="1485" y="672" class="small">Improvement</text>
+  </g>
+
+  <!-- Main arrows -->
+  <path d="M240 560 H265" class="arrow"/>
+  <path d="M465 560 H490" class="arrow"/>
+  <path d="M690 560 H715" class="arrow"/>
+  <path d="M935 560 H960" class="arrow"/>
+  <path d="M1160 560 H1185" class="arrow"/>
+  <path d="M1385 560 H1410" class="arrow"/>
+
+  <text x="800" y="835" class="footer">Local RAG pipeline with MLflow-based tracking and governance</text>
+</svg>
