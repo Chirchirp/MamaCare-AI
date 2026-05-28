@@ -14,6 +14,9 @@ venv/
 # Local indexes and generated runtime state
 data/index/chroma_db/
 data/index/*.sqlite
+artifacts/
+data/external/
+data/training/
 
 # OS / editor noise
 .DS_Store
