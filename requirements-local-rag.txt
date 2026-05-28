@@ -1,0 +1,6 @@
+# Optional local semantic retrieval stack.
+# Install this in addition to requirements.txt when you want ChromaDB-backed
+# semantic search and local embedding support outside Streamlit Cloud.
+
+chromadb>=0.5.5
+sentence-transformers>=3.0

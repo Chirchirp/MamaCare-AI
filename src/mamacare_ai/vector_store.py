@@ -1,41 +1,25 @@
 """ChromaDB-backed local RAG store for MamaCare.
 
-This module persists a semantic retrieval index using `sentence-transformers`
-embeddings inside a local ChromaDB collection. The goal is to make MamaCare
-more robust to natural phrasing, paraphrased symptom questions, and broader
-knowledge-base growth while remaining fully local and inspectable.
+This module keeps semantic retrieval optional. On environments like Streamlit
+Cloud where `chromadb` or `sentence-transformers` may be unavailable or fail to
+import, MamaCare should still start and fall back to lexical retrieval.
 """
 
 from __future__ import annotations
 
+import importlib
 import json
-import hashlib
-from datetime import datetime, UTC
+from datetime import UTC, datetime
 from pathlib import Path
 
 from mamacare_ai.models import IndexStats, KnowledgeCard, RetrievalResult
 from mamacare_ai.retriever import normalize_text, source_quality_bonus, tokenize
-
-try:  # pragma: no cover - import availability depends on local environment
-    import chromadb
-except ImportError:  # pragma: no cover
-    chromadb = None
-
-try:  # pragma: no cover - import availability depends on local environment
-    from sentence_transformers import SentenceTransformer
-except ImportError:  # pragma: no cover
-    SentenceTransformer = None
 
 
 DEFAULT_COLLECTION_NAME = "mamacare_knowledge"
 DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
-# ---------------------------------------------------------------------------
-# Chroma Store
-# ---------------------------------------------------------------------------
-# This class owns local semantic indexing, embedding generation, and similarity
-# search over the persisted maternal-health knowledge base.
 class ChromaVectorStore:
     def __init__(
         self,
@@ -50,6 +34,9 @@ class ChromaVectorStore:
         self.db_path.mkdir(parents=True, exist_ok=True)
         self._client = None
         self._embedding_model = None
+        self._chromadb_module = None
+        self._sentence_transformer_class = None
+        self._dependency_error: Exception | None = None
         self._has_index_cache: bool | None = None
         self._collection_count_cache: int | None = None
 
@@ -58,14 +45,14 @@ class ChromaVectorStore:
         return self.db_path / "manifest.json"
 
     def dependencies_available(self) -> bool:
-        return chromadb is not None and SentenceTransformer is not None
+        return self._load_dependencies()
 
     def initialize(self) -> None:
-        if not self.dependencies_available():
+        if not self._load_dependencies():
             raise RuntimeError(
-                "Local RAG dependencies are missing. Install them with "
-                "'pip install -r requirements.txt' to enable ChromaDB retrieval."
-            )
+                "Optional local RAG dependencies are unavailable in this environment. "
+                "MamaCare can still run with lexical retrieval only."
+            ) from self._dependency_error
         self._get_client()
         self._get_embedding_model()
 
@@ -133,7 +120,7 @@ class ChromaVectorStore:
     def has_index(self) -> bool:
         if self._has_index_cache is not None:
             return self._has_index_cache
-        if not self.dependencies_available():
+        if not self._load_dependencies():
             self._has_index_cache = False
             return False
         if not self.db_path.exists() or not self.manifest_path.exists():
@@ -210,9 +197,35 @@ class ChromaVectorStore:
         except (OSError, json.JSONDecodeError):
             return {}
 
+    @property
+    def import_diagnostics(self) -> dict[str, str]:
+        if self._dependency_error is None:
+            return {}
+        return {"optional_local_rag": repr(self._dependency_error)}
+
+    def _load_dependencies(self) -> bool:
+        if self._chromadb_module is not None and self._sentence_transformer_class is not None:
+            return True
+        if self._dependency_error is not None:
+            return False
+        try:
+            chromadb_module = importlib.import_module("chromadb")
+            sentence_transformers_module = importlib.import_module("sentence_transformers")
+            sentence_transformer_class = getattr(sentence_transformers_module, "SentenceTransformer")
+        except Exception as exc:  # pragma: no cover - depends on deployment env
+            self._dependency_error = exc
+            self._chromadb_module = None
+            self._sentence_transformer_class = None
+            return False
+        self._chromadb_module = chromadb_module
+        self._sentence_transformer_class = sentence_transformer_class
+        return True
+
     def _get_client(self):
+        if not self._load_dependencies():
+            raise RuntimeError("ChromaDB client is unavailable in this environment.") from self._dependency_error
         if self._client is None:
-            self._client = chromadb.PersistentClient(path=str(self.db_path))
+            self._client = self._chromadb_module.PersistentClient(path=str(self.db_path))
         return self._client
 
     def _get_collection(self):
@@ -230,14 +243,17 @@ class ChromaVectorStore:
         return count
 
     def _get_embedding_model(self):
+        if not self._load_dependencies():
+            raise RuntimeError(
+                "The embedding model is unavailable in this environment."
+            ) from self._dependency_error
         if self._embedding_model is None:
             try:
-                self._embedding_model = SentenceTransformer(self.embedding_model_name)
-            except Exception as exc:  # pragma: no cover - depends on local env
+                self._embedding_model = self._sentence_transformer_class(self.embedding_model_name)
+            except Exception as exc:  # pragma: no cover
+                self._dependency_error = exc
                 raise RuntimeError(
-                    "The local embedding model could not load. This environment may be missing "
-                    "a dependency such as torchvision. Install requirements and, if needed, "
-                    "'pip install torchvision' before rebuilding or querying the semantic index."
+                    "The local embedding model could not load. MamaCare will fall back to lexical retrieval."
                 ) from exc
         return self._embedding_model
 
@@ -328,9 +344,4 @@ class ChromaVectorStore:
         return min(0.12, 0.03 * overlap)
 
 
-# ---------------------------------------------------------------------------
-# Compatibility Alias
-# ---------------------------------------------------------------------------
-# Older scripts still import `SQLiteVectorStore`. Keep that name available while
-# the project transitions to a Chroma-backed local RAG pipeline.
 SQLiteVectorStore = ChromaVectorStore

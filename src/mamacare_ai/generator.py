@@ -13,16 +13,13 @@ from mamacare_ai.response_chain import MamaCareResponseChain
 _RESPONSE_CHAIN = MamaCareResponseChain()
 
 
-# ---------------------------------------------------------------------------
-# Public Response Builder
-# ---------------------------------------------------------------------------
-# This function is the service-facing entry point for final answer generation.
 def build_answer(
     query: str,
     trimester: str,
     results: list[RetrievalResult],
     guardrails: GuardrailOutcome,
     conversation_history: list[dict] | None = None,
+    supported_topics: list[str] | None = None,
 ) -> str:
     return _RESPONSE_CHAIN.generate(
         query=query,
@@ -30,4 +27,5 @@ def build_answer(
         results=results,
         guardrails=guardrails,
         conversation_history=conversation_history,
+        supported_topics=supported_topics or [],
     )

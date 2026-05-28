@@ -1,20 +1,10 @@
-"""Shared data models used across the MamaCare application.
-
-These dataclasses keep the rest of the codebase explicit and predictable. They
-make it easier for new contributors to understand what a knowledge card looks
-like, how retrieval results are returned, and how indexing metadata is tracked.
-"""
+"""Shared data models used across the MamaCare application."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
 
 
-# ---------------------------------------------------------------------------
-# Knowledge Base Models
-# ---------------------------------------------------------------------------
-# These models describe the curated knowledge artifacts the assistant retrieves
-# from. They are the core business objects for the prototype.
 @dataclass
 class KnowledgeCard:
     card_id: str
@@ -61,11 +51,6 @@ class CuratedKnowledgeBase:
     priority: int = 0
 
 
-# ---------------------------------------------------------------------------
-# Retrieval and Response Models
-# ---------------------------------------------------------------------------
-# These models describe what the retrieval layer returns and what the response
-# layer needs in order to produce a final answer.
 @dataclass
 class RetrievalResult:
     chunk: KnowledgeCard
@@ -88,12 +73,10 @@ class AssistantResponse:
     citations: list[dict]
     flags: list[str]
     trimester_used: str
+    out_of_context: bool = False
+    supported_topics: list[str] = field(default_factory=list)
 
 
-# ---------------------------------------------------------------------------
-# Indexing Models
-# ---------------------------------------------------------------------------
-# This small model summarizes index-build outcomes for CLI scripts and logs.
 @dataclass
 class IndexStats:
     source_count: int

@@ -118,8 +118,10 @@ class MamaCareResponseChain:
         results: list[RetrievalResult],
         guardrails: GuardrailOutcome,
         conversation_history: list[dict] | None = None,
+        supported_topics: list[str] | None = None,
     ) -> str:
         history = conversation_history or []
+        trained_topics = supported_topics or []
         if guardrails.crisis_message:
             return SELF_HARM_TEMPLATE
 
@@ -148,7 +150,12 @@ class MamaCareResponseChain:
 
         context = self._build_context(results)
         if context.confidence < LOW_CONFIDENCE_THRESHOLD:
-            return self._render_uncertain_response(trimester, guardrails, query=query)
+            return self._render_uncertain_response(
+                trimester,
+                guardrails,
+                query=query,
+                supported_topics=trained_topics,
+            )
 
         return self._render_rule_based_response(
             query=query,
@@ -198,11 +205,14 @@ class MamaCareResponseChain:
         guardrails: GuardrailOutcome,
         *,
         query: str,
+        supported_topics: list[str],
     ) -> str:
         parts = [
             self._acknowledge(trimester, query, [], worried=True),
             UNCERTAINTY_NOTE,
         ]
+        if supported_topics:
+            parts.append(self._supported_topics_note(supported_topics))
         if "PRIVACY" in guardrails.flags:
             parts.append(PRIVACY_NOTE)
         if "MEDICATION_BLOCK" in guardrails.flags:
@@ -245,7 +255,12 @@ class MamaCareResponseChain:
     ) -> str:
         preferred = self._preferred_results(results)
         if not preferred:
-            return self._render_uncertain_response(trimester, guardrails, query=query)
+            return self._render_uncertain_response(
+                trimester,
+                guardrails,
+                query=query,
+                supported_topics=[],
+            )
         primary = preferred[0].chunk
         worried = self._sounds_worried(query, guardrails)
         parts = [
@@ -389,6 +404,13 @@ class MamaCareResponseChain:
     def _closing(seed_text: str) -> str:
         index = sum(ord(character) for character in seed_text) % len(WARM_CLOSINGS)
         return WARM_CLOSINGS[index]
+
+    @staticmethod
+    def _supported_topics_note(supported_topics: list[str]) -> str:
+        cleaned = [topic.strip() for topic in supported_topics if topic.strip()]
+        if not cleaned:
+            return ""
+        return "I have been trained on:\n- " + "\n- ".join(cleaned)
 
     @staticmethod
     def _history_to_text(history: list[dict]) -> str:
